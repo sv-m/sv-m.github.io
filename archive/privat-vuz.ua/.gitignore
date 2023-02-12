@@ -1,0 +1,56 @@
+node_modules
+
+#logs
+logs
+*.log
+
+#wp
+wordpress/wp-content/uploads/*
+wp-config.php
+
+
+#IDE's
+.idea
+.projects
+.netbeans
+.metadata
+.project
+.settings
+.svn
+.lock-wscript
+/.idea/
+*.editorconfig
+
+#IDE's helpers
+*.patch
+.phpstorm.meta.php
+*.phpstorm.meta.php
+/nbproject
+/nbproject/private/
+
+#OS generated files
+.DS_Store?
+.DS_Store
+ehthumbs.db
+#Icon?
+Thumbs.db
+
+#editor old files(emacs,jed)
+*~
+
+#archives
+*.tar.gz
+*.tar.bz2
+*.gz
+*.zip
+*.bz2
+*.rar
+
+
+# old files
+*.bak
+*.old
+
+#sass/less
+.sass-cache
+prepros.cfg
