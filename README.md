@@ -3,14 +3,12 @@
 [files](/archive/)
 
 ----
-##
 ####Верстка сайтов:
 
 Сайт [debaran.com](https://sv-m.github.io/archive/debaran.com/) ( [short](https://tinyurl.com/9xbpn83c) )<br>
 [files](/archive/debaran.com) 
----
-##
 
+----
 ####Верстка лендинг страниц:
 
 Лендинг для 
@@ -25,9 +23,9 @@
 [usa](https://sv-m.github.io/archive/qwintry.com/002/)  -
 [friday](https://sv-m.github.io/archive/qwintry.com/003/) 
 
-##
-
+-----
 ####Полезные ссылки для разработчиков
+
 
 -----
 [NAME]() ( [short]() )<br>
