@@ -7,8 +7,10 @@ $(document).ready(function() {
     $('.slider').bxSlider({
         auto: true
     });
-    $('.slider2').bxSlider({
-        auto: true
+
+    var slider2 = $('.slider2').bxSlider({
+        auto: true,
+        mode: 'horizontal'
     });
 
     $('a[href^="#"]').click(function(){
@@ -17,7 +19,13 @@ $(document).ready(function() {
             scrollTop: $(el).offset().top}, 2000);
         return false;
     });
+
+    $( window ).resize(function() {
+        slider2.reloadSlider();
+    });
 });
+
+
 
 
 function sliderdots( name ){
@@ -67,12 +75,14 @@ function cliko( name ){
 
 function pend(name) {
     $.post( 'send.php', $('#'+name).serialize(), function(callback) {
-
         if (callback === "Мы свяжемся с вами в ближайшее время" || callback === "Сообщение отправлено, спасибо") {
-            //alert(callback);
             window.location.href = "thanks.html";
         } else {
-            alert(callback);
+            console.log( callback );
+            $('#'+name).addClass('req');
+            setTimeout(function(){
+                $('#'+name).removeClass('req')
+            }, 2000);
         }
     });
 }

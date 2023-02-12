@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=1280">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <meta name="robots" content="noindex">
     <title>Title</title>
     <link rel="stylesheet" href="css/styles.css">
@@ -13,10 +14,13 @@
     <link href='https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'></head>
 <body>
 
-<div class="tst"></div>
-
 <header>
     <div class="wr">
+        <div class="lang">
+            <a href="/" class="active">рус</a>
+            <a href="/eng/">eng</a>
+            <a href="/geor/">ger</a>
+        </div>
         <p class="title">Metro Plus
         <span>Покупка и аренда квартир в апарт-отеле</span></p>
 
@@ -43,14 +47,10 @@
         <h6 class="black">А также</h6>
 
         <ul class="boxes2">
-            <li class="wow fadeInDown" data-wow-delay="0.1s">Престижное жилье <br>
-                на берегу Черного моря</li>
-            <li class="wow fadeInDown" data-wow-delay="0.3s">Стабильный <br>
-                и гарантированный доход</li>
-            <li class="wow fadeInDown" data-wow-delay="0.5s">Выгодные инвестиции <br>
-                в надежное дело</li>
-            <li class="wow fadeInDown" data-wow-delay="0.7s">Удаленное управление <br>
-                из любой точки мира</li>
+            <li class="wow fadeInDown" data-wow-delay="0.1s">Престижное жилье                 на берегу Черного моря</li>
+            <li class="wow fadeInDown" data-wow-delay="0.3s">Стабильный                 и гарантированный доход</li>
+            <li class="wow fadeInDown" data-wow-delay="0.5s">Выгодные инвестиции                в надежное дело</li>
+            <li class="wow fadeInDown" data-wow-delay="0.7s">Удаленное управление              из любой точки мира</li>
         </ul>
     </div>
 </section>
@@ -70,24 +70,24 @@
 
         <form class="sender" id="f1" action="send.php" method="post">
             <p>Заполните поля, чтобы забронировать место в туре</p>
-
-
-            <fieldset>
-                <label class="required">Как к вам обращаться</label>
-                <input type="text" name="name">
-            </fieldset>
-            <fieldset class="half">
-                <label  class="required">Телефон или Skype</label>
-                <input type="text" name="phone">
-            </fieldset><fieldset class="half">
-            <label class="required">Email</label>
-            <input type="text" name="mail">
-        </fieldset>
-            <fieldset>
-                <input type="hidden" name="works" value="Записывайтесь на бесплатный инфотур">
-                <input type='hidden' name="mailing" />
-                <input type="submit" value="Оставить заявку" onclick="pend(  this.parentNode.parentNode.getAttribute('id')  ); return false">
-            </fieldset>
+            <div class="former">
+                <fieldset>
+                    <label class="required">Как к вам обращаться</label>
+                    <input type="text" name="name">
+                </fieldset>
+                <fieldset class="half">
+                    <label  class="required">Телефон или Skype</label>
+                    <input type="text" name="phone">
+                </fieldset><fieldset class="half">
+                    <label class="required">Email</label>
+                    <input type="text" name="mail">
+                </fieldset>
+                <fieldset>
+                    <input type="hidden" name="works" value="Записывайтесь на бесплатный инфотур">
+                    <input type='hidden' name="mailing" />
+                    <input type="submit" value="Оставить заявку" onclick="pend(  this.parentNode.parentNode.parentNode.getAttribute('id')  ); return false">
+                </fieldset>
+            </div>
         </form>
     </div>
 </section>
@@ -98,7 +98,7 @@
 
         <p>Онлайн трансляция в реальном времени</p>
         <div class="video">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/2T0nmWMMIzY" frameborder="0" allowfullscreen></iframe>
+            <iframe width="100%" height="100%" src="http://ipeye.ru/ipeye_service/api/api.php?dev=jCiwrRpO2AeVKkIRBwM26Av4pxmam5&tupe=rtmp&autoplay=0&logo=1" frameborder="0" allowfullscreen></iframe>
         </div>
 
         <ul class="bonus">
@@ -122,30 +122,23 @@
 </section>
 
 <section class="part4">
+    <div class="img"></div>
     <div class="wr">
         <h6>Почему мы лучше конкурентов</h6>
 
-        <ul class="box">
-            <li  class="wow bounceIn" data-wow-delay="0.1s">Полный объем финансирования уже в наличии,
-            мы сделали первые шаги по покупке всемирно
-            известной франшизы
+        <div class="bx _clearfix">
+            <ul class="box">
+                <li  class="wow bounceIn" data-wow-delay="0.1s">Полный объем финансирования уже в наличии, мы сделали первые шаги по покупке всемирно известной франшизы
+                <li  class="wow bounceIn" data-wow-delay="0.2s">Проект полностью согласован с мэрией г. Батуми
+                <li  class="wow bounceIn" data-wow-delay="0.3s">Гарантированный доход от вложений уже 2017 году!
+            </ul>
 
-            <li  class="wow bounceIn" data-wow-delay="0.2s">Проект полностью согласован с мэрией г. Батуми
-
-            <li  class="wow bounceIn" data-wow-delay="0.3s">Гарантированный доход от вложений уже 2017 году!
-        </ul>
-
-        <ul class="box">
-            <li class="wow bounceIn" data-wow-delay="0.1s">Мы сдаем полностью готовые к эксплуатации
-            апартаменты
-
-            <li class="wow bounceIn" data-wow-delay="0.2s">Проводим ремонт и отделку в едином стиле
-            по фиксированной цене
-
-            <li class="wow bounceIn" data-wow-delay="0.3s">Круглогодичная рекламная поддержка отеля,
-            готовые формы работы с собственником
-            резиденций и клиентами
-        </ul>
+            <ul class="box">
+                <li class="wow bounceIn" data-wow-delay="0.1s">Мы сдаем полностью готовые к эксплуатации апартаменты
+                <li class="wow bounceIn" data-wow-delay="0.2s">Проводим ремонт и отделку в едином стиле по фиксированной цене
+                <li class="wow bounceIn" data-wow-delay="0.3s">Круглогодичная рекламная поддержка отеля, готовые формы работы с собственником резиденций и клиентами
+            </ul>
+        </div>
     </div>
 </section>
 
@@ -154,6 +147,7 @@
         <ul class="what">
             <h6 class="black">Что мы предлагаем клиентам,
                 помимо <strong>«квадратных метров»</strong></h6>
+            <img src="img/006.jpg" alt="">
             <li>Комплекс построен в одном из самых популярных
             туристических мест в Батуми
 
@@ -213,24 +207,24 @@
 
         <form class="sender" id="f2" action="send.php" method="post">
             <p>Заполните поля, чтобы забронировать место в туре</p>
-
-
-            <fieldset>
-                <label class="required">Как к вам обращаться</label>
-                <input type="text" name="name">
-            </fieldset>
-            <fieldset class="half">
-                <label  class="required">Телефон или Skype</label>
-                <input type="text" name="phone">
-            </fieldset><fieldset class="half">
-                <label class="required">Email</label>
-                <input type="text" name="mail">
-            </fieldset>
-            <fieldset>
-                <input type="hidden" name="works" value="Записывайтесь на бесплатный инфотур">
-                <input type='hidden' name="mailing" />
-                <input type="submit" value="Оставить заявку" onclick="pend(  this.parentNode.parentNode.getAttribute('id')  ); return false">
-            </fieldset>
+            <div class="former">
+                <fieldset>
+                    <label class="required">Как к вам обращаться</label>
+                    <input type="text" name="name">
+                </fieldset>
+                <fieldset class="half">
+                    <label  class="required">Телефон или Skype</label>
+                    <input type="text" name="phone">
+                </fieldset><fieldset class="half">
+                    <label class="required">Email</label>
+                    <input type="text" name="mail">
+                </fieldset>
+                <fieldset>
+                    <input type="hidden" name="works" value="Записывайтесь на бесплатный инфотур">
+                    <input type='hidden' name="mailing" />
+                    <input type="submit" value="Оставить заявку" onclick="pend(  this.parentNode.parentNode.parentNode.getAttribute('id')  ); return false">
+                </fieldset>
+            </div>
         </form>
     </div>
 </section>
@@ -353,24 +347,24 @@
 
         <form class="sender" id="f3" action="send.php" method="post">
             <p>Заполните поля, чтобы забронировать место в туре</p>
-
-
-            <fieldset>
-                <label class="required">Как к вам обращаться</label>
-                <input type="text" name="name">
-            </fieldset>
-            <fieldset class="half">
-                <label  class="required">Телефон или Skype</label>
-                <input type="text" name="phone">
-            </fieldset><fieldset class="half">
-                <label class="required">Email</label>
-                <input type="text" name="mail">
-            </fieldset>
-            <fieldset>
-                <input type="hidden" name="works" value="Записывайтесь на бесплатный инфотур">
-                <input type='hidden' name="mailing" />
-                <input type="submit" value="Оставить заявку" onclick="pend(  this.parentNode.parentNode.getAttribute('id')  ); return false">
-            </fieldset>
+            <div class="former">
+                <fieldset>
+                    <label class="required">Как к вам обращаться</label>
+                    <input type="text" name="name">
+                </fieldset>
+                <fieldset class="half">
+                    <label  class="required">Телефон или Skype</label>
+                    <input type="text" name="phone">
+                </fieldset><fieldset class="half">
+                    <label class="required">Email</label>
+                    <input type="text" name="mail">
+                </fieldset>
+                <fieldset>
+                    <input type="hidden" name="works" value="Записывайтесь на бесплатный инфотур">
+                    <input type='hidden' name="mailing" />
+                    <input type="submit" value="Оставить заявку" onclick="pend(  this.parentNode.parentNode.parentNode.getAttribute('id')  ); return false">
+                </fieldset>
+            </div>
         </form>
     </div>
 
@@ -409,7 +403,6 @@
 <script src="js/script.js"></script>
 <script src="js/wow.js"></script>
 <script src="js/jquery.bxslider.min.js"></script>
-
 
 </body>
 </html>
