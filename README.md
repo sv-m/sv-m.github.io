@@ -72,5 +72,9 @@
 
 ### Полезные ссылки для разработчиков
 
-https://answerthepublic.com/ - Поброр запросов интерент
+https://answerthepublic.com/ - поброр запросов интерент
+
+https://www.cutout.pro/ - обтравка видео фото
+
+https://colorize.cc/ - раскраска чб фото 
 
