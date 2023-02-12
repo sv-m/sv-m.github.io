@@ -1,0 +1,123 @@
+
+#sli {
+	width: 100%;
+	height: 400px;
+	margin: 10px auto 60px;
+	position: relative;
+	background: url(../img/slider_bg.jpg) top center no-repeat;
+	background-size: cover;
+}
+#sli li{
+	position: absolute;
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	list-style: none;
+-webkit-transition: all 1s ease 0s;
+   -moz-transition: all 1s ease 0s;
+     -o-transition: all 1s ease 0s;
+        transition: all 1s ease 0s;
+}
+#sli li a {
+	width: 960px;
+	margin: 125px auto 0;
+	text-align: center;
+	height: 400px;
+	display: block;
+	border: none;
+	text-decoration: none;
+}
+#sli li i {
+	width: 47px;
+	height: 40px;
+	display: block;
+	background: url(../img/mind.png) no-repeat;
+	margin: 10px auto;
+	position: relative;
+}
+#sli li p {
+	font-size: 18px;
+	font-weight: 300;
+	color: #fff;
+	font-style: italic;
+	line-height: 180%;
+}
+#sli li span {
+	color: #fff; 
+	font-weight: 500;
+}
+
+#sli.fade li {
+	opacity: 0;
+}
+#sli.fade li.active {
+	z-index: 10;
+	opacity: 1;
+}
+#sli.slide li{
+	width: 0;
+	opacity: 1;
+	list-style: none;
+}
+#sli.slide li.active {
+	z-index: 10;
+	width: 100%;
+	right: 0;
+}
+#sli nav {
+	position: absolute;
+	margin-top: 360px;
+	z-index: 20;
+	text-align: center;
+	width: 100%;
+	display: none;
+}
+#sli nav a {
+	width: 15px;
+	height: 15px;
+	background: #fff;
+	opacity: 0.6;
+	display: inline-block;
+	margin-right: 10px;
+	border-radius: 50%;
+	border: 1px solid gray;
+}
+#sli nav a.active {
+	background: #cfcfcf;
+	background: -moz-linear-gradient(top,  #cfcfcf 1%, #969696 51%, #cfcfcf 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#cfcfcf), color-stop(51%,#969696), color-stop(100%,#cfcfcf));
+	background: -webkit-linear-gradient(top,  #cfcfcf 1%,#969696 51%,#cfcfcf 100%);
+	background: -o-linear-gradient(top,  #cfcfcf 1%,#969696 51%,#cfcfcf 100%);
+	background: -ms-linear-gradient(top,  #cfcfcf 1%,#969696 51%,#cfcfcf 100%);
+	background: linear-gradient(to bottom,  #cfcfcf 1%,#969696 51%,#cfcfcf 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfcfcf', endColorstr='#cfcfcf',GradientType=0 );
+}
+#sli nav a:hover{
+	border: 1px solid #444;
+}
+#sli nav a:active {
+	border: 1px solid #fff;
+	box-shadow: inset 1px 1px 2px #000;
+}
+#sli ins, #sli del {
+	display: block;
+	position: absolute;
+	width: 20px;
+	height: 41px;
+	z-index: 10000;
+	cursor: pointer;	
+	margin-top: 170px;
+	opacity: 0.5;
+	top: 15px;
+}
+#sli ins:hover, #sli del:hover {
+	opacity: 1;
+}
+#sli ins {
+	left: 30px;
+	background: url(../img/arr21.png) no-repeat center center;
+}
+#sli del {
+	right: 30px;
+	background: url(../img/arr2.png) no-repeat center center;
+}

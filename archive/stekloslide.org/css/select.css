@@ -1,0 +1,73 @@
+.select {
+width: 378px;
+margin: 20px 0 0 0;
+float: left;
+}
+.select-right{
+    float: right;
+}
+.selectBox {
+width: 100%;
+border: 1px solid #bbbbbb;
+display: inline-block;
+position: relative;
+height: 20px;
+font-size: 16px;
+color: #000;
+text-decoration: none;
+height: 58px;
+background: #fff url(../img/input-top-shadow.png) top repeat-x;
+}
+.selectBox:hover {
+color: #000;
+text-decoration: none;
+}
+.selectBox-label {
+display: block;
+padding: 15px 0px 0 20px;
+font-size: 16px;
+color: #999;
+}
+
+
+.selectBox-arrow {
+position: absolute;
+left: auto;
+right: 2px;
+top: 1px;
+width: 18px;
+height: 18px;
+overflow: hidden;
+cursor: pointer;
+background: url(../img/strelka.png) 0 0 no-repeat;
+margin: 20px 15px 0 0;
+}
+.selectBox-dropdown-menu {
+position: absolute;
+list-style: none;
+font-size: 16px;
+line-height: 20px;
+background: #fff;
+margin: 0;
+padding: 0;
+border: 1px solid #999;
+}
+.selectBox-dropdown-menu li {
+width: 420px;
+display: block;
+background: #fff;
+border-right: 1px solid #bbbbbb;
+}
+.selectBox-dropdown-menu li a {
+width: 420px;
+display: block;
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
+.selectBox-dropdown-menu li a:hover {
+width: 
+color: #fff;
+text-decoration: none;
+background: #333;
+}
