@@ -44,6 +44,9 @@
 Сайт [serafim.info](https://sv-m.github.io/archive/serafim.info/)
 ([files](/archive/serafim.info))
 
+Сайт [qugo.ua](https://sv-m.github.io/archive/qugo.ua/)
+([files](/archive/qugo.ua))
+
 ----
 
 Лендинг для 109roz.ru [web](https://sv-m.github.io/archive/109roz.ru/) 
