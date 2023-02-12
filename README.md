@@ -32,6 +32,9 @@
 Сайт [baris.kz](https://sv-m.github.io/archive/baris.kz/)
 ( [files](/archive/baris.kz) )
 
+Сайт [stekloslide.org](https://sv-m.github.io/archive/stekloslide.org/)
+( [files](/archive/stekloslide.org) )
+
 ----
 
 Лендинг для 109roz.ru [web](https://sv-m.github.io/archive/109roz.ru/) 
