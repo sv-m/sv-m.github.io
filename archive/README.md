@@ -1,8 +1,10 @@
 # Архив
 
-Сайт [debaran.com](https://sv-m.github.io/archive/debaran.com/) 
-([short](https://tinyurl.com/9xbpn83c)) 
-([files](/archive/debaran.com))
+Сайт [privat-vuz.ua](https://sv-m.github.io/archive/privat-vuz.ua/)
+([files](/archive/privat-vuz.ua))
+
+Сайт [sera.online](https://sv-m.github.io/archive/sera.online/) 
+([files](/archive/sera.online))
 
 Сайт [sudak4x4.com](https://sv-m.github.io/archive/sudak4x4.com/) 
 ([files](/archive/sudak4x4.com))
@@ -18,9 +20,6 @@
 
 Сайт [evakuatordp.com](https://sv-m.github.io/archive/evakuatordp.com/)
 ([files](/archive/evakuatordp.com))
-
-Сайт [privat-vuz.ua](https://sv-m.github.io/archive/privat-vuz.ua/)
-([files](/archive/privat-vuz.ua))
 
 Сайт [rknet.kz](https://sv-m.github.io/archive/rknet.kz/)
 ([files](/archive/rknet.kz))
@@ -45,6 +44,10 @@
 
 Сайт [qugo.ua](https://sv-m.github.io/archive/qugo.ua/)
 ([files](/archive/qugo.ua))
+
+Сайт [debaran.com](https://sv-m.github.io/archive/debaran.com/)
+([short](https://tinyurl.com/9xbpn83c))
+([files](/archive/debaran.com))
 
 ----
 
