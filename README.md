@@ -35,6 +35,9 @@
 Сайт [stekloslide.org](https://sv-m.github.io/archive/stekloslide.org/)
 ([files](/archive/stekloslide.org))
 
+Сайт [xxk.ru](https://sv-m.github.io/archive/xxk.ru/)
+([files](/archive/xxk.ru))
+
 ----
 
 Страничка для orlov.com.ua [web](https://sv-m.github.io/archive/orlov.com.ua/)
@@ -67,6 +70,10 @@
 
 Лендинг для metroplus.ge [web](https://sv-m.github.io/archive/metroplus.ge/)
 ([files](/archive/metroplus.ge))
+
+Лендинг для stagvetsinc.org [web](https://sv-m.github.io/archive/stagvetsinc.org/)
+([files](/archive/stagvetsinc.org))
+
 
 ----
 
