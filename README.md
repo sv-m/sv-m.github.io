@@ -146,6 +146,14 @@
 
 [https://deno.land/](https://deno.land/) - Deno
 
+[https://gruntjs.com/](https://gruntjs.com/) - Grunt
+
+[https://gulpjs.com/](https://gulpjs.com/) - Gulp
+
+[https://webpack.js.org/](https://webpack.js.org/) - Webpack.js
+
+[https://svelte.dev/](https://svelte.dev/) - Svelte
+
 ### CSS
 
 [https://tailwindui.com/](https://tailwindui.com/) - Tailwind
