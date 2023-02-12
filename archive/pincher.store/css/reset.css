@@ -1,0 +1,107 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+ol, ul {
+list-style:none;
+}
+blockquote, q {
+quotes:none;
+}
+:focus {
+outline:0;
+}
+ins {
+text-decoration:none;
+}
+del {
+text-decoration:line-through;
+}
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+html {
+height:100%;
+}
+header, nav, section, article, aside, footer {
+display:block;
+}
+body {
+font:normal 14px/16px Arial;
+width:100%;
+height:100%;
+background: #bbb;
+}
+a {
+color:#007245;
+outline:none;
+text-decoration:underline;
+}
+a:hover {
+text-decoration:none;
+}
+p {
+font:normal 14px/16px Arial;
+margin:0 0 10px;
+}
+img {
+border:none;
+}
+input {
+vertical-align:middle;
+}
+input[type="checkbox"] {
+display:none;
+}
+input[type="checkbox"] + label {
+display: inline-block;
+/*width: 16px;*/
+height: 16px;
+background: url(img/check.gif) left top no-repeat;
+padding: 0px 0 8px 25px;
+margin: 0 0 0 4px;
+cursor: pointer;
+}
+ input[type="checkbox"]:checked + label {
+ background: url(img/checked.gif) left top no-repeat;
+ }
+ h5 {
+ font:bold 18px/20px Arial;
+ margin: 0 0 10px 0px;
+ }
+h6 {
+ font:normal 20px/20px Arial;
+ margin: 0 0 15px 0px;
+ }
+ table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+th, td {
+border: 1px solid #eee;
+padding: 7px;
+}
+th {
+background: none repeat scroll 0 0 #ccc;
+text-align: center;
+}
+td {
+background: none repeat scroll 0 0 ;
+}
+table {
+margin: 18px auto;
+}
