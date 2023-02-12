@@ -138,11 +138,13 @@
 
 [https://requirejs.org/](https://requirejs.org/) - Require.js
 
+[https://underscorejs.org/](https://underscorejs.org/) - Underscore.js
+
 [https://www.typescriptlang.org/](https://www.typescriptlang.org/) -TypeScript
 
 [https://nodejs.org/en/](https://nodejs.org/en/) - Node.js
-[
-https://deno.land/](https://deno.land/) - Deno
+
+[https://deno.land/](https://deno.land/) - Deno
 
 ### CSS
 
