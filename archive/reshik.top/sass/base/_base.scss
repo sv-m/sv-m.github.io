@@ -1,0 +1,122 @@
+/* Set globals */
+@import 'colors';
+
+html,
+body{
+    height: 100%;
+    min-width: 330px;
+}
+
+body {
+    font: 300 14px/1.4 'Proxima', sans-serif;
+    color: $font-color;
+    display: table;
+    width: 100%;
+}
+
+.wr {
+    width: 1040px;
+    min-width: 310px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: $primary-color;
+    //border-bottom: 1px solid $primary-color;
+
+    &:hover {
+        color: $secondary-color;
+        border-bottom-color: transparent;
+    }
+}
+
+p {
+    margin: 0 0 10px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 5px 0;
+    line-height: 100%;
+    font-weight: bold;
+    color: $secondary-color;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 30px;
+}
+h2 {
+    font-size: 28px;
+    color: $secondary-color;
+}
+h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: $color-0-5;
+}
+h4 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: $color-0-4;
+}
+
+.button, button {
+    display: inline-block;
+    overflow: visible;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    color: $white;
+    border: 0 none;
+    //border-radius: 2px;
+    outline: 0;
+    background: $black;
+
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+
+    &:hover {
+        color: $secondary-color;
+        background: $primary-color;
+    }
+}
+
+input {
+    height: 50px;
+    border: 1px solid $color-0-2;
+    border-radius: 5px;
+    line-height: 50px;
+    outline: none;
+    vertical-align: top;
+    padding: 0 20px;
+    font-size: 17px;
+}
+
+input[type=text],
+input[type=email]  {
+    background: $white;
+    color: $color-0-2;
+
+    &:focus {
+        color: $black;
+        border-color: $black;
+    }
+}
+input[type=submit] {
+    text-align: center;
+    background: $color-0-5;
+    color: $white;
+
+    &:hover {
+        color: $black;
+        background: $color-0-1;
+    }
+}

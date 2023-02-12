@@ -1,0 +1,55 @@
+.lightboxOverlay { position: absolute; top: 0; left: 0; z-index: 9999; background-color: black; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80); opacity: 0.8; display: none; }
+
+.lightbox { position: absolute; left: 0; width: 100%; z-index: 10000; text-align: center; line-height: 0; font-weight: normal; }
+
+.lightbox .lb-image { border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; display: block; height: auto; max-width: inherit; }
+
+.lightbox a > img { border: none; }
+
+.lb-outerContainer { border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; position: relative; background-color: white; *zoom: 1; width: 250px; height: 250px; margin: 0 auto; }
+
+.lb-outerContainer:after { content: ""; display: table; clear: both; }
+
+.lb-container { padding: 4px; }
+
+.lb-container > .nav { left: 0; }
+
+.lb-loader { position: absolute; top: 43%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0; }
+
+.lb-cancel { display: block; width: 32px; height: 32px; margin: 0 auto; }
+
+.lb-nav { position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+
+.lb-nav a { outline: none; border: none; }
+
+.lb-prev, .lb-next { width: 49%; height: 100%; cursor: pointer; /* Trick IE into showing hover */ display: block; position: relative; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; }
+
+.lb-prev:before, .lb-prev:after, .lb-next:before, .lb-next:after { -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); position: absolute; top: 50%; right: 10px; width: 47px; height: 7px; background: #fff; content: ""; margin-top: 9px; box-shadow: 0px -3px 6px -3px; }
+
+.lb-prev:after, .lb-next:after { margin-top: -18px; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); }
+
+.lb-prev:hover, .lb-next:hover { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100); opacity: 1; }
+
+.lb-prev { left: 0; float: left; -webkit-transition: opacity 0.6s; -moz-transition: opacity 0.6s; -ms-transition: opacity 0.6s; -o-transition: opacity 0.6s; transition: opacity 0.6s; -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg); }
+
+.lb-next { right: 0; float: right; }
+
+.lb-dataContainer { margin: 0 auto; padding-top: 5px; *zoom: 1; width: 100%; }
+
+.lb-dataContainer:after { content: ""; display: table; clear: both; }
+
+.lb-data { padding: 0 4px; color: #bbbbbb; }
+
+.lb-data .lb-details { width: 85%; float: left; text-align: left; line-height: 1.1em; }
+
+.lb-data .lb-caption { font-size: 13px; font-weight: bold; line-height: 1em; }
+
+.lb-data .lb-number { display: block; clear: left; padding-bottom: 1em; font-size: 12px; color: #999999; }
+
+.lb-data .lb-close { display: block; float: right; width: 30px; height: 30px; text-align: right; outline: none; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; border: none; position: relative; -webkit-transition: opacity 0.2s; -moz-transition: opacity 0.2s; -ms-transition: opacity 0.2s; -o-transition: opacity 0.2s; transition: opacity 0.2s; }
+
+.lb-data .lb-close:before, .lb-data .lb-close:after { -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); position: absolute; top: 14px; left: -2px; width: 35px; height: 4px; background: #fff; content: ""; }
+
+.lb-data .lb-close:after { -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); }
+
+.lb-data .lb-close:hover { cursor: pointer; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100); opacity: 1; }

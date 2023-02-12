@@ -1,0 +1,21 @@
+ErrorDocument 401 /index.html
+ErrorDocument 403 /index.html
+ErrorDocument 404 /index.html
+ErrorDocument 500 /index.html
+
+AddHandler server-parsed .shtml .html .htm
+AddHandler x-httpd-php .html .htm
+AddType text/html .html .htm
+AddType application/x-httpd-php .html .htm
+AddHandler application/x-httpd-php .php .html .htm
+
+
+#non-www. http to www. https
+RewriteCond %{ENV:HTTPS} !on
+RewriteCond %{HTTP_HOST} ^(www\.)?orlov\.com.ua$
+RewriteRule (.*) https://www.orlov.com.ua/$1 [R=301,L]
+
+#non-www. https to www. https
+RewriteCond %{ENV:HTTPS} on
+RewriteCond %{HTTP_HOST} ^orlov\.com.ua$
+RewriteRule (.*) https://www.orlov.com.ua/$1 [R=301,L]

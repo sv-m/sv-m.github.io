@@ -1,0 +1,51 @@
+/* Helpers */
+
+._unmargin {
+    margin: 0;
+}
+
+._text-center {
+    text-align: center;
+}
+
+._text-right {
+    text-align: right;
+}
+
+._text-left {
+    text-align: left;
+}
+
+._text-uppercase {
+    text-transform: uppercase;
+ }
+
+._left {
+    float: left !important;
+}
+
+._right {
+    float: right !important;
+}
+
+._hide {
+    display: none !important;
+}
+
+._unvisible {
+    visibility: hidden !important;
+}
+
+._clearboth {
+    clear: both;
+}
+
+._clearfix:after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+._nobr {
+    white-space: nowrap;
+}

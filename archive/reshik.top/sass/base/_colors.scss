@@ -1,0 +1,45 @@
+//Main color reset
+$black: #000;
+$white: #fff;
+
+////Pantone 2016
+$pantone-01: #F7CAC9; //PANTONE 13-1520 Rose Quartz
+$pantone-02: #F7786B; //PANTONE 16-1548 Peach Echo
+$pantone-03: #91A8D0; //PANTONE 15-3919 Serenity
+$pantone-04: #034F84; //PANTONE 19-4049 Snorkel Blue
+$pantone-05: #FAE03C; //PANTONE 12-0752 Buttercup
+$pantone-06: #98DDDE; //PANTONE 13-4810 Limpet Shell
+$pantone-07: #9896A4; //PANTONE 16-3905 Lilac Gray
+$pantone-08: #DD4132; //PANTONE 17-1564 Fiesta
+$pantone-09: #B18F6A; //PANTONE 15-1040 Iced Coffee
+$pantone-10: #79C753; //PANTONE 15-0146 Green Flash
+
+////Orlov
+$orlov-01: #ff8300; // orange
+$orlov-02: #dcf2fd; // sky blue
+$orlov-03: #333;    // light black
+$orlov-04: #fe0000; // bright red
+$orlov-05: #7ed432; // green
+
+////Basic link colors
+$link-01: #008ACE; //link
+$link-02: #CC0000; //hover
+$link-03: #B40EB4; //visited
+
+//Project colors
+$color-0-1: #efc700;
+$color-0-2: #aaaaaa;
+$color-0-3: #d9d9d9;
+$color-0-4: #9d2480;
+$color-0-5: #391734;
+$color-0-6: #e11365;
+
+//Main color variables (according style guide)
+$primary-color: $color-0-4;
+$secondary-color: $white;
+
+$alert-color: $orlov-04;
+$success-color: $orlov-05;
+
+$font-color: $black;
+$border-color: $black;

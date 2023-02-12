@@ -1,0 +1,443 @@
+@import '../settings';
+
+/*  Styles */
+
+.tst {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 1000px;
+    background: url("../img/tst.jpg") no-repeat top center;
+    z-index: 11111;
+    opacity: .2;
+    display: none;
+}
+
+@mixin sk {
+    @include transform( skewX(-10deg) );
+}
+
+@mixin anim {
+    @include transition(.1s ease);
+}
+
+@mixin line{
+    &:before {
+        content: '';
+        width: 10px;
+        //background: $primary-color;
+        height: 100%;
+        display: inline-block;
+        vertical-align: top;
+
+        left: -12px;
+        position: relative;
+
+        @include grad;
+    }
+}
+
+@mixin grad {
+    @include linear-gradient(to bottom right, $color-0-4, $color-0-6);
+}
+
+a {
+    @include anim;
+}
+
+body {
+    &.night {
+        background: url("../img/bg.jpg") no-repeat top center;
+        background-color: $black;
+        color: $white;
+    }
+    &.day {
+        background-color: $white;
+        color: $black;
+    }
+}
+
+.logo {
+    display: inline-block;
+    float: left;
+    margin-top: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    line-height: 52px;
+    font-weight: normal;
+    text-transform: uppercase;
+    position: relative;
+    height: 50px;
+    vertical-align: top;
+
+    color: $black;
+    padding: 0 10px;
+
+    background-color: $white;
+
+    span {
+        font-size: 15px;
+        position: absolute;
+        top: 22px;
+        line-height: 22px;
+        padding: 0 6px;
+        right: -61px;
+        color: $white;
+
+        @include grad;
+    }
+
+    &:hover {
+        opacity: .9;
+        color: $color-0-4;
+    }
+
+    @include sk;
+    @include line;
+}
+
+header {
+    min-height: 80px;
+
+    .wr {
+        position: relative;
+    }
+
+    p {
+        text-align: right;
+        padding-top: 25px;
+        font-size: 11px;
+        color: $color-0-2;
+        float: right;
+
+        a {
+            display: block;
+            font-size: 22px;
+            line-height: 25px;
+            color: $primary-color;
+            padding-left: 20px;
+
+            //border-left: 1px solid $color-0-2;
+        }
+    }
+
+    .spec {
+        position: absolute;
+        left: 435px;
+        line-height: 12px;
+        font-size: 14px;
+        top: 39px;
+    }
+
+    strong {
+        display: block;
+    }
+}
+
+section {
+    .wr {
+        position: relative;
+    }
+    & {
+        min-height: 750px;
+
+        background-size: cover;
+        padding-top: 148px;
+    }
+
+    h1, p {
+
+        font-family: 'Roboto Condensed', sans-serif;
+        text-align: left;
+        color: $white;
+    }
+
+    h1 {
+        font-size: 46px;
+        font-weight: 100;
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+
+        strong {
+            display: block;
+            color: $color-0-5;
+        }
+    }
+    p {
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 435px;
+        color: $white;
+        margin-bottom: 290px;
+    }
+
+    .button {
+        float: right;
+        line-height: 30px;
+        font-size: 42px;
+        text-transform: uppercase;
+        font-weight: 100;
+        font-family: 'Roboto', sans-serif;
+        background: $white;
+        color: $primary-color;
+
+        @include sk;
+        @include line;
+        @include anim;
+
+        &:before {
+            height: 50px;
+            margin: -10px 0;
+        }
+    }
+    .noprob {
+        font-size: 32px;
+        text-transform: uppercase;
+        font-weight: 100;
+        font-family: 'Roboto', sans-serif;
+        font-stretch: extra-condensed;
+        margin-bottom: 40px;
+        letter-spacing: -2px;
+        word-spacing: 3px;
+    }
+
+    .girl {
+        width: 346px;
+        height: 390px;
+        display: block;
+        position: absolute;
+        right: -20px;
+        background: url("../img/girl.png");
+        margin-top: -390px;
+    }
+
+    .callme {
+        height: 55px;
+        line-height: 55px;
+        border-radius: 5px;
+        border: 3px solid $color-0-4;
+        color: $color-0-4;
+        text-align: center;
+        display: block;
+        margin:  auto;
+        width: 369px;
+        font-weight: bold;
+        font-size: 24px;
+        cursor: pointer;
+        outline: 5px solid $black;
+        background: $black;
+
+        &:hover {
+            //background-color: $color-0-5;
+            color: $white;
+
+            @include grad;
+        }
+
+        @include anim;
+
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+
+            left: 50%;
+            margin-left: -300px;
+            margin-top: 25px;
+            width: 600px;
+            z-index: -1;
+            height: 2px;
+
+
+            @include grad;
+        }
+
+    }
+}
+
+main {
+    .wr {
+        @include clearfix;
+        padding-top: 75px;
+        padding-bottom: 70px;
+    }
+    &{
+        background: $white;
+    }
+
+    h2 {
+        font-weight: normal;
+        margin-bottom: 15px;
+    }
+    p {
+        margin-bottom: 20px;
+        color: $black;
+    }
+
+    h2, p {
+        max-width: 460px;
+        text-align: left;
+        color: $black;
+    }
+    .bx-wrapper{
+        width: 377px;
+        float: right;
+        margin: 0 43px;
+        margin-bottom: 50px;
+        margin-top: 76px;
+
+        @media screen and (max-width: 786px) {
+        }
+    }
+    .bx-pager{
+        display: none;
+    }
+
+    .bx-prev,
+    .bx-next {
+        width: 15px!important;
+        height: 15px !important;
+        margin-top: -5px!important;
+        border: 5px solid $primary-color;
+        @include transform( rotate(45deg) );
+
+        &:hover {
+            border-color: $color-0-1;
+        }
+    }
+
+    .bx-prev {
+        border-width: 0 0 6px 6px;
+        margin-left: -22px
+    }
+    .bx-next {
+        border-width: 6px 6px 0 0;
+        margin-right: -22px
+    }
+}
+
+.slider {
+    width: 377px;
+    margin: 0;
+
+    li {
+        width: 377px;
+        color: $color-0-2;
+        padding: 0 30px;
+    }
+}
+
+footer {
+    padding: 40px 0;
+    //background-color: $color-0-5;
+    text-align: center;
+
+    @include grad;
+
+    address {
+        color: $color-0-3;
+        font-size: 18px;
+
+        a {
+            display: block;
+            color: $color-0-3;
+        }
+    }
+}
+
+
+
+.thnk,
+.popup,
+.popup2,
+.popup3 {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+
+
+    .th {
+        display: block;
+
+        width: 140px;
+        height: 140px;
+        margin: 30px auto;
+        background: url('../img/ok.jpg') center no-repeat;
+    }
+
+    p {
+        margin-bottom: 0;
+        color: $black;
+    }
+
+    form {
+        position: fixed;
+        z-index: 1001;
+        top: 100px;
+        left: 50%;
+
+        width: 530px;
+        height: auto;
+        margin-left: -265px;
+        padding: 55px;
+
+        background: $white;
+
+        &.req {
+            input[type=text]:valid , input[type=email]:valid { border-bottom: 2px solid darkseagreen; }
+            input[type=text]:invalid, input[type=email]:invalid { border-bottom: 2px solid orange;}
+        }
+
+        input[type=text],
+        input[type=email]  {
+            display: block;
+            width: 100%;
+            margin-bottom: 15px;
+        }
+    }
+
+    .close {
+        position: absolute;
+        top: -10px;
+        right: -15px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        border-radius: 50%;
+        background: $white;
+
+        &:before,
+        &:after {
+            position: absolute;
+            top: 4px;
+            left: 13px;
+            display: block;
+            width: 3px;
+            height: 20px;
+            content: '';
+            transform-origin: 50% 50%;
+            background: $color-0-5;
+        }
+        &:before {
+            @include transform( rotate(45deg));
+        }
+        &:after {
+            @include transform( rotate(-45deg));
+        }
+
+        &:hover {
+            background: $color-0-4;
+
+            &:before,
+            &:after {
+                background: $white;
+            }
+        }
+    }
+}
+
