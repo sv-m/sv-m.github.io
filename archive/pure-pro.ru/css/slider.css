@@ -1,0 +1,53 @@
+ .slider {
+    height: 70px;
+    position: absolute;
+    width: 890px;
+    z-index: 5000;
+    padding: 0 30px;
+}
+ .slider::-moz-selection {
+    background: none repeat scroll 0 0 transparent;
+    color: #fff;
+    text-shadow: none;
+}
+ .slide-list {
+    height: 70px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 890px;
+}
+ .slide-wrap {
+    color: #fff;
+    left: 0;
+    position: relative;
+    top: 0;
+}
+ .slide-item {
+    height: 70px;
+    float: left;
+    text-align: left;
+}
+.slider ins, .slider del {
+    cursor: pointer;
+    width: 30px;
+    height: 70px;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 1;
+}
+ .slider ins:hover, .slider del:hover {
+    opacity: 1;
+    z-index: 10;
+}
+ .slider ins {
+    background: url("img/arr1.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    left: 0;
+    top:0px;
+}
+ .slider del {
+    background: url("img/arr11.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    right: 0;
+    top: 0;
+}
