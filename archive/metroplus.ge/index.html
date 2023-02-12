@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1280">
+    <meta name="robots" content="noindex">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+
+    <link href='https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'></head>
+<body>
+
+<div class="tst"></div>
+
+<header>
+    <div class="wr">
+        <p class="title">Metro Plus
+        <span>Покупка и аренда квартир в апарт-отеле</span></p>
+
+        <address>+38 068 5555 125
+            <hr> +38 068 5555 105</address>
+
+        <h1 class="wow bounceIn" data-wow-delay="0.1s"><strong>Надежное и выгодное инвестирование</strong>
+            в жилую площадь на берегу Черного моря в Батуми</h1>
+
+        <div class="apt wow bounceIn" data-wow-delay="0.2s">апартаменты от $12`499</div>
+        <a href="#tur" class="free wow bounceIn" data-wow-delay="0.3s"> Бесплатный инфотур в Грузию</a>
+    </div>
+</header>
+
+<section class="part1">
+    <div class="wr">
+        <h6>Мы вам предлагаем</h6>
+
+        <ul class="boxes">
+            <li>Регулярный пассивный доход от аренды собственных апартаментов</li>
+            <li>Отдых в собственной квартире в любое время года на любой срок</li>
+        </ul>
+
+        <h6 class="black">А также</h6>
+
+        <ul class="boxes2">
+            <li class="wow fadeInDown" data-wow-delay="0.1s">Престижное жилье <br>
+                на берегу Черного моря</li>
+            <li class="wow fadeInDown" data-wow-delay="0.3s">Стабильный <br>
+                и гарантированный доход</li>
+            <li class="wow fadeInDown" data-wow-delay="0.5s">Выгодные инвестиции <br>
+                в надежное дело</li>
+            <li class="wow fadeInDown" data-wow-delay="0.7s">Удаленное управление <br>
+                из любой точки мира</li>
+        </ul>
+    </div>
+</section>
+
+<section class="part2" id="tur">
+    <div class="wr">
+        <h6>Интересно предложение?</h6>
+        <p>Записывайтесь на бесплатный инфотур:</p>
+
+        <ul class="infotur">
+           <li class="wow bounceIn" data-wow-delay="0.1s">Трансфер
+           <li class="wow bounceIn" data-wow-delay="0.3s">Проживание
+           <li class="wow bounceIn" data-wow-delay="0.5s">Питание
+           <li class="wow bounceIn" data-wow-delay="0.7s">Экскурсии
+           <li class="wow bounceIn" data-wow-delay="0.9s">Презентация объекта
+        </ul>
+
+        <form class="sender" id="f1" action="send.php" method="post">
+            <p>Заполните поля, чтобы забронировать место в туре</p>
+
+
+            <fieldset>
+                <label class="required">Как к вам обращаться</label>
+                <input type="text" name="name">
+            </fieldset>
+            <fieldset class="half">
+                <label  class="required">Телефон или Skype</label>
+                <input type="text" name="phone">
+            </fieldset><fieldset class="half">
+            <label class="required">Email</label>
+            <input type="text" name="mail">
+        </fieldset>
+            <fieldset>
+                <input type="hidden" name="works" value="Записывайтесь на бесплатный инфотур">
+                <input type='hidden' name="mailing" />
+                <input type="submit" value="Оставить заявку" onclick="pend(  this.parentNode.parentNode.getAttribute('id')  ); return false">
+            </fieldset>
+        </form>
+    </div>
+</section>
+
+<section class="part3">
+    <div class="wr">
+        <h6 class="black">Наши апартаменты</h6>
+
+        <p>Онлайн трансляция в реальном времени</p>
+        <div class="video">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/2T0nmWMMIzY" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <ul class="bonus">
+            <p>Берег Черного моря в менее, чем 200 метров</p>
+
+
+            <li class="wow bounceIn" data-wow-delay="0.1s">Трехзвездочный 10 этажный апарт-отель с современными
+            комфортными номерами размером от 28 до 49 м2
+
+            <li class="wow bounceIn" data-wow-delay="0.3s"><strong>В отеле:</strong> рецепшн, информ стойка, ресторан, лаундж зона,
+            прачечная, wf, подземный паркинг, торговые площади.
+
+            <li class="wow bounceIn" data-wow-delay="0.5s">Все номера оснащены системами контроля
+            с дистанционным управлением и учетом аренды
+
+            <li class="wow bounceIn" data-wow-delay="0.7s">Сервис: консьерж 24/7, контроль территории, мониторинг
+            гостей, обеспечение безопасности и техническое обслуживание
+            услуг по уборке и т.д.
+        </ul>
+    </div>
+</section>
+
+<section class="part4">
+    <div class="wr">
+        <h6>Почему мы лучше конкурентов</h6>
+
+        <ul class="box">
+            <li  class="wow bounceIn" data-wow-delay="0.1s">Полный объем финансирования уже в наличии,
+            мы сделали первые шаги по покупке всемирно
+            известной франшизы
+
+            <li  class="wow bounceIn" data-wow-delay="0.2s">Проект полностью согласован с мэрией г. Батуми
+
+            <li  class="wow bounceIn" data-wow-delay="0.3s">Гарантированный доход от вложений уже 2017 году!
+        </ul>
+
+        <ul class="box">
+            <li class="wow bounceIn" data-wow-delay="0.1s">Мы сдаем полностью готовые к эксплуатации
+            апартаменты
+
+            <li class="wow bounceIn" data-wow-delay="0.2s">Проводим ремонт и отделку в едином стиле
+            по фиксированной цене
+
+            <li class="wow bounceIn" data-wow-delay="0.3s">Круглогодичная рекламная поддержка отеля,
+            готовые формы работы с собственником
+            резиденций и клиентами
+        </ul>
+    </div>
+</section>
+
+<section class="part5">
+    <div class="wr">
+        <ul class="what">
+            <h6 class="black">Что мы предлагаем клиентам,
+                помимо <strong>«квадратных метров»</strong></h6>
+            <li>Комплекс построен в одном из самых популярных
+            туристических мест в Батуми
+
+            <li>Рядом с вами ORBI Beach Tower и Metro City
+
+            <li>Современное здание с видом на море и горы.
+
+            <li>Стильный дизайн интерьеров от архитекторов
+            мирового уровня
+
+            <li>Налаженная инфраструктура и сервис
+
+            <li>Обслуживание и сопровождение аренды
+            апартаментов во время вашего отсутствия
+
+            <li>Мы находимся недалеко от исторического центра.
+        </ul>
+        <div class="shade"></div>
+
+    </div>
+</section>
+
+<section class="part6">
+    <div class="wr">
+        <h6 class="black">Инфраструктура: <strong>Рядом с вами</strong></h6>
+
+        <ul class="infra">
+            <li class="wow bounceIn" data-wow-delay="0.1s">Супермаркет
+            <li class="wow bounceIn" data-wow-delay="0.15s">Частная школа
+            <li class="wow bounceIn" data-wow-delay="0.2s">Кинотеатр
+            <li class="wow bounceIn" data-wow-delay="0.25s">Боулинг центр
+            <li class="wow bounceIn" data-wow-delay="0.3s">ТЦ с 100+ брендовыми магазинами
+            <li class="wow bounceIn" data-wow-delay="0.35s">Бульвар, гордость Батуми!
+            <li class="wow bounceIn" data-wow-delay="0.4s">Единственный в Батуми песочный пляж
+            <li class="wow bounceIn" data-wow-delay="0.45s">Панорамные рестораны с террасами
+            <li class="wow bounceIn" data-wow-delay="0.5s">Конференц зал на 1500 гостей
+            <li class="wow bounceIn" data-wow-delay="0.55s">2км от международного аэропорта
+            <li class="wow bounceIn" data-wow-delay="0.6s">Казино
+            <li class="wow bounceIn" data-wow-delay="0.65s">Спа-центр
+            <li class="wow bounceIn" data-wow-delay="0.7s">А-Ла Карте рестораны
+            <li class="wow bounceIn" data-wow-delay="0.75s">Яхтенная марина
+        </ul>
+
+    </div>
+</section>
+
+<section class="part7">
+    <div class="wr">
+        <h6>Записывайтесь на бесплатный инфотур</h6>
+
+        <ul class="infotur">
+            <li>Комфортный трансфер
+            <li>Оплаченное пребываение в грузии
+            <li>Знакомство с культурой, <br>
+            природой и апартаментами
+        </ul>
+
+        <form class="sender" id="f2" action="send.php" method="post">
+            <p>Заполните поля, чтобы забронировать место в туре</p>
+
+
+            <fieldset>
+                <label class="required">Как к вам обращаться</label>
+                <input type="text" name="name">
+            </fieldset>
+            <fieldset class="half">
+                <label  class="required">Телефон или Skype</label>
+                <input type="text" name="phone">
+            </fieldset><fieldset class="half">
+                <label class="required">Email</label>
+                <input type="text" name="mail">
+            </fieldset>
+            <fieldset>
+                <input type="hidden" name="works" value="Записывайтесь на бесплатный инфотур">
+                <input type='hidden' name="mailing" />
+                <input type="submit" value="Оставить заявку" onclick="pend(  this.parentNode.parentNode.getAttribute('id')  ); return false">
+            </fieldset>
+        </form>
+    </div>
+</section>
+
+<section class="part8">
+    <h6>Как прошел последний инфотур</h6>
+    <ul class="slider">
+        <li style="background-image: url(imgbig/NAS_0945.JPG);"></li>
+        <li style="background-image: url(imgbig/NAS_2321.JPG);"></li>
+        <li style="background-image: url(imgbig/NAS_1033.JPG);"></li>
+        <li style="background-image: url(imgbig/NAS_1463.JPG);"></li>
+        <li style="background-image: url(imgbig/NAS_1560.JPG);"></li>
+        <li style="background-image: url(imgbig/NAS_1882.JPG);"></li>
+        <li style="background-image: url(imgbig/NAS_1903.JPG);"></li>
+        <li style="background-image: url(imgbig/NAS_2027.JPG);"></li>
+        <li style="background-image: url(imgbig/NAS_1370.JPG);"></li>
+        <li style="background-image: url(imgbig/NAS_1385.JPG);"></li>
+    </ul>
+</section>
+
+<section class="part9">
+    <div class="wr">
+        <h6>Ответы на ваши вопросы</h6>
+
+        <div class="que">
+            <li class="wow bounceIn" data-wow-delay="0.1s"><strong>Откуда мне знать, что квартира
+            будет давать прибыль?</strong>
+
+            Инвестиции дают гарантированную прибыль
+            от 3000-5000 долларов в год. Плюс прирост стоимости апартаментов в популярном курорте Черного моря.
+
+            <li class="wow bounceIn" data-wow-delay="0.2s"><strong>Я могу быть уверенным, что объект
+                будет построен?</strong>
+
+                Вы производите оплату частями в рассрочку
+                во время застройки, только за реальные результаты
+                строительства.
+
+            <li class="wow bounceIn" data-wow-delay="0.3s"><strong>Каковы мои гарантии?</strong>
+
+            Мы работаем официально по договору. Вы оформляете апартаменты на свое имя, включая отдельный договор
+            с нами о последующем управлении.
+
+            <li class="wow bounceIn" data-wow-delay="0.4s"><strong>Как я смогу обслуживать квартиру дистанционно?</strong>
+
+            В наши обязанности входит управление
+            Вашими апартаментами по удаленному доступу
+            ри помощи телефона, ноутбука или планшета.
+        </div>
+    </div>
+</section>
+
+<section class="part10">
+    <div class="wr">
+        <h6 class="gold">Наши клиенты</h6>
+
+        <div class="otztiv">
+            <ul class=" slider2 otz tab-c">
+                <li>
+                    <img src="img/pe01.jpg" alt="">
+                    <p>Я очень боялась ехать и покупать квартиру за границей. Во-первых строительство за рубежом и только начало
+                        строиться... Но все мои сомнения развеялись когда приехала сюда. Люди которые приехали со мной в инфотур, были
+                        очень приветливы и я провела это время с ними как со своими родными. Спасибо организаторам это была
+                        незабываемая встреча с Грузией и квартира у моря моей мечты.</p>
+                    <h5>Алина Белинская</h5>
+                </li>
+                <li>
+                    <img src="img/pe02.jpg" alt="">
+                    <p>Мы давно имели мечту купить квартиру за рубежом, только не зная языка и законов страны - боялись, поэтому очень
+                        обрадовались когда Дмитрий Николаевич начал строительство в Батуми. Два с половиной часа и ты у моря в своих
+                        апартаментах, к тому же, квартиру-апартаменты можно сдавать и на этом неплохо зарабатывать. Когда я прилетела
+                        в Батуми, могу сказать, что я осталась отдыхать на весь год, настолько все понравилось.. В Грузии вокруг все твое,
+                        все - для тебя: море, кухня, развлечения, экскурсии, шопинги и гостеприимность.</p>
+                    <h5>Наталия Благодер, Благодер Олег</h5>
+                </li>
+                <li>
+                    <img src="img/pe05.jpg" alt="">
+                    <p>Море, море и еще раз море! И этим все сказано. Если бы не Дмитрий Николаевич - мы бы никогда и не задумались о
+                        покупке квартиры у моря. Но почему бы не иметь возможность отдыхать в своих апартаментах, да еще и
+                        зарабатывать на аренде? Благодаря туру мы познакомились с Грузией - нам столько здесь понравилось: кухня,
+                        старый Батуми, и конечно, море, гостеприимность. Ну и в сравнении с нашей страной здесь уровень жизни намного
+                        выше чем у нас.</p>
+                    <h5>Пилипчук Галина и Владимир</h5>
+                </li>
+                <li>
+                    <img src="img/pe04.jpg" alt="">
+                    <p>Грузию я хорошо знаю, приехал посмотреть на расположение дома, ознакомиться с договором как идет
+                        строительство. В принципе, впечатляет думаю 90% квартиру будем покупать. Также понравилось как организовали
+                        тур - хорошо объединили отдых с ознакомлением строительства.</p>
+                    <h5>Александр</h5>
+                </li>
+                <li>
+                    <img src="img/pe03.jpg" alt="">
+                    <p>Нас давно уже приглашал в инфотур Паша с ORBI Group. И мы решили поехать. За два дня нам показали кухню, город,
+                        рынок, водопад, Грузию всю какая она есть, знакомство с местными жителями... И самое главное - это море
+                        набережная, дом у моря, цена привлекательная для такого места. Нашей дочери исполняется 18 лет, мы хотим
+                        подарить ее свадебный подарок в Батуми и свою квартиру, и благодаря Дмитрию Николаевичу наши мечты
+                        сбываются.</p>
+                    <h5>Гусейнов Олександр и Ирина</h5>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+<section class="part11">
+    <div class="wr">
+        <h6>Позвоните сейчас и получите дисконтную карту <br>
+            для близких, друзей и родственников</h6>
+
+        <address>+38 068 5555 125
+            <hr> +38 068 5555 105</address>
+    </div>
+</section>
+
+<section class="part12">
+    <div class="wr">
+        <h6>Остались вопросы?</h6>
+
+        <form class="sender" id="f3" action="send.php" method="post">
+            <p>Заполните поля, чтобы забронировать место в туре</p>
+
+
+            <fieldset>
+                <label class="required">Как к вам обращаться</label>
+                <input type="text" name="name">
+            </fieldset>
+            <fieldset class="half">
+                <label  class="required">Телефон или Skype</label>
+                <input type="text" name="phone">
+            </fieldset><fieldset class="half">
+                <label class="required">Email</label>
+                <input type="text" name="mail">
+            </fieldset>
+            <fieldset>
+                <input type="hidden" name="works" value="Записывайтесь на бесплатный инфотур">
+                <input type='hidden' name="mailing" />
+                <input type="submit" value="Оставить заявку" onclick="pend(  this.parentNode.parentNode.getAttribute('id')  ); return false">
+            </fieldset>
+        </form>
+    </div>
+
+    <div class="map1">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d749.2143415654804!2d27.006129790434425!3d49.44880355900216!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4732070b2fd796f3%3A0x727ba0dda3d340fd!2z0LLRg9C7LiDQl9Cw0LvRltC30L3Rj9C60LAsIDgsINCl0LzQtdC70YzQvdC40YbRjNC60LjQuSwg0KXQvNC10LvRjNC90LjRhtGM0LrQsCDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1sru!2sua!4v1461846340078" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <div class="map2">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2581.2207389728674!2d41.60555228259689!3d41.62936803851443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406785e891883a09%3A0x2325278d322435e6!2zQW5naXNhIFN0LCBCYXR1bWksINCT0YDRg9C30LjRjw!5e0!3m2!1sru!2sua!4v1461846608422" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>    </div>
+</section>
+
+
+<footer>
+    <div class="wr">
+        <address>+38 068 5555 125
+            <hr> +38 068 5555 105</address>
+
+        <div class="more">
+            skype: <a href="">blagodar68</a>
+            <hr>
+            Email: <a href="">Batymibyd@gmail.com</a>
+        </div>
+
+        <div class="soc">
+            <a href="" class="fb"></a>
+            <a href="" class="vk"></a>
+            <a href="" class="in"></a>
+            <a href="" class="yt"></a>
+            <a href="" class="ok"></a>
+        </div>
+
+        <div class="copy">2016 © MetroPlus. Разработка и поддержка <a href="">Landing.ua</a></div>
+    </div>
+</footer>
+
+<script src="js/jquery-1.9.1.js"></script>
+<script src="js/script.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+
+
+</body>
+</html>
