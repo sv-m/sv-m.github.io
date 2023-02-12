@@ -6,7 +6,7 @@ $telefone = $_POST['phone'];
 $mess = $_POST['sms'];
 $time = $_POST['time'];
 
-$to = 'orloffigor@gmail.com'; // будут идти письма
+$to = 'test@mail.mail'; // будут идти письма
 
 //
 
