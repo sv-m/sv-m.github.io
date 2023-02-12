@@ -92,3 +92,15 @@
 [https://www.canva.com/](https://www.canva.com/) - с легкостью создавать дизайны
 
 [https://spline.design/](https://spline.design/) - 3D art  для веба
+
+[https://russianwarship.rip/](https://russianwarship.rip/) - потери русни в Украине
+
+[https://developer.nvidia.com/maxine](https://developer.nvidia.com/maxine) - улучшение аудио, видео - AI от NVidia 
+
+[https://pixabay.com/](https://pixabay.com/) - бесплатные видеофутажи
+
+[https://fonts.google.com/](https://fonts.google.com/) - онлайн подключение шрифтов 
+
+[https://deepstatemap.live/](https://deepstatemap.live/#6/49.438/32.053) - карта войны в Украине
+
+[https://earthquaketrack.ru/ ](https://earthquaketrack.ru/)- карта активных сейсмических зон
