@@ -81,9 +81,9 @@
 
 ### Полезные ссылки для разработчиков
 
-https://answerthepublic.com/ - подбор запросов SEO
+[https://answerthepublic.com/](https://answerthepublic.com/) - подбор запросов SEO
 
-https://www.cutout.pro/ - обтравка видео\фото фона
+[https://www.cutout.pro/](https://www.cutout.pro/) - обтравка видео\фото фона
 
-https://colorize.cc/ - раскраска чб фото 
+[https://colorize.cc/](https://colorize.cc/) - раскраска чб фото 
 
