@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1280">
+    <title>Title</title>
+    <meta name="robots" content="noindex">
+    <meta content="" name="title">
+    <meta content="" name="description">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="tmp"></div>
+
+<div class="thnk">
+    <form id="th">
+        <div class="field">
+            <span class="th"></span>
+            <h4 class="_text-center">Спасибо!</h4>
+            <p>Ваша заявка принята и мы перезвоним Вам
+                в ближайшее время.
+
+            </p>
+        </div>
+        <div class="close"></div>
+    </form>
+</div>
+<div class="popup">
+    <form id="f1" action="send.php" method="post">
+        <h4>Консультация менеджера <br>
+            в течение 20 минут</h4>
+
+        <input type="text" name="name" placeholder="Как к Вам обращаться">
+        <input class="-half" type="text" name="phone" placeholder="Ваш телефон"><input class="-half" type="text" name="mail" placeholder="Ваша почта">
+
+        <input type='hidden' name="mailing" />
+        <input type='hidden' name="from" value="Цельностеклянные конструкции. Заказать звонок. Консультакия менеджера."/>
+        <input type="submit" value="Консультация менеджера" onclick="pend(  this.parentNode.getAttribute('id')  ); return false">
+
+        <div class="close"></div>
+    </form>
+</div>
+<div class="popup2">
+    <form id="f0" action="send.php" method="post">
+        <h4>Оставить заявку</h4>
+
+        <input type="text" name="name" placeholder="Как к Вам обращаться">
+        <input class="-half" type="text" name="phone" placeholder="Ваш телефон"><input class="-half" type="text" name="mail" placeholder="Ваша почта">
+
+        <input type='hidden' name="mailing" />
+        <input type='hidden' name="from" value="Главная страница. Обратный звонок. Всплывающее окно."/>
+        <input type="submit" value="Консультация менеджера" onclick="pend(  this.parentNode.getAttribute('id')  ); return false">
+
+        <div class="close"></div>
+    </form>
+</div>
+
+<header>
+    <div class="wr">
+
+        <div class="call js-call">заказать звонок</div>
+        <address><a href="tel:093-325-09-79">(093) 325 09 79</a> <br>
+            <a href="tel:050-973-03-66">(050) 973 03 66</a></address>
+
+        <a href="index.html" class="logo"> <span>Мы профи на деле <br> а не кажемся ими</span></a>
+
+        <div class="free">Бесплатный выезд замерщика на объект</div>
+        <div class="ost js-zakaz">Оставить заявку</div>
+        <main>
+            <h1 class="wow bounceIn" data-wow-delay="0.1s">Алюминиевые конструкции
+                по ценам производителя</h1>
+
+            <ul>
+                <li>Изготовление конструкций
+                    любой сложности
+            </ul>
+        </main>
+
+        <nav>
+            <a class="wow flipInX" data-wow-delay="0.1s" href="glass.html"><span>Цельностеклянные конструкции</span><i></i></a>
+            <a class="wow flipInX" data-wow-delay="0.3s" href="metal.html"><span>Металлопластиковые конструкции </span><i></i></a>
+            <a class="wow flipInX active" data-wow-delay="0.5s"><span>Алюминиевые конструкции </span><i></i></a>
+        </nav>
+
+        <ul class="cir">
+            <li class="wow bounceIn" data-wow-delay="0.1s"><i>10+</i>Успешной работы <br> на рынке Украины</li>
+            <li class="wow bounceIn" data-wow-delay="0.2s"><i>200+</i>Объектов реализовано<br> в киеве и области</li>
+            <li class="wow bounceIn" data-wow-delay="0.3s"><i>100%</i>Гарантия качества<br> на всю продукцию</li>
+        </ul>
+    </div>
+</header>
+
+<section class="part1">
+    <div class="wr">
+        <h4>Мы предлагаем</h4>
+
+        <div class="prod">
+            <h6>Собственное производство
+            металлопластиковых конструкций
+            позволяют нам выпускать широкий
+            ассортимент продукции.</h6>
+
+            <p>Современное оборудование позволяет работать с профилями
+                всех ведущих европейских производителей,
+                создавая востребованный качественный продукт.</p>
+
+            <ul class="mini">
+                <div class="wow flipInX" data-wow-delay="0.1s">
+                    <h3>Профильные констукции</h3>
+                    <li>Alutech
+                    <li>Profilco
+                    <li>Alumil
+                    <li><Reynaers></Reynaers>
+                    <li>Aluprof
+                    <li>Altest
+                </div>
+                <div class="wow flipInX" data-wow-delay="0.2s">
+                    <h3>Фурнитура</h3>
+                    <li>Geze
+                    <li>GU
+                    <li>Roto
+                    <li>Stublina
+                    <li>Fapim
+                    <li>Giesse
+                </div>
+
+            </ul>
+
+
+        </div>
+
+        <main>
+            <ul>
+                <li class="wow flipInY" data-wow-delay="0.1s"> Стеклопакеты
+                <li class="wow flipInY" data-wow-delay="0.2s"> Оконно-дверные конструкции
+                <li class="wow flipInY" data-wow-delay="0.3s"> Зимние сады любого класса
+                <li class="wow flipInY" data-wow-delay="0.4s"> Фасады
+                <li class="wow flipInY" data-wow-delay="0.5s"> Зенитные фонари
+                <li class="wow flipInY" data-wow-delay="0.6s"> Купола и террас
+            </ul>
+        </main>
+    </div>
+</section>
+
+
+<section class="part5">
+    <div class="wr">
+        <div class="fill"></div>
+        <ul>
+            <li class="wow bounceIn" data-wow-delay="0.1s"><img src="img/p01.jpg" alt="">
+            <li class="wow bounceIn" data-wow-delay="0.2s"><img src="img/p02.jpg" alt="">
+            <li class="wow bounceIn" data-wow-delay="0.3s"><img src="img/p03.jpg" alt="">
+            <li class="wow bounceIn" data-wow-delay="0.4"><img src="img/p04.jpg" alt="">
+            <li class="wow bounceIn" data-wow-delay="0.5s"><img src="img/p05.jpg" alt="">
+            <li class="wow bounceIn" data-wow-delay="0.6s"><img src="img/p06.jpg" alt="">
+            <li class="wow bounceIn" data-wow-delay="0.7s"><img src="img/p07.jpg" alt="">
+            <li class="wow bounceIn" data-wow-delay="0.8s"><img src="img/p08.jpg" alt="">
+            <li class="wow bounceIn" data-wow-delay="0.9s"><img src="img/p09.jpg" alt="">
+            <li class="wow bounceIn" data-wow-delay="1s"><img src="img/p10.jpg" alt="">
+        </ul>
+    </div>
+</section>
+
+<section class="part2 inside">
+    <div class="wr">
+        <h4>Примеры наших работ</h4>
+        <h5>Металлопластиковые <br>
+            конструкции</h5>
+
+        <div class="fill"></div>
+
+        <div class="works active">
+            <menu class="menus">
+                <li class="active" data-no="0"><img src="img/w03.jpg"></li>
+                <li data-no="1"><img src="img/w01.jpg"></li>
+                <li data-no="2"><img src="img/w03.jpg"></li>
+            </menu>
+            <main>
+                <article class="active">
+                    <div class="text">
+                        <i>01.</i>
+                        <h2> Lorem ipsum dolor sit amet, consectetur adipisicing</h2>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci, alias aperiam blanditiis culpa doloremque ducimus ea eius, error est et fugit impedit modi mollitia necessitatibus nihil obcaecati quia quibusdam!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam, animi aspernatur doloremque, eligendi hic impedit libero magni neque placeat recusandae ut velit voluptates! Adipisci beatae est numquam placeat ut?</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consectetur deserunt eligendi excepturi, non quaerat totam voluptates! Consectetur cum ex fuga hic nulla odit quod, repudiandae suscipit veniam, veritatis vitae?</p>
+                    </div>
+                    <div class="img"><a href="img/w03.jpg" data-lightbox="works"><img src="img/w03.jpg"></a></div>
+
+                    <a class="_hide" href="img/w02.jpg" data-lightbox="works"></a>
+                    <a class="_hide" href="img/w02.jpg" data-lightbox="works"></a>
+                    <a class="_hide" href="img/w02.jpg" data-lightbox="works"></a>
+                </article>
+                <article>
+                    <div class="text">
+                        <i>02.</i>
+                        <h2> Loremetur adipisicing</h2>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam, animi aspernatur doloremque, eligendi hic impedit libero magni neque placeat recusandae ut velit voluptates! Adipisci beatae est numquam placeat ut?</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consectetur deserunt eligendi excepturi, non quaerat totam voluptates! Consectetur cum ex fuga hic nulla odit quod, repudiandae suscipit veniam, veritatis vitae?</p>
+                    </div>
+                    <div class="img"><a href="img/w01.jpg" data-lightbox="works"><img src="img/w01.jpg"></a></div>
+
+                    <a class="_hide" href="img/w02.jpg" data-lightbox="works"></a>
+                    <a class="_hide" href="img/w02.jpg" data-lightbox="works"></a>
+                    <a class="_hide" href="img/w02.jpg" data-lightbox="works"></a>
+                </article>
+                <article>
+                    <div class="text">
+                        <i>03.</i>
+                        <h2> Loremetur adipisicing Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, vel?</h2>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam, animi aspernatur doloremque, eligendi hic impedit libero magni neque placeat recusandae ut velit voluptates! Adipisci beatae est numquam placeat ut?</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consectetur deserunt eligendi excepturi, non quaerat totam voluptates! Consectetur cum ex fuga hic nulla odit quod, repudiandae suscipit veniam, veritatis vitae?</p>
+                    </div>
+                    <div class="img"><img src="img/w01.jpg"></div>
+                </article>
+            </main>
+        </div>
+
+        <div class="watch js-zakaz">Заказать </div>
+    </div>
+</section>
+
+<section class="part3 pt3">
+    <div class="wr">
+
+        <form class="wow flipInX" data-wow-delay="0.1s" id="f3" action="send.php" method="post">
+            <h4>Заполните поля <br>и наши специалисты <br>свяжутся с вами</h4>
+
+            <input type="text" name="name" placeholder="Как к Вам обращаться">
+            <input class="-half" type="text" name="phone" placeholder="Ваш телефон"><input class="-half" type="text" name="mail" placeholder="Ваша почта">
+
+            <input type='hidden' name="mailing" />
+            <input type='hidden' name="from" value="Главная страница. Форма проект в подарок."/>
+            <input type="submit" value="Заказать" onclick="pend(  this.parentNode.getAttribute('id')  ); return false">
+        </form>
+
+        <h2>Выезд замерщиков
+            на объект!</h2>
+        <p>Бесплатный расчет стоимости <br>
+            и доставка на объект</p>
+    </div>
+</section>
+
+<section class="part4">
+    <div class="wr">
+        <h4>Производство «Алтекс Груп»</h4>
+
+        <ul class="gall ">
+            <li>
+                <div class="img">
+                    <img class="wow flipInX" data-wow-delay="0.1s" src="img/port02.jpg" alt="">
+                </div>
+                <div class="txt">
+                    <div class="no">01. <strong>/20</strong></div>
+                    <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem cum cumque, deserunt, dolorum et exercitationem expedita fuga hic illum, iusto minima necessitatibus nostrum quos recusandae repellendus reprehenderit sapiente ullam veritatis!</p>
+                    <p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis doloribus ex hic labore maiores molestias nostrum quaerat quam saepe temporibus? Accusantium facere libero nostrum numquam sed, sit temporibus tenetur ullam.</strong></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium, deleniti, dicta est
+                        expedita illum ipsam laudantium magni optio quasi, sapiente vero.</p>
+                </div>
+            </li>
+            <li>
+                <div class="img">
+                    <img class="wow flipInX" data-wow-delay="0.1s" src="img/port01.jpg" alt="">
+                </div>
+                <div class="txt">
+                    <div class="no">02. <strong>/20</strong></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium, deleniti, dicta est
+                        expedita illum ipsam laudantium magni optio quasi, sapiente vero.</p>
+                </div>
+            </li>
+
+        </ul>
+
+        <br><br>
+        <h4>Преимущества нашей продукции</h4>
+
+        <ul class="preim">
+            <li class="wow bounceIn" data-wow-delay="0.1s">Высокое качество
+                <p>Следуя лучшим европейским традициям, мы создаем лучшие образцы продукции на рынке</p>
+            <li class="wow bounceIn" data-wow-delay="0.3s">Длительная эксплуатация
+                <p>Мы гарантируем сохранность
+                    всех качественных характеристик
+                    на протяжении всего гарантийного срока
+                    всего гарантийного срока</p>
+            <li class="wow bounceIn" data-wow-delay="0.5s">Архитектурные формы под заказ
+                <p>Конструкторский потенциал и производственные мощности позволяют нам создавать неповторимые конструкции</p>
+            <li class="wow bounceIn" data-wow-delay="0.7s">Фиксируемая стоимость
+                <p>После того, как мы произвели расчет
+                    и заказ поступил в производство,
+                    мы не требуем доплат
+                    доплат</p>
+        </ul>
+
+    </div>
+</section>
+
+
+<section class="part6">
+    <div class="wr">
+        <h4>Как мы работаем с клиентами</h4>
+
+        <ul class="cir">
+            <li class="wow flipInY" data-wow-delay="0.1s"><ins></ins><i>01.</i>Вы звоните нам
+                или оставляете заявку
+                на сайте
+            <li class="wow flipInY" data-wow-delay="0.3s"><ins></ins><i>02.</i>Мы выезжаем к вам
+                и делаем все
+                необходимые замеры
+            <li class="wow flipInY" data-wow-delay="0.5s"><ins></ins><i>03.</i>Разрабатываем проект
+                и рассчитываем
+                фиксированную
+                стоимость
+            <li class="wow flipInY" data-wow-delay="1.1s"><ins></ins><i>05.</i>Доставляем конструкции,
+                производим монтаж, убираем за собой мусор
+            <li class="wow flipInY" data-wow-delay="0.7s"><ins></ins><i>04.</i>Мы сдаем объект,
+                вы производите оплату
+        </ul>
+
+        <form class="wow flipInX" data-wow-delay="0.1s" id="f2" action="send.php" method="post">
+            <h4>Заполните поля <br>и наши специалисты <br>свяжутся с вами</h4>
+
+            <input type="text"  name="name" placeholder="Как к Вам обращаться">
+            <input class="-half" type="text" name="phone" placeholder="Ваш телефон"><input class="-half" type="text" name="mail" placeholder="Ваша почта">
+
+            <input type='hidden' name="mailing" />
+            <input type='hidden' name="from" value="Главная страница. Обращайтесь к нам. Консультакия менеджера."/>
+            <input type="submit" value="Консультация менеджера" onclick="pend(  this.parentNode.getAttribute('id')  ); return false">
+        </form>
+
+        <div class="ost">Оставьте работу профессионалам
+        <strong class="wow flipInX" data-wow-delay="0.1s">Обращайтесь <br>
+            к нам!</strong></div>
+    </div>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.4112604275488!2d30.47277427550318!3d50.45206596730862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce8650d8309f%3A0x3938b08f34ecaaae!2zMUIsINCy0YPQuy4g0KjQvtC70YPQtNC10L3QutCwLCAx0JEsINCa0LjRl9Cy!5e0!3m2!1sru!2sua!4v1462747071973" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+
+    <footer>
+        <p>Звоните:
+            <strong class="wow flipInX" data-wow-delay="0.1s"><a href="tel:093-325-09-79">(093) 325 09 79</a> <br>
+                <a href="tel:050-973-03-66">(050) 973 03 66</a></strong>
+        </p>
+        <p>Пишите:
+            <strong class="wow flipInX" data-wow-delay="0.3s">altex.grup@gmail.com</strong>
+        </p>
+        <p>Приходите:
+            <strong class="wow flipInX" data-wow-delay="0.5s">Киев, ул. Шолуденко 1-б</strong>
+        </p>
+
+        <p class="copy">2016 © AltexGroup <span>Разработка и поддержка <a href="">Landing.ua</a></span></p>
+    </footer>
+
+</section>
+
+
+<script src="js/jquery-1.9.1.js"></script>
+<script src="js/script.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script src="js/lightbox-2.6.min.js"></script>
+
+</body>
+</html>
