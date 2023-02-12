@@ -71,8 +71,8 @@
 Лендинг для metroplus.ge [web](https://sv-m.github.io/archive/metroplus.ge/)
 ([files](/archive/metroplus.ge))
 
-Лендинг для stagvetsinc.org [web](https://sv-m.github.io/archive/stagvetsinc.org/)
-([files](/archive/stagvetsinc.org))
+Лендинг для stagvet.org [web](https://sv-m.github.io/archive/stagvet.org/)
+([files](/archive/stagvet.org))
 
 
 ----
