@@ -20,11 +20,15 @@
 Сайт [numi.ua](https://sv-m.github.io/archive/numi.ua/)
 ( [files](/archive/numi.ua) )
 
-Сайт [evakuatordp.com](https://sv-m.github.io/archive/evakuatordp.com)
+Сайт [evakuatordp.com](https://sv-m.github.io/archive/evakuatordp.com/)
 ( [files](/archive/evakuatordp.com) )
 
-Сайт [privat-vuz.ua](https://sv-m.github.io/archive/privat-vuz.ua)
+Сайт [privat-vuz.ua](https://sv-m.github.io/archive/privat-vuz.ua/)
 ( [files](/archive/privat-vuz.ua) )
+
+
+Сайт [baris.kz](https://sv-m.github.io/archive/baris.kz/)
+( [files](/archive/baris.kz) )
 
 
 ----
