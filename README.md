@@ -38,6 +38,9 @@
 Сайт [xxk.ru](https://sv-m.github.io/archive/xxk.ru/)
 ([files](/archive/xxk.ru))
 
+Сайт [kluchi.kz](https://sv-m.github.io/archive/kluchi.kz/)
+([files](/archive/kluchi.kz))
+
 ----
 
 Лендинг для 109roz.ru [web](https://sv-m.github.io/archive/109roz.ru/) 
