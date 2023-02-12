@@ -1,0 +1,148 @@
+@import '../base/mixins';
+
+#slid {
+    & {
+        position: relative;
+    }
+
+    &,
+    li {
+        width: 100%;
+        height: 770px;
+    }
+
+    li {
+        @include transition(all 1s ease 0s);
+
+        position: absolute;
+
+        overflow: hidden;
+
+        list-style: none;
+    }
+
+    &.fade {
+        li {
+            opacity: 0;
+
+            &.active {
+                z-index: 10;
+
+                opacity: 1;
+            }
+        }
+    }
+
+    &.slide {
+        li {
+            width: 0;
+
+            list-style: none;
+
+            opacity: 1;
+
+            .active {
+                z-index: 10;
+                right: 0;
+
+                width: 100%;
+            }
+        }
+    }
+
+    nav {
+        & {
+            position: relative;
+            z-index: 20;
+            top: 350px;
+
+            text-align-last: center;
+        }
+        a {
+            display: inline-block;
+
+            width: 15px;
+            height: 15px;
+            margin-right: 10px;
+
+            opacity: 1;
+            border: 1px solid $color-0-1;
+            border-radius: 50%;
+            background: $white;
+
+            &.active {
+                background: $color-0-1;
+            }
+
+            &:hover {
+                border: 1px solid $color-0-1;
+            }
+
+            &:active {
+                position: relative;
+                top: 1px;
+            }
+        }
+    }
+
+
+    ins,
+    del {
+        position: absolute;
+        z-index: 10000;
+
+        display: block;
+
+        width: 40px;
+        height: 40px;
+        margin-top: 340px;
+
+        cursor: pointer;
+
+        opacity: 0.5;
+        //border: 1px solid $color-0-1;
+        //border-radius: 50%;
+
+        &:before {
+            position: absolute;
+            top: 14px;
+
+            display: block;
+
+            width: 30px;
+            height: 30px;
+
+            content: '';
+
+            opacity: .7;
+            border: 3px solid $white;
+            border-width: 6px 6px 0 0;
+            box-shadow: 2px -3px 3px -1px $black;
+            border-radius: 6px;
+        }
+
+        &:hover {
+            opacity: 1;
+            //background: $white;
+        }
+    }
+
+    ins {
+        left: 20px;
+
+        &:before {
+            @include transform( rotate(225deg));
+
+            margin-left: 15px;
+        }
+    }
+    del {
+        right: 20px;
+
+        &:before {
+            @include transform( rotate(45deg));
+
+            margin-left: 12px;
+        }
+    }
+}

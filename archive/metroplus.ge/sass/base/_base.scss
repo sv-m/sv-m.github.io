@@ -1,0 +1,135 @@
+/**
+* Set global box model
+*/
+@import 'colors';
+@import "mixins";
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+:focus {
+    outline: 0;
+}
+
+html,
+body {
+    height: 100%;
+    min-width: 320px;
+}
+
+body {
+    font: 300 15px/1.2 'PT Serif', sans-serif;
+    color: $font-color;
+    display: table;
+    height: 100%;
+    width: 100%;
+
+    @media (max-width:1280px){
+        display: block;
+    }
+}
+
+.wrapper {
+    display:  block;
+    height: 100%;
+
+    @media (max-width:1280px){
+        display: none;
+    }
+}
+
+main {
+    overflow: hidden;
+}
+
+aside {
+    width: 200px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+.wr {
+    min-width: 310px;
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: $color-0-2;
+
+    &:hover {
+        color: $color-0-2;;
+        border-bottom-color: transparent;
+    }
+
+    @include transition( .3s ease);
+}
+
+h1,
+h2 {
+    margin: 0 auto 5px auto;
+    font-weight: normal;
+}
+
+h1{
+    font-size: 30px;
+    line-height: 120%;
+    color: $pantone-01;
+}
+h2 {
+    font-size: 25px;
+    line-height: 130%;
+    color: $pantone-03;
+}
+
+p {
+    margin: 0 0 10px 0;
+}
+
+.button {
+    display: inline-block;
+    overflow: visible;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 20px 35px;
+
+    cursor: pointer;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+
+    color: #fff;
+    border: 0 none;
+    border-radius: 32px;
+    outline: 0;
+    background: #ff8300;
+
+    font-size: 18px;
+
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+
+    &:hover {
+        color: $secondary-color;
+    }
+}
+

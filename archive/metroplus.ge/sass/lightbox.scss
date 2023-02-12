@@ -1,0 +1,227 @@
+@import "base/_mixins";
+
+//body{
+//  &:after{
+//    display: none;
+//  }
+//}
+
+.lightboxOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: black;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+  display: none;
+}
+
+.lightbox {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  text-align: center;
+  line-height: 0;
+  font-weight: normal;
+
+  .lb-image {
+    @include border-radius(3px);
+
+    display: block;
+    height: auto;
+    max-width: inherit;
+  }
+
+  a > img {
+    border: none;
+  }
+}
+
+.lb-{
+  &outerContainer {
+    @include border-radius(4px);
+
+    position: relative;
+    background-color: white;
+    *zoom: 1;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }
+
+  &container {
+    padding: 4px;
+
+    & > .nav {
+      left: 0;
+    }
+  }
+
+  &loader {
+    position: absolute;
+    top: 43%;
+    left: 0%;
+    height: 25%;
+    width: 100%;
+    text-align: center;
+    line-height: 0;
+  }
+
+  &cancel {
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+    //Preloader image
+  }
+
+  &nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+
+    a {
+      outline: none;
+      border: none;
+    }
+  }
+  &prev,
+  &next {
+    width: 49%;
+    height: 100%;
+    cursor: pointer;
+    /* Trick IE into showing hover */
+    display: block;
+    position: relative;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+
+    &:before,
+    &:after {
+      @include transform(rotate(-45deg));
+
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      width: 47px;
+      height: 7px;
+      background: #fff;
+      content: "";
+      margin-top: 9px;
+      box-shadow: 0px -3px 6px -3px;
+
+    }
+    &:after {
+      margin-top: -18px;
+
+      @include transform(rotate(45deg));
+    }
+
+    &:hover {
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+      opacity: 1;
+    }
+  }
+
+  &prev {
+    left: 0;
+    float: left;
+
+    @include transition(opacity 0.6s);
+    @include transform(rotate(180deg));
+  }
+
+  &next {
+    right: 0;
+    float: right;
+  }
+
+  &dataContainer {
+    margin: 0 auto;
+    padding-top: 5px;
+    *zoom: 1;
+    width: 100%;
+
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }
+
+  &data {
+    &{
+      padding: 0 4px;
+      color: #bbbbbb;
+    }
+
+    .lb-details {
+      width: 85%;
+      float: left;
+      text-align: left;
+      line-height: 1.1em;
+    }
+
+    .lb-caption {
+      font-size: 13px;
+      font-weight: bold;
+      line-height: 1em;
+    }
+
+    .lb-number {
+      display: block;
+      clear: left;
+      padding-bottom: 1em;
+      font-size: 12px;
+      color: #999999;
+    }
+
+    .lb-close {
+      display: block;
+      float: right;
+      width: 30px;
+      height: 30px;
+      text-align: right;
+      outline: none;
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+      opacity: 0.7;
+      border: none;
+      position: relative;
+
+      @include transition(opacity 0.2s);
+
+      &:before,
+      &:after {
+        @include transform(rotate(-45deg));
+
+        position: absolute;
+        top: 14px;
+        left: -2px;
+        width: 35px;
+        height: 4px;
+        background: #fff;
+        content: "";
+      }
+      &:after {
+        @include transform(rotate(45deg));
+      }
+
+      &:hover {
+        cursor: pointer;
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+        opacity: 1;
+      }
+    }
+  }
+}
