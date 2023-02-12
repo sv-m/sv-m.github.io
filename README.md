@@ -31,12 +31,16 @@
 [friday](https://sv-m.github.io/archive/qwintry.com/003/) - ( [files](archive/qwintry.com) )
 
 Лендинг для pure-pro.ru [web](https://sv-m.github.io/archive/pure-pro.ru/)
+( [files](/archive/pure-pro.ru) )
 
 Лендинг для coloss.ru [web](https://sv-m.github.io/archive/coloss.ru/)
 ( [files](/archive/coloss.ru) )
 
 Лендинг для diamhair.ru [web](https://sv-m.github.io/archive/diamhair.ru/)
 ( [files](/archive/diamhair.ru) )
+
+Лендинг для ipoint.kz [web](https://sv-m.github.io/archive/ipoint.kz/)
+( [files](/archive/ipoint.kz) )
 
 ----
 
