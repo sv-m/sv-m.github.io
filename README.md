@@ -23,6 +23,8 @@
 Сайт [evakuatordp.com](https://sv-m.github.io/archive/evakuatordp.com)
 ( [files](/archive/evakuatordp.com) )
 
+Сайт [privat-vuz.ua](https://sv-m.github.io/archive/privat-vuz.ua)
+( [files](/archive/privat-vuz.ua) )
 
 
 ----
