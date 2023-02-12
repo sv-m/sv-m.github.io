@@ -68,13 +68,13 @@
 Лендинг для metroplus.ge [web](https://sv-m.github.io/archive/metroplus.ge/)
 ([files](/archive/metroplus.ge))
 
-Лендинг для stagvet.org [web](https://sv-m.github.io/archive/stagvet.org/)
+Страничка для stagvet.org [web](https://sv-m.github.io/archive/stagvet.org/)
 ([files](/archive/stagvet.org))
 
 Страничка для orlov.com.ua [web](https://sv-m.github.io/archive/orlov.com.ua/)
 ([files](/archive/orlov.com.ua))
 
-Страничка для sacura.dp.ua [web](https://sv-m.github.io/archive/sacura.dp.ua/)
+Лендинг для sacura.dp.ua [web](https://sv-m.github.io/archive/sacura.dp.ua/)
 ([files](/archive/sacura.dp.ua))
 
 ----
