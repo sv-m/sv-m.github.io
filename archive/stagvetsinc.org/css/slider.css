@@ -1,0 +1,112 @@
+
+/* sizes */
+
+#sli, #sli section {
+	width: 100%;
+	height:600px;
+}
+/* Slider*/
+#sli {
+	margin: 0;
+	position: relative;
+	overflow: hidden;
+}
+#sli section {
+	position: absolute;
+	overflow: hidden;
+	list-style: none;
+	background: #fff;
+-webkit-transition: all 1s ease 0s;
+   -moz-transition: all 1s ease 0s;
+     -o-transition: all 1s ease 0s;
+        transition: all 1s ease 0s;
+       background-size: cover;
+}
+#sli.fade section {
+	opacity: 0;
+}
+#sli.fade section.active {
+	z-index: 10;
+	opacity: 1;
+}
+#sli.slide section{
+	width: 0;
+	opacity: 1;
+	list-style: none;
+}
+#sli.slide section.active {
+	z-index: 10;
+	width: 100%;
+	right: 0;
+}
+/*Navigations*/
+#sli nav {
+	position: absolute;
+	margin-top: 370px;
+	z-index: 20;
+	text-align: center;
+	width: 100%;
+	bottom: 20px;
+}
+#sli nav a {
+	height: 40px;
+	line-height: 40px;
+	background: #ccc;
+	color: #999;
+	opacity: 0.7;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0px 14px;
+-webkit-transition: all 1s ease 0s;
+   -moz-transition: all 1s ease 0s;
+     -o-transition: all 1s ease 0s;
+        transition: all 1s ease 0s;
+}
+#sli nav a.active, #sli nav a.active:hover {
+	background: #ab9b7a;
+	color: #fff;
+	opacity: 1;
+	cursor: default;
+}
+#sli nav a:hover{
+	color: #fff;
+	opacity: 1;
+	background: gray;
+	color: #fff;
+}
+#sli nav a:active {
+	box-shadow: inset 1px 1px 2px #000;
+}
+#sli ins, #sli del {
+	display: block;
+	position: absolute;
+	width: 57px;
+	height: 122px;
+	z-index: 10000;
+	cursor: pointer;	
+	margin-top: -70px;
+	opacity: 0.5;
+	top: 50%;
+-webkit-transition: all 1s ease 0s;
+   -moz-transition: all 1s ease 0s;
+     -o-transition: all 1s ease 0s;
+        transition: all 1s ease 0s;
+}
+#sli ins:hover, #sli del:hover {
+	opacity: 1;
+}
+#sli ins {
+	left:-30px;
+	background: url(../img/arr1.png) no-repeat center center;
+}
+#sli ins:hover {
+	left: 0;
+}
+#sli del {
+	right: -30px;
+	background: url(../img/arr12.png) no-repeat center center;
+}
+#sli del:hover {
+	right: 0;
+}

@@ -1,0 +1,350 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url(reset.css);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700&subset=latin,cyrillic);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+a {
+	color: #3399cc;
+	outline: none;
+	text-decoration: underline;
+	cursor: pointer;
+}
+a:hover {
+	color: red;
+	text-decoration: none;
+}
+p {
+	margin: 0 0 10px;
+}
+body * {
+	font: 300 14px/140% 'PT Sans', sans-serif;
+	color: #666;
+}
+.wr {
+	width: 1000px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+.center {
+	text-align: center;
+}
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
+.middle {
+	width: 100%;
+	padding: 0 0 80px;
+	height: 1%;
+	position: relative;
+}
+.middle:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.content {
+	margin: 0 270px 0 0;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+header {
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	z-index: 5000000;
+}
+header .logo {
+	display: block;
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: absolute;
+	left: 50%;
+	top: 30px;
+}
+header .logo{
+	margin-left: -180px;
+	width: 360px;
+	height: 103px;
+}
+header p {
+	font-size: 16px;
+}
+aside {	
+	width: 250px;
+	position: relative;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px;
+}
+aside.left {
+	float: left;
+}
+aside.right {
+	float: right;	
+}
+footer {
+	height: 20px;
+	width: 100%;
+	position: relative;
+	position: fixed;
+	bottom: 0px;
+	background: #fff;
+	z-index: 5000001;
+}
+footer p {
+	font-size: 12px;
+	line-height: 19px;
+}
+.copy {
+	float: right;
+}
+
+#sli section .wr {
+	padding-top: 200px;
+	padding-bottom: 100px;
+}
+strong { font-weight: 600;}
+h6 {
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+
+}
+h5 {
+	font: 700 14px/140% 'PT Sans', sans-serif;
+}
+.donatepay {
+	background: #ab9b7a;
+	width: 300px;
+	margin: 20px auto;
+	border-radius: 10px;
+	padding: 20px; 
+	text-align: center;
+	float: right;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+.donatepay input {
+	width: 120px;
+	height: 30px;
+	background: #fff;
+	color: #555;
+	text-align: center;
+	padding: 2px 0px;
+	border: none;
+	border-radius: 3px;
+	border: 1px solid #221f18;
+}
+.donatepay input[type=text] {
+	width: 60px;
+}
+.donatepay input[type=submit] {
+	background: #998675;
+	opacity: 0.8;
+	color: #000;
+	text-transform: uppercase;
+}
+.donatepay input[type=submit]:hover{
+	opacity: 1	;
+}
+.donatepay input[type=submit]:active {
+	position: relative;
+	top: 2px;
+}
+.lang {
+	float: left;
+	margin-top: 80px;
+}
+.lang a {
+	display: inline-block;
+	padding: 2px 10px;
+	color: #fff;
+	opacity: 0.5;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+}
+.lang a:hover {
+	opacity: 1;
+}
+.lang a.active {
+	opacity: 1;
+	color: #000;
+	background: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0);
+}
+.socials {
+	position: relative;
+	margin-top: 75px;
+	float: right;
+}
+.socials a {
+	float: right;
+	display: inline-block;
+	height: 20px;
+	margin: 0 0  0 20px;
+	opacity: 0.5;
+	font-family: 'entypo', sans-serif;
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+}
+.socials a:hover{
+	opacity: 1;
+}
+.socials a i {
+	font-family: 'PT Sans';
+	font-size: 12px;
+	top: -3px;
+	position: relative;
+	margin-left: 5px;
+	display: inline-block;
+	color: #fff;
+}
+
+.socials a[title="Google Plus"]:hover {color: red;}
+.socials a[title="Twitter"]:hover {color: #00B0ED;}
+.socials a[title="Facebook"]:hover {color: #3B5998;}
+.socials a[title="Vkontakte"]:hover {color: #56789C;}
+
+button.donate {
+	font-weight: 600;
+	color: #fff;
+	padding: 0;
+	border: none;
+	background: transparent;
+	margin: 75px 0 0 60px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+	opacity: 0.5;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+button.donate:hover{
+	opacity: 1;
+}
+button.donate.active {
+	color: red;
+	opacity: 1;
+}
+header .donatepay {
+	position: absolute;
+	left: 50%;
+	display: none;
+	margin: 18% 0 0 150px;
+	top: 0px;
+}
+header .donatepay.active {
+	display: block;
+
+}
+.content {
+	margin-right: 400px;
+}
+h5 {
+	font-size: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 10px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+}
+.hidden {
+	display: block;
+	position: fixed;
+	height: 300px;
+	width: 100%;
+	z-index: 6000000;
+	background: #fff;
+	top: -300px;
+-webkit-transition: all 1s ease 0s;
+   -moz-transition: all 1s ease 0s;
+     -o-transition: all 1s ease 0s;
+        transition: all 1s ease 0s;
+        box-shadow:  0 0 10px rgba(0,0,0,0.5);
+}
+.hidden.active {
+	top: 0;
+}
+.hidden .arrow {
+	display: block;
+	position: absolute;
+	width: 122px;
+	height: 57px;
+	z-index: 10000;
+	cursor: pointer;	
+	background: url(../img/arr.png) no-repeat center center;
+	margin-top: 280px;
+-webkit-transition: all 1s ease 0s;
+   -moz-transition: all 1s ease 0s;
+     -o-transition: all 1s ease 0s;
+        transition: all 1s ease 0s;
+}
+.hidden .arrow i {
+	display: block;
+	opacity: 0.5;
+	width: 122px;
+	height: 56px;
+	background: url(../img/arr2.png) no-repeat center center;
+}
+.hidden .arrow:hover{
+	margin-top: 290px;
+}
+.hidden .arrow:hover i{
+	opacity: 1;
+}
+.hidden.active .arrow i {
+  -webkit-transform: rotate(180deg); 
+      -ms-transform: rotate(180deg); 
+          transform: rotate(180deg);
+}
+.hidden .contacts {
+	width: 360px;
+	float: right;
+	padding-top: 20px;
+}
+.hidden .contacts, .hidden .contacts p {
+	font-size: 13px;
+}
+.too {
+	width: 560px;
+	top: 40px;
+	position: relative;
+}
+.too li {
+	float: left;
+	width: 33.33%;
+	text-align: center;
+}
+.too li h3, .too li h3 a {
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 3px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.too li i {
+	display: block;
+	width: 140px;
+	height: 140px;
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+	margin: 10px auto;
+	border-radius: 50%;
+	background-size: cover;
+}
+.too li i:hover{
+	opacity: .8;
+} 
+.too li i a {
+	width: 100%;
+	height: 100%;
+}
+
