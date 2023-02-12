@@ -1,0 +1,70 @@
+@import "_candle.css";
+@import "_clock.css";
+@import "_withukraine.css";
+
+* {
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    align-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+}
+
+section {
+    display: flex;
+    width: 100vw;
+}
+
+.wr {
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.links a {
+    padding: 0 6px;
+}
+
+h1 {
+    font-size: 3em;
+    background: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    font-size: .7em;
+    color: #777;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: .8em;
+    padding-left: .8em;
+
+    margin-bottom: 30px;
+}
+
+p strong {
+    display: block;
+    padding-top: 5px;
+    letter-spacing: 4em;
+    padding-left: 4em;
+}
+
+a {
+    color: orange;
+}
+
+a:hover {
+    text-decoration: none;
+    color: coral;
+}

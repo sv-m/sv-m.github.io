@@ -1,0 +1,83 @@
+.clock {
+    width: 200px;
+    height: 200px;
+    margin: 3em auto 1em;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 -2px 2px rgba(100, 100, 100, .1),
+    inset 0 -2px 2px rgba(100, 100, 100, .1),
+    0 -2px 2px rgba(0,0,0, .1),
+    inset 0 -2px 2px rgba(0,0,0, .1);
+}
+
+.clock:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #888;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 40;
+}
+
+.clock:after {
+    content: '12';
+    position: absolute;
+    top:7px;
+    z-index: 40;
+    opacity: 0.1;
+}
+
+.clock .hr {
+    height: 160px;
+}
+
+.clock .mn {
+    height: 190px;
+}
+
+.clock .sc {
+    height: 180px;
+}
+
+.clock .hr,
+.clock .mn,
+.clock .sc {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    border-right: 50px;
+}
+
+.clock .hr:before,
+.clock .mn:before,
+.clock .sc:before {
+    content: '';
+    position: absolute;
+    border-radius: 5px;
+}
+
+.clock .hr:before {
+    width: 5px;
+    height: 80px;
+    background: #666;
+    z-index: 10;
+}
+
+.clock .mn:before {
+    width: 3px;
+    height: 100px;
+    background: #888;
+    z-index: 11;
+}
+
+.clock .sc:before {
+    width: 1px;
+    height: 120px;
+    background: orange;
+    z-index: 11;
+}
