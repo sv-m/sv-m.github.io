@@ -8,9 +8,6 @@
 Сайт [sudak4x4.com](https://sv-m.github.io/archive/sudak4x4.com/) 
 ( [files](/archive/sudak4x4.com) )
 
-Сайт [dalet.ru](https://sv-m.github.io/archive/dalet.ru/)
-( [files](/archive/dalet.ru) )
-
 Сайт [reshik.top](https://sv-m.github.io/archive/reshik.top/)
 ( [files](/archive/reshik.top) )
 
@@ -26,10 +23,14 @@
 Сайт [privat-vuz.ua](https://sv-m.github.io/archive/privat-vuz.ua/)
 ( [files](/archive/privat-vuz.ua) )
 
+Сайт [rknet.kz](https://sv-m.github.io/archive/rknet.kz/)
+( [files](/archive/rknet.kz) )
+
+Сайт [dalet.ru](https://sv-m.github.io/archive/dalet.ru/)
+( [files](/archive/dalet.ru) )
 
 Сайт [baris.kz](https://sv-m.github.io/archive/baris.kz/)
 ( [files](/archive/baris.kz) )
-
 
 ----
 
