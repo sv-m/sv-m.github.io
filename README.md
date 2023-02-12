@@ -41,6 +41,9 @@
 Сайт [kluchi.kz](https://sv-m.github.io/archive/kluchi.kz/)
 ([files](/archive/kluchi.kz))
 
+Сайт [serafim.info](https://sv-m.github.io/archive/serafim.info/)
+([files](/archive/serafim.info))
+
 ----
 
 Лендинг для 109roz.ru [web](https://sv-m.github.io/archive/109roz.ru/) 
