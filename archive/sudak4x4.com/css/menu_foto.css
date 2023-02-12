@@ -1,0 +1,61 @@
+@charset "utf-8";
+.c01, .c02, .c03, .c04, .c05, .d01, .d02, .d03, .d04, .d05 {
+	text-align: left;
+	position: absolute;
+}
+.c01 p, .c02 p, .c03 p, .c04 p, .c05 p, .d01 p, .d02 p, .d03 p, .d04 p, .d05 p {
+	margin: 0 0 0 20%;
+}
+.c01 strong, .c02 strong, .c03 strong, .c04 strong, .c05 strong, .d01 strong, .d02 strong, .d03 strong, .d04 strong, .d05 strong {
+}
+.c01 a, .c02 a, .c03 a, .c04 a, .c05 a, .d01 a, .d02 a, .d03 a, .d04 a, .d05 a {
+	margin: 0 0 0 20px;
+}
+.c01 img, .c02 img, .c03 img, .c04 img, .c05 img, .d01 img, .d02 img, .d03 img, .d04 img, .d05 img {
+	margin: 20px 0 0 0;
+}
+.c01 {
+	left:26%;
+	top:10px;
+	z-index: 1;
+}
+.c02 {
+	left:39%;
+	top:15px;
+	z-index: 2;
+}
+.c03 {
+	left:52%;
+	top:20px;
+	z-index: 1;
+}
+.c04 {
+	left:63%;
+	top:15px;
+	z-index: 2;
+}
+.c05 {
+	left:79%;
+	top:10px;
+	z-index: 1;
+}
+.d01 {
+	left:43%;
+	top:182px;
+	z-index: 4;
+}
+.d02 {
+	left:30%;
+	top:160px;
+	z-index: 3;
+}
+.d03 {
+	left:57%;
+	top:190px;
+	z-index: 5;
+}
+.d04 {
+	left: 71%;
+	top:200px;
+	z-index: 6;
+}

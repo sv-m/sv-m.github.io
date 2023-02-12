@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+.header_subtitle {
+	position:relative;
+	margin: 0 7% 18px 360px;
+	font: normal 19px/18px "Times New Roman", Times, serif;
+	height: auto;
+	padding: 0 0 18px 0;
+}
+.header_subtitle2 {
+	position:relative;
+	margin: 10px 65% 5px 2%;
+	font: italic 24px/22px Verdana, Arial, Helvetica, sans-serif;
+}
+.subtitle_contbox {
+	margin:10px 0 0 0;
+	padding: 10px 0 20px 0;
+	z-index: 10;
+	display: block;
+}
+h4 .littlesmaller {
+font-size: 16px;}

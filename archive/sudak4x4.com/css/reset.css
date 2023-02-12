@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, a { margin:0; padding:0; border: 0; font-size:100.01%;}
+html, body {
+	font: normal 12px/14px Verdana, Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:0;
+	width:100%;
+	width:100%!important;
+	min-width: 1152px;
+}
+table { border-collapse:collapse; border-spacing:0;}
+fieldset, img { border:0; }
+address, caption, cite, code, dfn, em, strong, th, var { font-weight:bold;}
+caption, th { text-align:left; }
+h1, h2, h3, h4, h5, h6 { font-size:100%;}
+q:before, q:after { content:'' }
+abbr, acronym { border:0; }
+b { text-decoration: none; font-weight: bold;}
+p { margin: 0; padding: 0; border: 0;}
+a:link { color:#f90;}
+a:visited { color:#f90;}
+a:hover { 	color:#0099CC; text-decoration: none;}
+h1 { font: normal 24px/26px Verdana, Arial, Helvetica, sans-serif; margin: 0 0 20px 30px; text-align: left;}
+h2 {
+	font:bold 16px/17px Arial, Helvetica, sans-serif;
+	margin: 3px 0 3px 0;
+}
+h2 a:link  {color: #f90;}
+h2 a:hover { color:#fff;}	
+h3 {font-size:15px; font: 15px/16px bold Arial, Helvetica, sans-serif; color: #f90;}
+h4 {font-size:18px; margin: 10px 10px 8px 8px; font-weight: normal; line-height: 19px;}
+h6 {font-size:12px; font-weight: normal;}
+h7 {font-size:14px; font-weight: normal;}
+.fltlft {float: left; margin-right:8px;}
+.fltrt {float: right; margin-left:8px;}
+.clearfloat {clear:both; height:0; font-size:1px; line-height: 0px;}
+/*RESET*/
+.center { align: center;}
+.right {text-align: right;}
+.left {text-align: left;}
+.clr { clear:both; height:0; font-size:1px; line-height: 0px;}
+.pics { text-align:center; position: relative; height: auto; }
+img.center { text-align: center; vertical-align: bottom; }
+/*IG_CREATIVE_LABEL*/
+img, div, a, input { behavior:  url(iepngfix.htc); }
+.RR_home { display:block; position:relative; width:130px; top:10px; z-index:20; height:35px; margin: 0 0 -35px 5px; left: 0;}
+.RR_home a  {color:#FFF;}
+.RR_home em { display:block; margin: -20px 0 0 32px; font: normal 9px/9px Arial;}
+.RR_home strong {display:block;margin: 1px 0 0 32px;font: normal 14px/10px Georgia;position:relative;}
