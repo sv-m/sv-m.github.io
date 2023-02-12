@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="script.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="style.css">	
+</head>
+<body>
+	<div id="slider">
+		<div id="wrapper">
+			<ul id="content" style="margin-left: 0"><li><img src="1.jpg" alt=""></li><li><img src="2.jpg" alt=""></li><li><img src="3.jpg" alt=""></li><li><img src="4.jpg" alt=""></li></ul>
+		</div>
+		<a id="left"></a><a id="right"></a>
+	</div>
+</body>
+<sctiprt>
+/* Minimal Slider */
+
+var content, step, count, contentWidth, maxPosition, left, right, set,
+	currentPosition = 0,
+	currentStep = 0,
+	move = false,
+	currentStop = 0;
+
+
+function rightm() {
+	hide();
+	currentPosition -= 10; // step; for only step work
+	upadte();
+	if (currentPosition <= currentStop ) { 
+		clearInterval(set);
+		move = false;
+	};
+	hide();
+} 	
+function leftm() {
+	hide();
+	currentPosition += 10;
+	upadte();
+	if (currentPosition >= currentStop ) { 
+		clearInterval(set);
+		move = false;
+	};
+	hide();
+};
+
+function init() {
+	content = document.getElementById("content");
+	mrg = parseInt(content.style.marginLeft);
+	step = document.getElementsByTagName('li')[0].offsetWidth;
+	count = document.getElementById("content").childNodes.length;
+	contentWidth = step * count;
+	maxPosition = - (contentWidth - step);
+	left = document.getElementById("left");
+	right = document.getElementById("right");
+	content.style.width =  contentWidth + 'px';
+	
+	right.addEventListener("click", function(){ 
+		// rightm(); hide(); currentStep++; for only step work
+		if (currentStep>=0&&move==false) {
+			currentStep++;
+			currentStop = -(currentStep*step);
+			set = setInterval( 'rightm()', 10 );
+		}		
+	});	
+
+	left.addEventListener("click", function(){
+		if (currentStep>=0&&move==false) {
+			currentStep--;
+			currentStop = -(currentStep*step);			
+			set = setInterval( 'leftm()', 10);
+		}
+	});	
+
+	hide();
+	return content, maxPosition, currentPosition, move;
+};
+
+function upadte() {
+	content.style.marginLeft = currentPosition + 'px';
+	move = true;
+	//console.log( currentPosition, currentStep, currentStop, move );
+}
+
+function hide(){
+	if (parseInt(content.style.marginLeft) >= 0) {
+		left.style.display = "none";
+		right.style.display = "block"
+	} else if (parseInt(content.style.marginLeft) <= maxPosition){
+		right.style.display = "none";
+		left.style.display = "block"
+	} else {
+		right.style.display = "block";
+		left.style.display = "block"
+	}
+};
+
+window.onload = init;
+</script>
+<style>
+#slider,#wrapper  {
+	width: 620px;
+	height: 320px;
+}
+#slider {
+	position: relative;
+	margin: 30px auto;
+}
+#wrapper {
+	display: block;
+	overflow: hidden;
+	border: 2px solid red;
+}
+#content {
+	height: 320px;
+}
+ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: 0;
+}
+li {
+	float: left;
+	list-style: none;
+}
+a {
+	width: 100px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	border: 1px dotted gray;
+	position: absolute;
+	margin-top: 20px;
+}
+a:hover {
+	background-color: rgba(0, 255, 0, 0.1);
+	cursor: pointer;
+}
+a:active {margin-top: 22px;}
+a:before { content: ""; }
+#left{ left: 0; }		
+#right{ right: 0; }		
+#left:before { content: "<<<"; }
+#right:before { content: ">>>"; }
+</style>
+</html>
