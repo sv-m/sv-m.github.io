@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<!--[if lt IE 9]>
+		<script type="text/javascript" src="js/html5.js"></script>
+		<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+	<![endif]-->
+	<title>Строительные материалы в Самаре "ООО"" Далет. </title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="Продаем строительные материалы в Самаре: фасадные системы, напольные покрытия, краски. Осуществляем укладку линолеума, ламината, ковролина. Утепление фасадовю Магазин строительных материалов." />
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="css/slider.css" type="text/css" media="screen, projection" />
+	<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script src="js/lightbox-2.6.min.js"></script>
+</head>
+
+<body>
+
+<div class="pop" style="display: none">
+	<form id="contactp"  class="callback" style="display: none">
+		<i class='close'></i>
+		<h3>Заказать обратный звонок</h3>
+		<input type="text" name="name" placeholder='Введите Ваше имя'/>
+		<input type="text" name="phone" placeholder='Телефон для обратной связи'/>
+		<input type="text" name="time" placeholder='Удобное время для звонка'/>
+		<input type="text" name="sms" placeholder='Коментарии'/>
+		<input type="text" name="email" placeholder="E-mail"/>
+		<input type="submit" value="Заказать звонок" onclick="pend2(); return false"/>
+	</form>
+	<form id="contactf" class="writeback" style="display: none">
+		<i class='close'></i>
+		<h3>Форма обратной связи</h3>	
+		
+		<input type="text" name="name" placeholder="Имя"/>
+		<input type="text" name="surname" placeholder="Фамилия"/>
+		<input type="text" name="email" placeholder="E-mail"/>
+		<textarea name="sms" placeholder="Введите текст сообщения, все поля обязательны для заполнения"></textarea>	
+		<input type="submit" value="Отправить сообщение" onclick="pend(); return false"/>
+	</form>
+
+<script type="text/javascript">
+function pend() {
+	$.post('mail.php', $('#contactf').serialize(), function(html) {
+		alert(html);
+	});
+}
+function pend2() {
+	$.post('mail.php', $('#contactp').serialize(), function(html) {
+		alert(html);
+	});
+}
+</script>
+</div>
+
+<!-- <a class="color">Хочу ночь</a> -->
+<div class="wrapper">
+	<header class="header">
+		<div class="wr">
+			<a class="back write">Написать письмо </a>
+			<div class="phone">+7 (846) <strong>201-06-63</strong></div>
+			<a class="logo" href="index.html"></a>
+			<div class="dalet">Продаем строительные материалы в Самаре: фасадные системы, напольные покрытия, краски. Осуществляем укладку линолеума, ламината, ковролина. Утепление фасадов</div>
+			<a class="back call">Обратный звонок </a>
+			<div class="phone">+7 (919) <strong>800-86-16</strong></div>
+			<nav>
+				<ul>
+					<li><a href="about.html">О компании</a></li>
+					<li class="bigmenu"><a>Каталог</a><i></i></li>
+					<li><a href="news.html">Новости</a></li>
+					<!-- <li><a href="actions.html">Акции</a></li> -->
+					<li><a href="contact.html">Контакты</a></li>
+				</ul>
+			</nav>
+			<div class="big_menu_katalog" style="display: none">
+				<span>
+					<h3><a href="napolnye_pokrytiya.html">Напольные покрытия</a></h3>
+					<p><a>Линолеум</a></p>
+					<p><a>Ковровые покрытия</a></p>
+					<p><a>Керамогранит</a></p>
+					<p><a>Ламинат</a></p>
+					<p><a>Клея для напольных покрытий</a></p>
+				</span>
+				<span>
+					<h3><a href="facades.html">Системы штукатурных фасадов</a></h3>
+					<p><a>Reinmann</a></p>
+					<p><a>Eco-lux</a></p>
+					<p><a>Parade</a></p>
+				</span>
+				<span>
+					<h3><a href="ecolux-shtukaturka.html">Финишные декоративные штукатурки машинного нанесения Eco-lux</a></h3>
+				</span>
+				<span>
+					<h3><a href="ruchnoj_instrument.html">Ручной строительный инструмент</a></h3>
+				</span>
+				<span>
+					<h3><a href="stroitelnye_smesi.html">Строительные смеси</a></h3>
+					<p><a>Cмеси для пола</a></p>
+					<p><a>Плиточные клеи</a></p>
+					<p><a>Шпаклевки и штукатурки</a></p>
+					<p><a>Кладочные и монтажные смеси</a></p>
+					<p><a>Гидроизоляционные материалы</a></p>
+					<p><a>Грунтовки</a></p>
+				</span>
+				<span>
+					<h3><a href="gkl_gvl_i_komplektuyushhie.html">гкл, гвл и комплектующие</a></h3>
+					<p><a>Гипсокартон</a></p>
+					<p><a>Гипсоволокнистые листы</a></p>
+					<p><a>Профиля</a></p>
+					<p><a>Метизы</a></p>
+				</span>
+				<span>
+					<h3><a href="lakokrasochnaya_produkciya.html">Лакокрасочная продукция</a></h3>
+					<p><a>фасадные краски</a></p>
+					<p><a>Интерьерные краски</a></p>
+					<p><a>Грунты</a></p>
+					<p><a>Лаки</a></p>
+					<p><a>Защитные пропитки</a></p>
+				</span>
+				<span>
+					<h3><a href="teploizolyacionnye_materiali.html">Теплоизоляционные материалы</a></h3>
+					<p><a>Базальтовый утеплитель Euroizol</a></p>
+					<p><a>Пленки-мембраны марки Нано-Изол</a></p>
+				</span>
+				<span>
+					<h3><a>Весь каталог</a></h3>
+				</span>
+			</div>
+		</div>
+	</header><!-- #header-->
+
+	<ul id="sli" class="slide">
+		<li class="pt1 active" style='background-image: url(img/slider001.jpg)'>
+			<div class="wr">
+				<div class="nav">/ <a>Системы штукатурных фасадов</a></div>
+				<h2><a>Системы штукатурных фасадов</a></h2>
+				<p>Штукатурные фасады попадают в среднюю ценовую категорию среди отделочных фасадных материалов. Оштукатуренный фасад предпочитают и владельцы респектабельных домов, и владельцы панельно-каркасных домов.</p>
+			</div>
+		</li>
+		<li class="pt2" style='background-image: url(img/slider002.jpg)'>
+			<div class="wr">
+				<div class="nav">/ <a href="napolnye_pokrytiya.html">Напольные покрытия</a></div>
+				<h2><a>Линолеум</a></h2>
+				<p>ПВХ линолеум - материалом для изготовления служит поливинилхлорид. Этот вид линолеума является самым распространенным и выпускается как без основы, так и на основе, которая может быть тканевой или теплозвукоизолирующей. ПВХ линолеум бывает однослойный (гомогенный) или многослойный (гетерогенный).</p>
+			</div>	
+		</li>
+<!-- 		<li class="pt3" style='background-image: url(img/slider003.jpg)'>
+			<div class="wr">
+				<div class="nav">/ <a>Разное</a></div>
+				<h2><a>С весной Дорогие, <br/>и международным Женским днем</a></h2>
+				<p></p>
+			</div>
+		</li>	 -->
+<!-- 		<li style='background-image: url(img/00001.jpg)'>
+			<div class="wr">
+				<div class="nav">/ <a>Разное</a></div>
+				<h2><a>Коты на полу</a></h2>
+				<p></p>
+			</div>
+		</li> -->	
+		<nav><a class="active"></a></nav>
+		<ins></ins><del></del>
+	</ul>
+
+	<div class="wr">
+	
+	<section class="middle">
+
+		<!-- <h1>Магазин отделочных материалов</h1> -->
+
+		<ul id="bonuses">
+			<li><i></i><p>Качественный сервис</p></li>
+			<li><i></i><p>Продукция от производителей</p></li>
+			<li><i></i><p>Выгодные цены</p></li>
+			<li><i></i><p>Индивидуальный подход к клиентам</p></li>
+		</ul>		
+
+		<ul class="mainrazdel">
+			<li style='background-image: url(img/00013.jpg)'>
+				<h2><a href="napolnye_pokrytiya.html">Напольные <br>покрытия</a></h2>
+			</li>
+			<li style='background-image: url(img/00002.jpg)'>
+				<h2><a href="facades.html">Системы штукатурных фасадов</a></h2>
+			</li>
+			<li style='background-image: url(img/00011.jpg)'>
+				<h2><a href="ecolux-shtukaturka.html">Финишные  штукатурки <br> Eco-lux</a></h2>
+			</li>
+			<li style='background-image: url(img/00012.jpg)'>
+				<h2><a href="stroitelnye_smesi.html">Строительные<br> смеси</a></h2>
+			</li>
+			<li style='background-image: url(img/00005.jpg)'>
+				<h2><a href="gkl_gvl_i_komplektuyushhie.html">гкл, гвл и комплектующие</a></h2>
+			</li>
+			<li style='background-image: url(img/00006.jpg)'>
+				<h2><a href="lakokrasochnaya_produkciya.html">Лакокрасочная<br> продукция</a></h2>
+			</li>
+			<li style='background-image: url(img/00015.jpg)'>
+				<h2><a href="ruchnoj_instrument.html">Ручной строительный<br> инструмент</a></h2>
+			</li>
+			<li style='background-image: url(img/00008.jpg)'>
+				<h2><a href="teploizolyacionnye_materiali.html">Теплоизоляционные<br> материалы</a></h2>
+			</li>
+		</ul>
+
+		<ul class="news" style="display: none">
+			<h3>Новости <a class="vse">Смотреть все</a></h3>
+			<li>
+				<span>27 ноября</span>
+				<h2><a>Кабмин Украины предлагает запретить размещение рекламы на стеклянных поверхностях над транспортных средств общественного пользования.</a></h2>
+				<a class="more">Подробнее</a>
+			</li>
+			<li>
+				<span>18 ноября</span>
+				<h2><a>Обширная группа челюстноротых, для которых характерно жаберное дыхание.парафилетическая группа) водных позвоночных животных. Обширная группа челюстноротых, для которых характерно жаберное дыхание.</a></h2>
+				<a class="more">Подробнее</a>
+			</li>
+			<li>
+				<span>11 ноября</span>
+				<h2><a>Рыбы (лат. Pisces) — надкласс (в Обширная группа челюстноротых, для которых характерно жаберное дыхание. Обширная группа челюстноротых, для которых характерно жаберное дыхание.</a></h2>
+				<a class="more">Подробнее</a>
+			</li>
+		</ul>
+
+		<ul class="super" style="display: none">
+			<h3>Супер-предложения <a class="vse">Смотреть все</a></h3>
+
+			<li style='background-size: cover; background-image: url(http://kazap.ru/sites/default/files/images/10(90).jpg);'>
+				<h4><a>Грунтовка и смеси</a></h4>
+				<strong>от 200 руб</strong>
+			</li>
+			<li style='background-size: cover; background-image: url(http://seosens.ru/wp-content/uploads/2013/06/2012-11-21_kovrolin_dla_doma1-2.jpg);'>
+				<h4><a>Ковролин от производителя</a></h4>
+				<strong>от 200 руб</strong>
+			</li>
+			<li style='background-size: cover; background-image: url(http://www.mir-krepega.ru/img/shurupy.jpg);'>
+				<h4><a>Шуруп</a></h4>
+				<strong>от 200 руб</strong>
+			</li>
+			<li style='background-size: cover; background-image: url(http://storgom.com.ua/uploads/imagebox/gazonokosilka-benzinovaya.jpg);'>
+				<h4><a>Газонокосилка</a></h4>
+				<strong>от 200 руб</strong>
+			</li>
+		</ul>
+
+		<div class="slider partners ">
+			<ul class="slide-list menu">
+				<ul class="slide-wrap">
+					<li class="slide-item"><i><img src="img/logos/001.jpg"></i></li>
+					<li class="slide-item"><i><img src="img/logos/002.jpg"></i></li>
+					<li class="slide-item"><i><img src="img/logos/003.jpg"></i></li>
+					<li class="slide-item"><i><img src="img/logos/004.jpg"></i></li>
+					<li class="slide-item"><i><img src="img/logos/005.jpg"></i></li>
+					<li class="slide-item"><i><img src="img/logos/006.jpg"></i></li>
+					<li class="slide-item"><i><img src="img/logos/007.jpg"></i></li>
+					<li class="slide-item"><i><img src="img/logos/008.jpg"></i></li>
+					<li class="slide-item"><i><img src="img/logos/009.jpg"></i></li>
+					<li class="slide-item"><i><img src="img/logos/010.jpg"></i></li>
+					<li class="slide-item"><i><img src="img/logos/011.jpg"></i></li>
+					<li class="slide-item"><i><img src="img/logos/012.jpg"></i></li>
+					<li class="slide-item"><i><img src="img/logos/013.jpg"></i></li>
+				</ul>			
+			<div class="clear"></div>
+			</ul>
+			<ins></ins>
+			<del></del>
+		</div>
+
+		
+		</div><!-- #container-->
+	</section><!-- #middle-->
+	</div>
+</div><!-- #wrapper -->
+
+<footer class="footer">
+	<div class="wr">
+		<p>©  2012–2014  ООО «<a href="index.html">Далет Групп</a>»<br />Все права защищены</p>
+			<span class="socs"> Социальные сети:
+				<a class="vk"></a>
+				<a class="fb"></a>
+				<a class="tw"></a>
+			</span>
+		<nav>
+			<ul>
+				<li><a href="about.html">О компании</a></li>
+				<li><a href="news.html">Новости</a></li>
+				<!-- <li><a href="actions.html">Акции</a></li> -->
+				<li><a href="contact.html">Контакты</a></li>
+			</ul>
+		</nav>
+	</div>
+</footer><!-- #footer -->
+<!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter29339320 = new Ya.Metrika({id:29339320, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/29339320" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+
+</body>
+</html>

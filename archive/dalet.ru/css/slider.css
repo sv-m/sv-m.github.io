@@ -1,0 +1,158 @@
+#sli, #sli > li {
+	height: 520px;
+}
+#sli {
+	width: 100%;
+	margin: 0 auto 30px;
+	position: relative;
+	background: #fff;
+	background-size: cover;
+	z-index: 1;
+}
+#sli > li{
+	position: absolute;
+	width: 100%;
+	overflow: hidden;
+	list-style: none;
+-webkit-transition: all 1s ease 0s;
+   -moz-transition: all 1s ease 0s;
+     -o-transition: all 1s ease 0s;
+        transition: all 1s ease 0s;
+
+        background-size: cover; 
+}
+#sli.fade > li {
+	opacity: 0;
+}
+#sli.fade > li.active {
+	z-index: 10;
+	opacity: 1;
+}
+#sli.slide > li{
+	width: 0;
+	opacity: 1;
+	list-style: none;
+}
+#sli.slide  > li.active {
+	z-index: 10;
+	width: 100%;
+	right: 0;
+}
+#sli nav {
+	position: absolute;
+	margin-top: 450px;
+	z-index: 20;
+	text-align: center;
+	width: 100%;
+}
+#sli nav a {
+	width: 11px;
+	height: 11px;
+	background: #fff;
+	display: inline-block;
+	margin-right: 6px;
+	border-radius: 50%;
+	border: 2px solid #d6622b;
+}
+#sli nav a:last-child {
+	margin-right: 0px;
+}
+#sli nav a.active {
+	background: #d6622b;
+}
+#sli nav a:hover{
+	border: 1px solid #d6622b;
+	background: #e2e2e2;
+}
+#sli nav a:active {
+	border: 1px solid #fff;
+	box-shadow: inset 1px 1px 2px #000;
+}
+#sli ins, #sli del {
+	display: block;
+	position: absolute;
+	width: 30px;
+	height: 50px;
+	z-index: 10000;
+	cursor: pointer;	
+	margin-top: 210px;
+	opacity: 0.5;
+	top: 15px;
+	background: url(../img/strelka-slider.png) no-repeat center center;
+	/*border: 1px solid red;*/
+}
+#sli ins:hover, #sli del:hover {
+	opacity: 1;
+}
+#sli ins {
+	left: 20px;
+	-webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+#sli del {
+	right: 20px;
+}
+
+/*----------------------------------------------------------------*/
+
+#sli .nav {
+	color: #fff;
+	margin-top: 150px;
+	margin-bottom: 20px;
+	text-shadow: 1px 1px #000;
+}
+#sli .nav a {
+	color: #fff;
+	font-size: 15px;
+}
+
+#sli h2 {
+	display: inline;
+	font-size: 40px;
+	background-color: #d6622b;
+	line-height: 1.2;
+	box-shadow: -8px 0 0 1px #d6622b, 8px 0 0 1px #d6622b;
+	color: #fff;
+	font-weight: 300;
+}
+#sli h2 a {
+	color: #fff;
+	border-bottom: transparent;
+}
+#sli p {
+	color: #fff;
+	text-shadow: 1px 1px #000;
+	max-width: 400px;
+	font-size: 18px;
+	font-weight: 400;
+	margin-top: 20px;
+}
+#sli ol li {
+	width: 350px;
+	margin-left: 60px;
+	font-size: 13px;
+	line-height: 130%;
+	color: #FFF;
+	background: url(../img/li-advantages.png) no-repeat 5px 0;
+	padding-left: 30px;
+}
+#sli .looks {
+	display: block;
+	width: 180px;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	background: #e86264;
+	border-radius: 2px;
+	margin-left: 60px;
+	margin-top: 20px;
+	font-size: 15px;
+}
+#sli .looks:hover {
+	opacity: 0.8;
+}

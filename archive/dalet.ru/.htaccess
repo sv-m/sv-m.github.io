@@ -1,0 +1,10 @@
+ErrorDocument 401 /index.html
+ErrorDocument 403 /index.html
+ErrorDocument 404 /index.html
+ErrorDocument 500 /index.html
+
+AddHandler server-parsed .shtml .html .htm
+AddHandler x-httpd-php .html .htm
+AddType text/html .html .htm
+AddType application/x-httpd-php .html .htm
+AddHandler application/x-httpd-php .php .html .htm
