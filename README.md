@@ -45,6 +45,9 @@
 Лендинг для ipoint.kz [web](https://sv-m.github.io/archive/ipoint.kz/)
 ( [files](/archive/ipoint.kz) )
 
+Лендинг для metroplus.ge [web](https://sv-m.github.io/archive/metroplus.ge/)
+( [files](/archive/metroplus.ge) )
+
 ----
 
 ### Полезные ссылки для разработчиков
