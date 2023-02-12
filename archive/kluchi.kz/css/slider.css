@@ -1,0 +1,121 @@
+#sli {
+	width: 870px;
+	height: 400px;
+	margin: 20px 0;
+	margin-left: 10px;
+	position: relative;
+}
+#sli li{
+	position: absolute;
+	list-style: none;
+	width: 870px;
+	height: 400px;
+	overflow: hidden;
+	background: #fff;
+	background-size: 870px;
+-webkit-transition: all 1s ease 0s;
+   -moz-transition: all 1s ease 0s;
+	 -o-transition: all 1s ease 0s;
+		transition: all 1s ease 0s;
+}
+#sli.fade li {
+	opacity: 0;
+}
+#sli.fade li.active {
+	z-index: 10;
+	opacity: 1;
+}
+#sli.slide li{
+	width: 0;
+	opacity: 1;
+	list-style: none;
+}
+#sli.slide li.active {
+	z-index: 10;
+	width: 100%;
+	right: 0;
+}
+#sli nav {
+	position: absolute;
+	margin-top: 350px;
+	margin-left: 20px;
+	z-index: 20;
+}
+#sli nav a {
+	width: 40px;
+	height: 10px;
+	background: #fff;
+	opacity: 1;
+	display: inline-block;
+	margin-right: 10px;
+}
+#sli nav a.active {
+	background: #0876d3;
+}
+#sli nav a:hover{
+	border: 2px solid #0876d3;;
+}
+#sli nav a:active {
+	position: relative;
+	top: 1px;
+}
+#sli ins, #sli del {
+	display: block;
+	position: absolute;
+	width: 20px;
+	height: 60px;
+	z-index: 10000;
+	cursor: pointer;	
+	margin-top: 150px;
+	background: #fff;
+	opacity: 0.2;
+}
+#sli ins:hover, #sli del:hover {
+	opacity: .7;
+}
+#sli ins {
+	left: 20px;
+}
+#sli del {
+	right: 20px;
+}
+#sli li span {
+	display: block;
+	background: rgba(0,0,0,0.7);
+	margin: 235px 0 0 20px;
+	width: 830px;
+	padding: 20px;
+}
+#sli li h2 {
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden; 
+}
+#sli li h3 {
+	font-size: 15px;
+	color: #fff;
+	font-weight: 300;
+	margin-bottom: 10px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden; 
+}
+#sli li h2 a, #sli li h2 a {
+	text-decoration: none;
+	color: #fff;
+}
+#sli li h2 a:hover, #sli li h2 a:hover {
+	color: #0876d3;
+}
+#sli li strong {
+	background: #0876d3;
+	font-size: 18px;
+	color: #fff;
+	font-weight: 700;
+	padding: 10px 20px;
+	float: right;
+}
