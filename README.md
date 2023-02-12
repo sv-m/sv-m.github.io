@@ -158,3 +158,10 @@
 
 [https://get.foundation/](https://get.foundation/) - Foundation
 
+[https://materializecss.com/](https://materializecss.com/) - Materialize
+
+[https://getbem.com/](https://getbem.com/) - BEM
+
+### Additional 
+
+[https://prettier.io/](https://prettier.io/) 
