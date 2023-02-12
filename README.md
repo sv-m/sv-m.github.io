@@ -40,9 +40,6 @@
 
 ----
 
-Страничка для orlov.com.ua [web](https://sv-m.github.io/archive/orlov.com.ua/)
-([files](/archive/orlov.com.ua))
-
 Лендинг для 109roz.ru [web](https://sv-m.github.io/archive/109roz.ru/) 
 ( [short](https://tinyurl.com/yc7cr62r)) 
 ([files](/archive/109roz.ru))
@@ -74,12 +71,17 @@
 Лендинг для stagvet.org [web](https://sv-m.github.io/archive/stagvet.org/)
 ([files](/archive/stagvet.org))
 
+Страничка для orlov.com.ua [web](https://sv-m.github.io/archive/orlov.com.ua/)
+([files](/archive/orlov.com.ua))
+
+Страничка для sacura.dp.ua [web](https://sv-m.github.io/archive/sacura.dp.ua/)
+([files](/archive/sacura.dp.ua))
 
 ----
 
 ### Полезные ссылки для разработчиков
 
-https://answerthepublic.com/ - поброр запросов интерент
+https://answerthepublic.com/ - подбор запросов интерент
 
 https://www.cutout.pro/ - обтравка видео фото
 
