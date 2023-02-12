@@ -106,3 +106,53 @@
 [https://earthquaketrack.ru/](https://earthquaketrack.ru/) - карта активных сейсмических зон
 
 [http://ru.timeofdate.com/](http://ru.timeofdate.com/) - разница временных поясов 
+
+[https://www.freeformatter.com/](https://www.freeformatter.com/) - преобразование форматов
+
+[https://heroicons.dev/](https://heroicons.dev/) - svg иконки
+
+
+### HTML - редакторы
+
+[https://www.jetbrains.com/phpstorm/promo/](https://www.jetbrains.com/phpstorm/promo/) - PHP Storm
+
+[https://www.sublimetext.com/](https://www.sublimetext.com/) - Sublime Text
+
+[https://code.visualstudio.com/](https://code.visualstudio.com/) - Visual Studio
+
+[https://macromates.com/](https://macromates.com/) - TextMate
+
+[https://notepad-plus-plus.org/downloads/](https://notepad-plus-plus.org/downloads/) - Notepad ++
+
+[https://brackets.io/](https://brackets.io/) - Brackets 
+
+### JS
+
+[https://alpinejs.dev/](https://alpinejs.dev/) - Alpine.js
+
+[https://vuejs.org/](https://vuejs.org/) - Vue.js
+
+[https://reactjs.org/](https://reactjs.org/) - React.js
+
+[https://angular.io/](https://angular.io/) - Angular.js
+
+[https://requirejs.org/](https://requirejs.org/) - Require.js
+
+[https://www.typescriptlang.org/](https://www.typescriptlang.org/) -TypeScript
+
+[https://nodejs.org/en/](https://nodejs.org/en/) - Node.js
+[
+https://deno.land/](https://deno.land/) - Deno
+
+### CSS
+
+[https://tailwindui.com/](https://tailwindui.com/) - Tailwind
+
+[https://sass-lang.com/](https://sass-lang.com/) - SASS
+
+[https://lesscss.org/](https://lesscss.org/) - Less
+
+[https://getbootstrap.com/](https://getbootstrap.com/) - Bootstrap
+
+[https://get.foundation/](https://get.foundation/) - Foundation
+
