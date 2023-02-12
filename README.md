@@ -32,6 +32,9 @@
 
 Лендинг для pure-pro.ru [web](https://sv-m.github.io/archive/pure-pro.ru/)
 
+Лендинг для coloss.ru [web](https://sv-m.github.io/archive/coloss.ru/)
+( [files](/archive/coloss.ru) )
+
 ----
 
 ### Полезные ссылки для разработчиков
