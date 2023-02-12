@@ -1,0 +1,145 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+vertical-align: baseline;
+background: transparent;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+:focus {
+outline: 0;
+}
+ins {
+text-decoration: none;
+}
+del {
+text-decoration: line-through;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+html {
+height: 100%;
+}
+header, nav, section, article, aside, footer {
+display: block;
+}
+body {
+font: normal 14px/16px Tahoma;
+width: 100%;
+height: 100%;
+}
+a {
+color: blue;
+cursor: pointer;
+outline: none;
+text-decoration: underline;
+}
+a:hover {
+text-decoration: none;
+}
+p {
+font: normal 14px/16px Tahoma;
+margin: 0 0 18px
+}
+img {
+border: none;
+}
+input {
+vertical-align: middle;
+}
+h1{
+font: 38px/40px PT Sans Caption;
+}
+h2 {
+font: normal 14px/16px Tahoma;
+color: #3a6ab1;
+}
+h3 {
+font: bold 18px/20px Tahoma;
+margin: 0 0 8px ;
+color: #3A6AB1;
+padding: 0 0 0 4px;
+}
+h4 {
+font: normal 14px/16px tahoma;
+}
+h5 {
+font: 12px/14px Tahoma;
+color: #fff;
+margin: 0 0 8px 0;
+}
+h6 {
+font: normal 14px/16px Tahoma;
+margin: 0 0 10px 25px;
+padding: 0 10px 0 0;
+}
+button, aside div form input[type='submit'], #add_to_cart input[type='submit']  {
+cursor: pointer;
+border: 0px;
+width: 100px;
+height: 31px;
+padding:  0 0 2px 0;
+background: #3a6ab1;
+color: #fff;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+display: block;
+margin: 0 auto;
+}
+button.square:first-child {
+margin: 0 8px 0 0;
+}
+button.square {
+margin: 8px 8px 0 0;
+width: 100%;
+border-radius: 0px;
+height: 40px;
+font: 18px/18px Tahoma !Important;
+}
+button.square:hover {
+color: #ffe500;
+}
+.bigBut{
+width: 181px;
+height: 37px;
+background: #eb4725 ;
+color: #fff;
+font: 18px/18px Tahoma;
+margin: 0px;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+}
+input[type="checkbox"] {
+display:none;
+}
+input[type="checkbox"] + label {
+display: inline-block;
+width: 16px;
+height: 16px;
+background: url(img/check.gif) left top no-repeat;
+padding: 0px 0 8px 25px;
+margin: 0 0 0 4px;
+cursor: pointer;
+}
+ input[type="checkbox"]:checked + label {
+ background: url(img/checked.gif) left top no-repeat;
+ }
