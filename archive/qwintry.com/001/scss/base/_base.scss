@@ -1,0 +1,97 @@
+/**
+* Set global box model
+*/
+@import 'colors';
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+:focus {
+    outline: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Arial','Helvetica CY','Nimbus Sans L',sans-serif;
+}
+
+.wr {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+    //position: relative;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+
+    color: $primary-color;
+    border-bottom: 1px solid $primary-color;
+
+    &:hover {
+        color: $secondary-color;
+        border-bottom-color: transparent;
+    }
+}
+
+h2 {
+    margin: 0 0 5px 0;
+
+    font-family: 'Roboto Slab';
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+p {
+    margin: 0 0 26px 0;
+}
+
+.button {
+    display: inline-block;
+    overflow: visible;
+
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 160px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+
+    cursor: pointer;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+
+    color: $white;
+    border: 0 none;
+    -webkit-border-radius: 25px;
+       -moz-border-radius: 25px;
+            border-radius: 25px;
+    outline: 0;
+    background: $primary-color;
+
+    font-family: 'Arial','Helvetica CY','Nimbus Sans L',sans-serif;
+    font-size: 14px;
+    line-height: 50px;
+
+    -webkit-appearance: none;
+
+    &:hover {
+        color: $secondary-color;
+    }
+}

@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+<body>
+
+<header>
+    <div class="wr">
+        <a href="" class="logo"></a>
+        <a href="" class="reg">Зарегистрироваться</a>
+        <div class="search">
+            <form action="/ru/search/google/">
+                <input class="text-field" type="text" placeholder="Ищейка.." name="query">
+                <input type="submit" value="">
+            </form>
+            <div class="search-sample">Например, <a href="" class="lnk">как покупать на eBay</a></div>
+        </div>
+    </div>
+</header>
+
+<section class="intro">
+    <div class="wr">
+        <h2>Теперь вы можете <span>покупать</span> в сотнях магазинов Америки, забыв о расстоянии и океане между вами</h2>
+        <ul>
+            <li>Получаете личный<br>адрес в США</li>
+            <li>Покупаете в любых<br>американских<br>интернет-магазинах</li>
+            <li>Получаете все товары<br>одной посылкой прямо<br>домой</li>
+        </ul>
+    </div>
+
+</section>
+
+<div class="wr">
+    <section class="block">
+        <h2>Что это такое?</h2>
+        <p>Товары из Америки давно перестали быть чем-то диковинным. С развитием Интернета люди расширили свои границы и теперь без проблем заказывают товары из США в интернет-магазинах. А помогают им в этом сервисы-посредники — сегодня далеко не все магазины доставляют вещи в Россию или страны СНГ, многие осуществляют доставку только по территории США.</p>
+    </section>
+
+    <section class="get block">
+        <h2>Получите личный адрес в США</h2>
+        <form method="post" id="register-form">
+            <div class="form _clearfix">
+
+                <fieldset>
+                    <input id="reg-form-firstname" name="firstName" type="text" pattern="[a-zA-Z-]+" required="required" placeholder="Имя на английском" value="">
+                </fieldset>
+                <fieldset>
+                    <input id="reg-form-lastname" name="lastName" type="text" pattern="[a-zA-Z-]+" required="required" placeholder="Фамилия на английском" value="">
+                </fieldset>
+                <fieldset>
+                    <input id="reg-form-email" name="email" type="email" required="required" placeholder="Эл.почта" value="">
+                </fieldset>
+                <input type="hidden" value="RU" name="country">
+                <input type="submit" value="Получить">
+
+            </div>
+            <div class="get-option-box">
+                <input checked="" type="checkbox" id="check" name="check"><label for="check">Я согласен с <a href="#rules" onclick="toggle('rules')" class="lnk">условиями использования</a></label>
+            </div>
+
+            <script type="text/javascript">
+                function toggle(el) {
+                    el.style.display = (el.style.display == 'none') ? 'block' : 'none'
+                }
+            </script>
+
+                <div id="rules" title="Условия Использования">
+
+                <a href="#" class="close" onclick="toggle('rules')"></a>
+
+                <div class="cont">
+                    <h2 class="block-title">Условия Использования</h2>
+                    <p>Данное соглашение описывает условия использования всех сервисов, продуктов и программного обеспечения (в дальнейшем обозначенные как Сервис), предлагаемые Бандеролькой и сайтом Qwintry.com. Условия использования Сервиса могут приниматься только целиком, без каких-либо изменений, со всеми вытекающими из этих условий правилами и политиками (включая Политику Приватности Qwintry), а также процедурами и сценариями использования Сервиса, которые публикуются компанией Qwintry, которая создала и администрирует данный сайт.</p>
+                    <p>Qwintry оставляет за собой право обновлять данные Условия использования в любое время. Тот факт, что вы продолжаете пользоваться Сервисом, означает, что вы приняли изменившиеся условия, даже если вы не просмотрели их. Самая последняя версия Условий использования всегда находится на этой странице.</p>
+                    <h3>Принятие условий</h3>
+                    <p>Пожалуйста, внимательно ознакомьтесь с данным Соглашением до пользования Сервисом. Начиная пользование какой-либо услугой Сервиса, вы принимаете все Условия использования данного соглашения. Если вы не согласны с Условиями использования, указанными в этом соглашении, вы не можете использовать сервисы, представленные на Qwintry.com и Banderolka.com. Также, принимая условия соглашения, вы подтверждаете таким образом, что используете свои <strong>настоящие и полные личные данные</strong>, достигли совершеннолетия, необходимого для заключения подобных контрактов, не являетесь личностью, юридически ограниченной в правах каким-либо образом, и несете ответственность за совершенные заказы, ознакомившись со списком запрещенных к пересылке товаров.</p>
+                    <h3>Описание сервиса</h3>
+                    <p>Qwintry LLC предлагает с помощью своих сайтов Qwintry.com и Banderolka.com следующие сервисы:</p>
+                    <p>Пересылка небольших почтовых отправлений (в дальнейшем Пересылка) из США в любую страну, имеющую активное почтовое сообщение между Государственной Почтой США (USPS) и почтовыми сервисами принимающей страны. Qwintry LLC не представляет услуги по отправке посылок по США или в Канаду. Исключением могут являться только посылки, возвращаемые продавцам.</p>
+                    <p>Qwintry.com и Banderolka.com являются двумя идентичными сайтами, которые принадлежат Qwintry LLC. Цены, Политика Приватности, и Условия использования опубликованы на наших сайтах www.Qwintry.com и www.Banderolka.com.</p>
+                    <p>Qwintry LLC оставляет за собой право обновлять, изменять, улучшать и трансформировать свой Сервис в любой форме и способах использования.</p>
+                    <h3>Общие условия использования</h3>
+                    <p>Qwintry LLC не несет ответственности за действия каких-либо третьих лиц или огранизаций, таких как — почтовые и курьерские службы (например, USPS, UPS, FedEx, и т.д.) Все условия использования сторонних организаций являются объектом их отдельных соглашений.</p>
+                    <p>Клиент несет единоличную и полную ответственность за любые таможенные выплаты, а также за любые оплаты, связанные с почтовыми сервисами и с пересечением товарами государственных границ.</p>
+                    <p>Ответственность Qwintry LLC не может превышать стоимость сервисов, оказанных Qwintry LLC в рамках конкретного заказа.</p>
+                    <p>Qwintry не гарантирует доставку посылок, если таможенные декларации, связанные с этими посылками, не были заполнены надлежащим образом в соответствии с правилами импортно-экспортных операций таможенных служб США и принимающей страны. Выяснение и следование этим правилам при отправке посылок является ответственностью Клиента.</p>
+                    <p>Qwintry не работает с письмами без соответствующих номеров отслеживания. Qwintry не предлагает сервисов, связанных с обработкой или отправкой подарочных карт, купонов, любых платежных карт, дисконтных карт, подарочных сертификатов, приобретенных Клиентами у третьих лиц или организаций.</p>
+                    <p>Qwintry не отправляет посылки до востребования, а также на почтовые абонентские ящики.</p>
+                    <p>Qwintry соглашается хранить посылки, принадлежащие Клиенту, в течение 45 дней без взимания дополнительной оплаты. После истечения этого срока, Qwintry оставляет за собой право взимать с Клиента оплату за хранение каждой входящей посылки, в эквиваленте 0.5 долларов США за день (округляя по целым дням). Общий срок хранения посылок не должен превышать 100 календарных дней. Если посылка не была востребована Клиентом по истечении этого срока, Qwintry оставляет за собой право утилизировать содержимое посылки или распорядиться им по своему усмотрению.</p>
+                    <p>Qwintry не несет ответственности за идентификацию владельцев входящих посылок, на которых неправильно (неполно) указан адрес доставки и получатель. Qwintry оставляет за собой право взимать плату за хранение каждой такой посылки согласно стандартной схеме. В случае, если по истечении 100 дней со момента доставки посылки на склад, владелец посылки не связался с Qwintry и не подтвердил принадлежность посылки, Qwintry оставляет за собой право утилизировать содержимое посылки или или распорядиться им по своему усмотрению.</p>
+                    <p>Клиент несет полную ответственность за контроль и проверку содержимого при получении заказов на склад Qwintry путем сверки номеров отслеживания и подтверждений об отправке магазинами, а также посредством оформления специальных запросов на сверку с инвойсом и/или фотографирование вложений.</p>
+                    <p>Qwintry ответственна за подготовку посылки (посылок) к отправке в течение семи рабочих дней со дня получения формальной заявки от Клиента, если к посылке нет дополнительных просьб, связанных с дополнительной упаковкой или методом отправки.</p>
+                    <p>Qwintry соглашается хранить упакованные и готовые к отправке посылки, принадлежащие Клиенту, в течение 7 дней без взимания дополнительной оплаты. После истечения этого срока, Qwintry оставляет за собой право взимать с Клиента оплату за хранение каждой готовой к отправке посылки в эквиваленте 2 долларов США за день (округляя по целым дням). Общий срок хранения готовой к отправке посылки не должен превышать два месяца. Если посылка не была востребована Клиентом по истечении двух месяцев, Qwintry оставляет за собой право утилизировать содержимое посылки или или распорядиться им по своему усмотрению.</p>
+                    <p>Упаковочный лист, вкладываемый в отправки, не является описью, а представляет собой документ внутреннего пользования склада Qwintry, и не может рассматриваться как подтверждение того, что количество указанных там вещей соответствовало действительности.</p>
+                    <p>Qwintry&nbsp;принимает претензии по посылкам в течение 7 дней после доставки отправления до адресата.</p>
+                    <p>Клиент передает Qwintry право открывать его посылки и работать с их содержимым.</p>
+                    <p>Qwintry не работает с почтовыми организациями по возмещению почтовых расходов за ненадлежащий уровень сервиса. В то же время, Qwintry может предоставить Клиенту все имеющиеся документы, если Клиент решит связаться с почтовой организацией напрямую.</p>
+                    <p>У Qwintry не предусмотрено никаких компенсаций морального ущерба, а также возмещения потерь, связанных с собственным бизнесом клиентов в любом виде. Cервис рассчитан на предоставление услуг физическим лицам, которые делают заказы для себя, родственников или друзей.</p>
+                    <p>Qwintry оставляет за собой право запросить дополнительные документы, подтверждающие личность клиента и законность совершенных покупок и пользования кредитной картой. Это выборочная мера, которая помогает предотвратить мошеннические действия с кредитными картами.</p>
+                    <h3>Цены и услуги</h3>
+                    <p>Цены и Услуги Сервиса описаны на странице «<a href="/ru/services">Услуги</a>» и являются текущими ценами на настоящий момент времени.</p>
+                    <p>Дополнительные работы с посылками (если таковые присутствуют) — публикуются дополнительно в инвойсе, предоставленном Qwintry.</p>
+                    <p>Qwintry оставляет за собой право изменять существующие цены без предварительного уведомления.</p>
+                    <p>Qwintry действует согласно законам США, а также штатов Аляска, Орегон, Делавер.</p>
+                    <h3>Условия экспресс-доставки Qwintry Air</h3>
+                    <p>Если вы формируете отправку Qwintry Air, вы автоматически соглашаетесь<a href="https://de.qwintry.com/ru/node/2556746"> с условиями экспресс-отправки Qwintry Air.</a></p>
+                </div>
+
+                 </div>
+        </form>
+        <div class="get-option-box">
+            <div class="video-link">Посмотрите видео «<a href="https://youtu.be/YUeEDUUL0Pc" class="lnk fancybox-media" rel="media-gallery">Как это всё работает</a>» и «<a href="https://youtu.be/lqe2ii08wHI" class="lnk fancybox-media" rel="media-gallery">Как мы пакуем</a>»</div>
+        </div>
+    </section>
+
+    <section class="block">
+        <h2>Зачем это нужно?</h2>
+        <div class="i-col">Покупая в американских интернет-магазинах вам не нужно переплачивать, а товары, как правило, стоят на 20-40% дешевле</div>
+        <div class="col">Шоппинг в американских интернет-магазинах — это возможность покупать качественные вещи брендовых марок, гаджеты, аксессуары и многое другое по доступным ценам. Это прекрасная альтернатива обычному шоппингу, когда приходится часами выискивать что-нибудь особенное, а в итоге покупать то, что есть, а не то, что нравится.<br>Покупка товаров в интернет-магазинах США — процесс довольно увлекательный, такой широкий выбор удивит даже бывалых шопоголиков. И если приходя в обычный магазин вы ограничены в выборе, то на просторах виртуального пространства можно позволить себе шоппиться, не задумываясь об ограничениях.</div>
+    </section>
+
+    <section class="block">
+        <h2>Преимущества</h2>
+        <ul class="how">
+            <li>
+                <span>Получаете личный адрес в США</span>
+                <p>Зарегистрировавшись в Бандерольке, вы получите адрес в США, который для магазинов будет выглядеть как ваш домашний адрес. Большинство магазинов доставят товары на наш склад бесплатно!</p>
+            </li>
+            <li>
+                <span>Покупаете в любых американских интернет-магазинах</span>
+                <p>Совершайте выгодные покупки в магазинах США: участвуйте в постоянных распродажах, используйте купоны и не платите налоги с продаж! Бандеролькин склад находится в безналоговом штате Делавэр!</p>
+            </li>
+            <li>
+                <span>Получаете все товары одной посылкой прямо домой</span>
+                <p>Мы примем все ваши покупки, бережно объединим их в одну большую коробку, надежно упакуем и быстро доставим в любое удобное для вас место! Несколько дней — и посылка у вас!</p>
+            </li>
+        </ul>
+        <div class="more-video">
+            <a href="https://youtu.be/2Oh-WClOj30" class="more-video-link fancybox-media" rel="media-gallery"></a>
+            <div class="more-video-text">
+                <p>Хотите еще больше<br>подробностей?</p>
+                <a href="https://youtu.be/2Oh-WClOj30" class="lnk fancybox-media" rel="media-gallery">Посмотрите наше видео</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="calc">
+        <h2>Сколько это стоит?</h2>
+        <p>Рассчитайте стоимость доставки посылки: все, что необходимо указать — место назначения посылки и примерный вес отправления!</p>
+        <div class="form">
+            <form id="calc-form" action="index.php?calc=1" method="post">
+                <fieldset>
+                    <span>Вес</span>
+                    <input type="text" name="weight" value="1">
+                    <a>кг</a>
+                </fieldset>
+                <fieldset>
+                    <span>Куда</span>
+                    <div class="select">
+                        <select name="country">
+                            <option value="RU">Россия</option>
+                            <option value="KZ">Казахстан</option>
+                            <option value="UA">Украина</option>
+                            <option value="BY">Беларусь</option>
+                            <option value="AF">Afghanistan</option>
+                            <option value="AX">Aland Islands</option>
+                            <option value="AL">Albania</option>
+                            <option value="DZ">Algeria</option>
+                            <option value="AS">American Samoa</option>
+                            <option value="AD">Andorra</option>
+                            <option value="AO">Angola</option>
+                            <option value="AI">Anguilla</option>
+                            <option value="AQ">Antarctica</option>
+                            <option value="AG">Antigua and Barbuda</option>
+                            <option value="AR">Argentina</option>
+                            <option value="AM">Armenia</option>
+                            <option value="AW">Aruba</option>
+                            <option value="AU">Australia</option>
+                            <option value="AT">Austria</option>
+                            <option value="AZ">Azerbaijan</option>
+                            <option value="BS">Bahamas</option>
+                            <option value="BH">Bahrain</option>
+                            <option value="BD">Bangladesh</option>
+                            <option value="BB">Barbados</option>
+                            <option value="BE">Belgium</option>
+                            <option value="BZ">Belize</option>
+                            <option value="BJ">Benin</option>
+                            <option value="BM">Bermuda</option>
+                            <option value="BT">Bhutan</option>
+                            <option value="BO">Bolivia</option>
+                            <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+                            <option value="BA">Bosnia and Herzegovina</option>
+                            <option value="BW">Botswana</option>
+                            <option value="BV">Bouvet Island</option>
+                            <option value="BR">Brazil</option>
+                            <option value="VG">British Virgin Islands</option>
+                            <option value="BN">Brunei</option>
+                            <option value="BG">Bulgaria</option>
+                            <option value="BF">Burkina Faso</option>
+                            <option value="BI">Burundi</option>
+                            <option value="KH">Cambodia</option>
+                            <option value="CM">Cameroon</option>
+                            <option value="CA">Canada</option>
+                            <option value="CV">Cape Verde</option>
+                            <option value="KY">Cayman Islands</option>
+                            <option value="CF">Central African Republic</option>
+                            <option value="TD">Chad</option>
+                            <option value="CL">Chile</option>
+                            <option value="CN">China</option>
+                            <option value="CX">Christmas Island</option>
+                            <option value="CC">Cocos (Keeling) Islands</option>
+                            <option value="CO">Colombia</option>
+                            <option value="KM">Comoros</option>
+                            <option value="CG">Congo (Brazzaville)</option>
+                            <option value="CD">Congo (Kinshasa)</option>
+                            <option value="CK">Cook Islands</option>
+                            <option value="CR">Costa Rica</option>
+                            <option value="HR">Croatia</option>
+                            <option value="CU">Cuba</option>
+                            <option value="CW">Curaçao</option>
+                            <option value="CY">Cyprus</option>
+                            <option value="CZ">Czech Republic</option>
+                            <option value="DK">Denmark</option>
+                            <option value="DJ">Djibouti</option>
+                            <option value="DM">Dominica</option>
+                            <option value="DO">Dominican Republic</option>
+                            <option value="EC">Ecuador</option>
+                            <option value="EG">Egypt</option>
+                            <option value="SV">El Salvador</option>
+                            <option value="GQ">Equatorial Guinea</option>
+                            <option value="ER">Eritrea</option>
+                            <option value="EE">Estonia</option>
+                            <option value="ET">Ethiopia</option>
+                            <option value="FK">Falkland Islands</option>
+                            <option value="FO">Faroe Islands</option>
+                            <option value="FJ">Fiji</option>
+                            <option value="FI">Finland</option>
+                            <option value="FR">France</option>
+                            <option value="GF">French Guiana</option>
+                            <option value="PF">French Polynesia</option>
+                            <option value="TF">French Southern Territories</option>
+                            <option value="GA">Gabon</option>
+                            <option value="GM">Gambia</option>
+                            <option value="GE">Georgia</option>
+                            <option value="DE">Germany</option>
+                            <option value="GH">Ghana</option>
+                            <option value="GI">Gibraltar</option>
+                            <option value="GR">Greece</option>
+                            <option value="GL">Greenland</option>
+                            <option value="GD">Grenada</option>
+                            <option value="GP">Guadeloupe</option>
+                            <option value="GU">Guam</option>
+                            <option value="GT">Guatemala</option>
+                            <option value="GG">Guernsey</option>
+                            <option value="GN">Guinea</option>
+                            <option value="GW">Guinea-Bissau</option>
+                            <option value="GY">Guyana</option>
+                            <option value="HT">Haiti</option>
+                            <option value="HN">Honduras</option>
+                            <option value="HK">Hong Kong S.A.R., China</option>
+                            <option value="HU">Hungary</option>
+                            <option value="IS">Iceland</option>
+                            <option value="IN">India</option>
+                            <option value="ID">Indonesia</option>
+                            <option value="IR">Iran</option>
+                            <option value="IQ">Iraq</option>
+                            <option value="IE">Ireland</option>
+                            <option value="IM">Isle of Man</option>
+                            <option value="IL">Israel</option>
+                            <option value="IT">Italy</option>
+                            <option value="CI">Ivory Coast</option>
+                            <option value="JM">Jamaica</option>
+                            <option value="JP">Japan</option>
+                            <option value="JE">Jersey</option>
+                            <option value="JO">Jordan</option>
+                            <option value="KE">Kenya</option>
+                            <option value="KI">Kiribati</option>
+                            <option value="KW">Kuwait</option>
+                            <option value="KG">Kyrgyzstan</option>
+                            <option value="LA">Laos</option>
+                            <option value="LV">Latvia</option>
+                            <option value="LB">Lebanon</option>
+                            <option value="LS">Lesotho</option>
+                            <option value="LR">Liberia</option>
+                            <option value="LY">Libya</option>
+                            <option value="LI">Liechtenstein</option>
+                            <option value="LT">Lithuania</option>
+                            <option value="LU">Luxembourg</option>
+                            <option value="MO">Macao S.A.R., China</option>
+                            <option value="MK">Macedonia</option>
+                            <option value="MG">Madagascar</option>
+                            <option value="MW">Malawi</option>
+                            <option value="MY">Malaysia</option>
+                            <option value="MV">Maldives</option>
+                            <option value="ML">Mali</option>
+                            <option value="MT">Malta</option>
+                            <option value="MH">Marshall Islands</option>
+                            <option value="MQ">Martinique</option>
+                            <option value="MR">Mauritania</option>
+                            <option value="MU">Mauritius</option>
+                            <option value="YT">Mayotte</option>
+                            <option value="MX">Mexico</option>
+                            <option value="FM">Micronesia</option>
+                            <option value="MD">Moldova</option>
+                            <option value="MC">Monaco</option>
+                            <option value="MN">Mongolia</option>
+                            <option value="ME">Montenegro</option>
+                            <option value="MS">Montserrat</option>
+                            <option value="MA">Morocco</option>
+                            <option value="MZ">Mozambique</option>
+                            <option value="MM">Myanmar</option>
+                            <option value="NA">Namibia</option>
+                            <option value="NR">Nauru</option>
+                            <option value="NP">Nepal</option>
+                            <option value="NL">Netherlands</option>
+                            <option value="AN">Netherlands Antilles</option>
+                            <option value="NC">New Caledonia</option>
+                            <option value="NZ">New Zealand</option>
+                            <option value="NI">Nicaragua</option>
+                            <option value="NE">Niger</option>
+                            <option value="NG">Nigeria</option>
+                            <option value="NU">Niue</option>
+                            <option value="NF">Norfolk Island</option>
+                            <option value="MP">Northern Mariana Islands</option>
+                            <option value="KP">North Korea</option>
+                            <option value="NO">Norway</option>
+                            <option value="OM">Oman</option>
+                            <option value="PK">Pakistan</option>
+                            <option value="PW">Palau</option>
+                            <option value="PS">Palestinian Territory</option>
+                            <option value="PA">Panama</option>
+                            <option value="PG">Papua New Guinea</option>
+                            <option value="PY">Paraguay</option>
+                            <option value="PE">Peru</option>
+                            <option value="PH">Philippines</option>
+                            <option value="PN">Pitcairn</option>
+                            <option value="PL">Poland</option>
+                            <option value="PT">Portugal</option>
+                            <option value="PR">Puerto Rico</option>
+                            <option value="QA">Qatar</option>
+                            <option value="RE">Reunion</option>
+                            <option value="RO">Romania</option>
+                            <option value="RW">Rwanda</option>
+                            <option value="BL">Saint Barthélemy</option>
+                            <option value="SH">Saint Helena</option>
+                            <option value="KN">Saint Kitts and Nevis</option>
+                            <option value="LC">Saint Lucia</option>
+                            <option value="MF">Saint Martin (French part)</option>
+                            <option value="PM">Saint Pierre and Miquelon</option>
+                            <option value="VC">Saint Vincent &amp; Grenadines</option>
+                            <option value="WS">Samoa</option>
+                            <option value="SM">San Marino</option>
+                            <option value="ST">Sao Tome and Principe</option>
+                            <option value="SA">Saudi Arabia</option>
+                            <option value="SN">Senegal</option>
+                            <option value="RS">Serbia</option>
+                            <option value="SC">Seychelles</option>
+                            <option value="SL">Sierra Leone</option>
+                            <option value="SG">Singapore</option>
+                            <option value="SX">Sint Maarten (Dutch part)</option>
+                            <option value="SK">Slovakia</option>
+                            <option value="SI">Slovenia</option>
+                            <option value="SB">Solomon Islands</option>
+                            <option value="SO">Somalia</option>
+                            <option value="ZA">South Africa</option>
+                            <option value="KR">South Korea</option>
+                            <option value="SS">South Sudan</option>
+                            <option value="ES">Spain</option>
+                            <option value="LK">Sri Lanka</option>
+                            <option value="SD">Sudan</option>
+                            <option value="SR">Suriname</option>
+                            <option value="SJ">Svalbard and Jan Mayen</option>
+                            <option value="SZ">Swaziland</option>
+                            <option value="SE">Sweden</option>
+                            <option value="CH">Switzerland</option>
+                            <option value="SY">Syria</option>
+                            <option value="TW">Taiwan</option>
+                            <option value="TJ">Tajikistan</option>
+                            <option value="TZ">Tanzania</option>
+                            <option value="TH">Thailand</option>
+                            <option value="TL">Timor-Leste</option>
+                            <option value="TG">Togo</option>
+                            <option value="TK">Tokelau</option>
+                            <option value="TO">Tonga</option>
+                            <option value="TT">Trinidad and Tobago</option>
+                            <option value="TN">Tunisia</option>
+                            <option value="TR">Turkey</option>
+                            <option value="TM">Turkmenistan</option>
+                            <option value="TC">Turks and Caicos Islands</option>
+                            <option value="TV">Tuvalu</option>
+                            <option value="VI">U.S. Virgin Islands</option>
+                            <option value="UG">Uganda</option>
+                            <option value="AE">United Arab Emirates</option>
+                            <option value="GB">United Kingdom</option>
+                            <option value="US">United States</option>
+                            <option value="UY">Uruguay</option>
+                            <option value="UZ">Uzbekistan</option>
+                            <option value="VU">Vanuatu</option>
+                            <option value="VA">Vatican</option>
+                            <option value="VE">Venezuela</option>
+                            <option value="VN">Vietnam</option>
+                            <option value="WF">Wallis and Futuna</option>
+                            <option value="EH">Western Sahara</option>
+                            <option value="YE">Yemen</option>
+                            <option value="ZM">Zambia</option>
+                            <option value="ZW">Zimbabwe</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <input type="submit" value="Посчитать">
+            </form>
+            <div style="text-align:left;display:none" class="calc-results"></div>
+        </div>
+    </section>
+
+    <footer>
+        <nav class="footer-nav">
+            <div class="footer-nav-col">
+                <span>Компания</span>
+                <ul class="menu">
+                    <li><a href="/ru/about?_openstat=TGFuZGluZztCZWdpbm5lcjs7">Команда Бандерольки</a></li>
+                    <li><a href="/ru/contact?_openstat=TGFuZGluZztCZWdpbm5lcjs7">Наши Контакты</a></li>
+                    <li><a href="/ru/terms?_openstat=TGFuZGluZztCZWdpbm5lcjs7">Условия Использования</a></li>
+                    <li><a href="/ru/users-reviews?_openstat=TGFuZGluZztCZWdpbm5lcjs7">Отзывы Клиентов</a></li>
+                    <li><a href="/ru/forum?_openstat=TGFuZGluZztCZWdpbm5lcjs7">Форум</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <span>Полезности</span>
+                <ul>
+                    <li><a href="/ru/forbiddengoods?_openstat=TGFuZGluZztCZWdpbm5lcjs7">Ограничения и запреты</a></li>
+                    <li><a href="https://qwintry.com/ru/privatesales?_openstat=TGFuZGluZztCZWdpbm5lcjs7">Закрытые распродажи</a></li>
+                    <li><a href="/ru/articles/how-to-use-rebates?_openstat=TGFuZGluZztCZWdpbm5lcjs7">Скидки и Ребейты</a></li>
+                    <li><a href="/ru/articles?_openstat=TGFuZGluZztCZWdpbm5lcjs7">Статьи и обзоры</a></li>
+                    <li><a href="/ru/help/weight?_openstat=TGFuZGluZztCZWdpbm5lcjs7">Справка по весу товаров</a></li>
+                    <li><a href="/ru/amazon_store?_openstat=TGFuZGluZztCZWdpbm5lcjs7">Каталог Amazon</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <span>Калькуляторы</span>
+                <ul>
+                    <li><a href="https://qwintry.com/ru/calculator?_openstat=TGFuZGluZztCZWdpbm5lcjs7" title="Посчитать стоимость услуг Бандерольки" sl-processed="1">Калькулятор Бандерольки</a></li>
+                    <li><a href="http://postcalc.usps.com/" title="Тарифы Почты США" class="ext" target="_blank" sl-processed="1">Калькулятор USPS</a><span class="ext"></span></li>
+                    <li><a href="/ru/help/dim-weight?_openstat=TGFuZGluZztCZWdpbm5lcjs7">Калькулятор объемного веса</a></li>
+                    <li><a href="/ru/payments?_openstat=TGFuZGluZztCZWdpbm5lcjs7">Способы оплаты</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <span>Сотрудничество</span>
+                <ul class="menu">
+                    <li><a href="/ru/wholesale?_openstat=TGFuZGluZztCZWdpbm5lcjs7">Корпоративным клиентам</a></li>
+                    <li><a href="/ru/invite_friends?_openstat=TGFuZGluZztCZWdpbm5lcjs7">Реферальная программа</a></li>
+                    <li><a href="https://qwintry.com/ru/jobs?_openstat=TGFuZGluZztCZWdpbm5lcjs7">Наши Вакансии</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="copyright">© 2010—2015. Qwintry.com - this site is a copyright and trademark of Qwintry LLC.</div>
+    </footer>
+</div>
+
+</body>
+</html>

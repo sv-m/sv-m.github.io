@@ -1,0 +1,95 @@
+/**
+* Set global box model
+*/
+@import 'colors';
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+:focus {
+    outline: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Arial','Helvetica CY','Nimbus Sans L',sans-serif;
+}
+
+.wr {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+
+    color: $primary-color;
+    border-bottom: 1px solid $primary-color;
+
+    &:hover {
+        color: $secondary-color;
+        border-bottom-color: transparent;
+    }
+}
+
+h1,
+h2 {
+    margin: 0 auto 5px auto;
+
+    font-size: 36px;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: 'Roboto';
+    line-height: 60px;
+}
+
+p {
+    margin: 0 0 26px 0;
+
+    font-family: 'Roboto';
+}
+.button {
+    display: inline-block;
+    overflow: visible;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 20px 35px;
+
+    cursor: pointer;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+
+    color: #fff;
+    border: 0 none;
+    border-radius: 32px;
+    outline: 0;
+    background: #ff8300;
+
+    font-size: 18px;
+
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+
+    &:hover {
+        color: $secondary-color;
+    }
+}
