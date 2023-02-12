@@ -1,0 +1,106 @@
+
+#sli {
+	width: 100%;
+	height: 360px;
+	margin: -20px auto 60px;
+	position: relative;
+
+}
+#sli li{
+	position: absolute;
+	width: 100%;
+	height: 360px;
+	overflow: hidden;
+	list-style: none;
+	background: #fff;
+-webkit-transition: all 1s ease 0s;
+   -moz-transition: all 1s ease 0s;
+     -o-transition: all 1s ease 0s;
+        transition: all 1s ease 0s;
+}
+#sli li a {
+	width: 100%;
+	height: 360px;
+	display: block;
+	border-bottom: none;
+}
+#sli.fade li {
+	opacity: 0;
+}
+#sli.fade li.active {
+	z-index: 10;
+	opacity: 1;
+}
+#sli.slide li{
+	width: 0;
+	opacity: 1;
+	list-style: none;
+}
+#sli.slide li.active {
+	z-index: 10;
+	width: 100%;
+	right: 0;
+}
+#sli li i {
+	width: 700px;
+	height: 240px;
+	position: absolute;
+	z-index: -1;
+}
+#sli nav {
+	position: absolute;
+	margin-top: 360px;
+	z-index: 20;
+	text-align: center;
+	width: 100%;
+	display: none;
+}
+#sli nav a {
+	width: 15px;
+	height: 15px;
+	background: #fff;
+	opacity: 0.6;
+	display: inline-block;
+	margin-right: 10px;
+	border-radius: 50%;
+	border: 1px solid gray;
+}
+#sli nav a.active {
+	background: #cfcfcf;
+	background: -moz-linear-gradient(top,  #cfcfcf 1%, #969696 51%, #cfcfcf 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#cfcfcf), color-stop(51%,#969696), color-stop(100%,#cfcfcf));
+	background: -webkit-linear-gradient(top,  #cfcfcf 1%,#969696 51%,#cfcfcf 100%);
+	background: -o-linear-gradient(top,  #cfcfcf 1%,#969696 51%,#cfcfcf 100%);
+	background: -ms-linear-gradient(top,  #cfcfcf 1%,#969696 51%,#cfcfcf 100%);
+	background: linear-gradient(to bottom,  #cfcfcf 1%,#969696 51%,#cfcfcf 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfcfcf', endColorstr='#cfcfcf',GradientType=0 );
+}
+#sli nav a:hover{
+	border: 1px solid #444;
+}
+#sli nav a:active {
+	border: 1px solid #fff;
+	box-shadow: inset 1px 1px 2px #000;
+}
+#sli ins, #sli del {
+	display: block;
+	position: absolute;
+	width: 44px;
+	height: 44px;
+	z-index: 10000;
+	cursor: pointer;	
+	margin-top: 150px;
+	opacity: 0.5;
+	top: 15px;
+}
+#sli ins:hover, #sli del:hover {
+	opacity: 1;
+}
+#sli ins {
+	left: 40px;
+	background: url(../img/arr03.png) no-repeat center center;
+}
+#sli del {
+	right: 40px;
+	background: url(../img/arr04.png) no-repeat center center;
+}

@@ -1,0 +1,102 @@
+.select {
+	max-width: 270px;
+	margin: -10px 0 10px;
+}
+.select-right{
+    float: right;
+}
+.selectBox {
+	width: 100%;
+	border: 1px solid #d2d2d2;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+	height: 40px;
+	font-size: 16px;
+	color: #000;
+	text-decoration: none;
+	background: #fff url(../img/input-top-shadow.png) top repeat-x;
+}
+.selectBox:hover {
+	color: #000;
+	text-decoration: none;
+}
+.selectBox-label {
+	display: block;
+	padding: 0 0px 0 20px;
+	font-size: 16px;
+	line-height: 40px;
+	color: #999;
+}
+.selectBox-arrow {
+	position: absolute;
+	left: auto;
+	right: 2px;
+	top: 1px;
+	width: 18px;
+	height: 18px;
+	overflow: hidden;
+	cursor: pointer;
+	background: url(../img/arr1.jpg) 0 0 no-repeat;
+	margin: 13px 10px 0 0;
+}
+.selectBox-dropdown-menu {
+	position: absolute;
+	list-style: none;
+	font-size: 16px;
+	line-height: 20px;
+	background: #fff;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #999;
+}
+.selectBox-dropdown-menu li {
+	width: 270px;
+	display: block;
+	background: #fff;
+	border-right: 1px solid #bbbbbb;
+}
+.selectBox-dropdown-menu li a {
+	width: 270px;
+	display: block;
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+.selectBox-dropdown-menu li a:hover {
+	color: #fff;
+	text-decoration: none;
+	background: #333;
+}
+
+input[type="checkbox"] {
+	display: none;
+}
+input[type="checkbox"] + label {
+	background: url("../img/cu.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+	cursor: pointer;
+	display: inline-block;
+	height: 30px;
+	margin: 7px 10px 0 0;
+	padding: 5px 0 8px 35px;
+	min-width: 30px;
+}
+input[type="checkbox"]:checked + label {
+	background: url("../img/cc.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+}
+
+input[type="radio"] {
+	display: none;
+}
+input[type="radio"] + label {
+	background: url("../img/ru.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+	cursor: pointer;
+	display: inline-block;
+	height: 30px;
+	margin: 7px 10px 0 0;
+	padding: 5px 0 8px 35px;
+	min-width: 90px;
+}
+input[type="radio"]:checked + label {
+	background: url("../img/rc.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+}
