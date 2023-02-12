@@ -1,0 +1,357 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Самые красивые розы в Челябинске</title>
+    <meta name="viewport" content="initial-scale=0.9, maximum-scale=0.9">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox-1.3.4.css"/>
+    <link rel="stylesheet" type="text/css" href="css/jquery.formstyler.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<div class="section section-1">
+    <div class="inner">
+        <div class="par2"><img src="img/par2.png"></div>
+        <div class="par1"><img src="img/petal-1.png"></div>
+        <div class="par3"><img src="img/par3.png"></div>
+        <div class="par4"><img src="img/par4.png"></div>
+        <div class="par5"><img src="img/par5.png"></div>
+        <div class="par6"><img src="img/par6.png"></div>
+        <div class="header">
+            <a href="#" class="logo">
+                <img src="img/logo.png" width="180" height="36"  alt=""/>
+                <span>Доставка букетов<br> из самых свежих роз</span>
+            </a>
+            <a href="#" class="vk"></a>
+            <div class="phone">
+                Приём заказов
+                <span>8 951 773-44 66</span>
+            </div>
+            <a href="#callback-form" class="callback">Обратный звонок</a>
+        </div>
+        <div class="middle">
+            <h1 class="slogan">
+                <span>Доставка самых красивых</span>
+                свежих роз по Челябинску!
+            </h1>
+            <div class="form-1">
+                <div class="caption">
+                    Оставьте заявку<br/> на букет прямо сейчас!
+                </div>
+                <form id="f2" action="send.php" method="post">
+                    <input type="text" placeholder="Имя" name="name"/>
+                    <input type="text" placeholder="Телефон" name="phone" class="required"/>
+                    <input type='hidden' name="call" />
+                    <input type="submit" onclick="pend(  this.parentNode.getAttribute('id')  ); return false" value="Оставить заявку" />
+                </form>
+                <div class="thx1" style="display:none;">
+                    <span>Спасибо за Вашу заявку!</span>
+                    Наш менеджер <br>
+                    свяжется с Вами <br>
+                    в ближайшее время!<br>
+                </div>
+            </div>
+            <a href="#catalog" class="go-to-catalog">Перейти в каталог</a>
+        </div>
+        <div class="advantage">
+            <ul>
+                <li>Вы можете заказать букет,<br> не выходя из дома<br> в любое время суток!</li>
+                <li>Доставка  бесплатно!</li>
+                <li>Сделать заказ  очень просто!</li>
+                <li>Самые низкие цены <br> в городе!</li>
+                <li>Доставим в нужное время<br> на любое торжество<br> или корпоратив,<br> домой или в офис!</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="section section-2" id="catalog">
+    <div class="inner">
+        <ul>
+            <li>
+                <div class="title">Букет 15 роз</div>
+                <div class="image">
+                    <div class="img">
+                        <img class="red" src="img/cat-img.jpg" alt="" />
+                        <img class="white" src="img/cat-img1.jpg" alt="" />
+                    </div>
+                    <div class="color">
+                        <div class="change"></div>
+                        <a href="#" class="red selected" data="Красный"></a>
+                        <a href="#" class="white" data="Белый"></a>
+                    </div>
+                </div>
+                <div class="old-price">1 350 руб.</div>
+                <div class="new-price">1 050 руб.</div>
+                <a href="#order-form" class="order-btn">Заказать</a>
+            </li>
+            <li>
+                <div class="title">Букет 19 роз</div>
+                <div class="image">
+                    <div class="img">
+                        <img class="red" src="img/cat-img2.jpg" alt="" />
+                        <img class="white" src="img/cat-img3.jpg" alt="" />
+                    </div>
+                    <div class="color">
+                        <div class="change"></div>
+                        <a href="#" class="red selected" data="Красный"></a>
+                        <a href="#" class="white" data="Белый"></a>
+                    </div>
+                </div>
+                <div class="old-price">1 710 руб.</div>
+                <div class="new-price">1 330 руб.</div>
+                <a href="#order-form" class="order-btn">Заказать</a>
+            </li>
+            <li>
+                <div class="title">Букет 25 роз</div>
+                <div class="image">
+                    <div class="img">
+                        <img class="red" src="img/cat-img4.jpg" alt="" />
+                        <img class="white" src="img/cat-img5.jpg" alt="" />
+                    </div>
+                    <div class="color">
+                        <div class="change"></div>
+                        <a href="#" class="red selected" data="Красный"></a>
+                        <a href="#" class="white" data="Белый"></a>
+                    </div>
+                </div>
+                <div class="old-price">2 250 руб.</div>
+                <div class="new-price">1 750 руб.</div>
+                <a href="#order-form" class="order-btn">Заказать</a>
+            </li>
+            <li>
+                <div class="title">Букет 51 роза</div>
+                <div class="image">
+                    <div class="img">
+                        <img class="red" src="img/cat-img6.jpg" alt="" />
+                        <img class="white" src="img/cat-img7.jpg" alt="" />
+                    </div>
+                    <div class="color">
+                        <div class="change"></div>
+                        <a href="#" class="red selected" data="Красный"></a>
+                        <a href="#" class="white" data="Белый"></a>
+                    </div>
+                </div>
+                <div class="old-price">4 590 руб.</div>
+                <div class="new-price">3 590 руб.</div>
+                <a href="#order-form" class="order-btn">Заказать</a>
+            </li>
+            <li>
+                <div class="title">Букет 101 роза</div>
+                <div class="image">
+                    <div class="img">
+                        <img class="red" src="img/cat-img8.jpg" alt="" />
+                        <img class="white" src="img/cat-img9.jpg" alt="" />
+                    </div>
+                    <div class="color">
+                        <div class="change"></div>
+                        <a href="#" class="red selected" data="Красный"></a>
+                        <a href="#" class="white" data="Белый"></a>
+                    </div>
+                </div>
+                <div class="old-price">9 100 руб.</div>
+                <div class="new-price">7 090 руб.</div>
+                <a href="#order-form" class="order-btn">Заказать</a>
+            </li>
+            <li>
+                <div class="title">Букет 1001 роза</div>
+                <div class="image">
+                    <div class="img">
+                        <img class="red" src="img/cat-img10.jpg" alt="" />
+                        <img class="white" src="img/cat-img11.jpg" alt="" />
+                    </div>
+                    <div class="color">
+                        <div class="change"></div>
+                        <a href="#" class="red selected" data="Красный"></a>
+                        <a href="#" class="white" data="Белый"></a>
+                    </div>
+                </div>
+                <div class="old-price">90 090 руб.</div>
+                <div class="new-price">70 090 руб.</div>
+                <a href="#order-form" class="order-btn">Заказать</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="section section-3">
+    <div class="inner">
+        <h3 class="title-block"><span>Почему именно мы:</span></h3>
+        <ul class="bonus">
+            <li><h2>Уникальная услуга «ОНЛАЙН ПРИЛАВОК»</h2>
+            <p>вы можете в режиме видеосвязи собрать любой букет на вкус</p>
+
+            <li><h2>Наши розы простоят 2 недели</h2>
+            <p>и будут напоминать о приятном моменте</p>
+
+            <li><h2>Только лучшие флористы</h2>
+            <p>с 5ти-летним опытом работы</p>
+
+            <li><h2>Нанесение любых надписей</h2>
+            <p>специальным маркером для цветов </p>
+
+            <li><h2>Только самые свежие</h2>
+            <p>голландские и эквадорские розы</p>
+
+            <li><h2>Самые низкие цены в городе</h2>
+            <p>за самое высокое качество букетов</p>
+
+            <li><h2>Мы постоянно радуем Вас</h2>
+            <p>акциями и подарками</p>
+
+            <li><h2>Бесплатная доставка букета</h2>
+            <p>на любой адрес</p>
+        </ul>
+
+        <h3 class="title-block"><span>Схема работы</span></h3>
+        <ul class="shem">
+            <li>Вы оставляете завяку на сайте
+            <li>Менеджер перезванивает и уточняет детали букета
+            <li>Оплата безналичным расчетом или курьером при получении букета
+            <li>Ожидаете заказ в течении часа
+        </ul>
+    </div>
+</div>
+
+<div class="section section-4">
+    <div class="inner">
+        <div class="par10"><img src="img/par10.png"></div>
+        <div class="par11"><img src="img/par11.png"></div>
+        <div class="par9"><img src="img/par9.png"></div>
+        <div class="par7"><img src="img/par7.png"></div>
+        <div class="par8"><img src="img/par8.png"></div>
+
+        <div class="rev">
+            <div class="review">
+                <div class="img">
+                    <img src="img/cat-img-o1.png" alt="" />
+                </div>
+                <div class="text">
+                    <div class="name">Дмитрий Гормонов</div>
+                    <div class="txt">
+                        Подарил любимой букет! Реально был удивлен качеством и ценой! Потом она удивила меня;) Спасибо Вам, обращусь ещё не раз!
+                    </div>
+                </div>
+            </div>
+            <div class="review">
+                <div class="img">
+                    <img src="img/cat-img-o2.png" alt="" />
+                </div>
+                <div class="text">
+                    <div class="name">Надежда Скоркина</div>
+                    <div class="txt">
+                        Спасибо за букетик! Не первый раз пользуюсь услугами Вашей компании. Цены ниже чем в магазине и выходить ни куда не нужно. Все как всегда на высоте! Жду скидок для постоянных клиентов))
+                    </div>
+                </div>
+            </div>
+            <div class="review">
+                <div class="img">
+                    <img src="img/cat-img-o3.png" alt="" />
+                </div>
+                <div class="text">
+                    <div class="name">Оксана Кузнецова</div>
+                    <div class="txt">
+                        Заказала букет маме и в подарок получила бутылку шампанского, это было приятным сюрпризом на праздник) Спасибо Вам!  P.S. Розы пахнут просто обалденно:)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section section-5">
+    <div class="inner">
+        <div class="footer-form">
+            <div class="caption-form">
+                Оставь заявку<br> на букет<br> от 25 роз
+                    <span>
+                        до 15 января<br>
+                        и получи в подарок <br>
+                        бутылку шампанского!
+                    </span>
+            </div>
+            <div class="form-2">
+                <div class="caption">
+                    Оставьте заявку<br/> на букет прямо сейчас!
+                </div>
+                <form id="f4" action="send.php" method="post">
+                    <input type="text" placeholder="Имя" name="name"/>
+                    <input type="text" placeholder="Телефон" name="phone" class="required"/>
+
+                    <input type='hidden' name="call" />
+                    <input type="submit" onclick="pend(  this.parentNode.getAttribute('id')  ); return false" value="Оставить заявку" />
+                </form>
+                <div class="thx1" style="display:none;">
+                    <span>Спасибо за Вашу заявку!</span>
+                    Наш менеджер <br>
+                    свяжется с Вами <br>
+                    в ближайшее время!<br>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="section section-6">
+    <div class="inner">
+        <p class="footer-copyright">Создание сайта - <a href="http://landing-land.ru" class="footer-copyright-a" target="_blank">Landing Land</a></p>
+    </div>
+</div>
+
+<div style="display:none;">
+    <div class="callback-form" id="callback-form">
+        <div class="caption">
+            Оставьте заявку<br>  на обратный звонок!!
+        </div>
+        <form id="f5" action="send.php" method="post">
+            <input type="text" placeholder="Имя" name="name"/>
+            <input type="text" placeholder="Телефон" name="phone" class="required"/>
+
+            <input type='hidden' name="call" />
+            <input type="submit" onclick="pend(  this.parentNode.getAttribute('id')  ); return false" value="Оставить заявку" />
+        </form>
+        <div class="thx1" style="display:none;">
+            <span>Спасибо за Вашу заявку!</span>
+            Наш менеджер <br>
+            свяжется с Вами <br>
+            в ближайшее время!<br>
+        </div>
+    </div>
+
+    <div class="order-form" id="order-form">
+        <div class="form">
+            <div class="caption">
+                Заказ цветов
+            </div>
+            <div class="order-info"><span class="prod-name"></span>, <span class="prod-color"></span></div>
+            <form id="f3" action="send.php" method="post">
+                <input type="hidden" value="order-form" name="form_name" />
+                <input type="hidden" value="" name="prod-name"/>
+                <input type="hidden" value="" name="prod-color"/>
+                <div class="row"><input type="text" placeholder="Имя" name="name" /></div>
+                <div class="row"><input type="text" placeholder="Телефон" name="phone" class="required"/></div>
+                <div class="row"><input type="checkbox" name="lettering" value="Хочу надпись на цветах!" id="lettering"/><label for="lettering">Хочу надпись на цветах!</label></div>
+
+                <input type='hidden' name="call" />
+                <input type="submit" onclick="pend(  this.parentNode.getAttribute('id')  ); return false" value="Оставить заявку" />
+            </form>
+        </div>
+        <div class="thx" style="display:none;">
+            <span>Спасибо за Вашу заявку!</span>
+            Наш менеджер <br>
+            свяжется с Вами <br>
+            в ближайшее время!<br>
+        </div>
+    </div>
+</div>
+
+
+</body>
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/actions.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="js/jquery.formstyler.js"></script>
+</html>
