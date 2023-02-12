@@ -1,0 +1,273 @@
+@charset "UTF-8";
+/* CSS Document */
+/* STYLES FOR ****    */
+@import url("reset.css");
+
+#wrapper {
+	min-width: 600px;
+	max-width: 1020px;
+	padding: 0 18px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+#header {
+	height: 75px;
+}
+#middle {
+	width: 100%;
+	padding: 0 0 66px;
+	height: 1%;
+	position: relative;
+}
+#middle:after {
+	content: '';
+	clear: both;
+	display: table;
+}
+#footer {
+	min-width: 600px;
+	max-width: 1020px;
+	padding: 0 18px;
+	margin: -55px auto 0;
+	height: 55px;
+	position: relative;
+	border-top: 1px solid #ccc;
+}
+#footer span {
+	float: right;
+	padding: 15px 0 0 ;
+}
+#footer span a {
+	margin: 0 0 0 5px;
+}
+#footer p {
+	padding: 15px 0 0 ;
+}
+
+aside {
+	width: 300px;
+	display: block;
+	float: left;
+}
+
+#content {
+	margin: 0 0 0 330px;
+}
+/* All in content*/
+header nav {
+	position: relative;
+	top: 15px;
+	z-index: 5;
+}
+header nav h3 {
+	margin: 0 20px 0 0;
+	display: inline-block;
+}
+header nav h3:hover ins {
+	display: block;
+}
+header nav h3 ins {
+	display: none;
+	position: absolute;
+	padding: 10px 20px;
+	background: rgba(255,255,255,0.9);
+	margin: 0 0 0 -20px;
+	text-align: left;
+}
+header nav h3 ins h4 {
+	padding: 10px 0;
+}
+header nav a.active {
+	color: #2D648A;
+}
+header nav a {
+	color: #000;
+	font: bold 13px/18px Arial;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+#middle > nav {
+	display: block;
+	margin: 0 0 10px 0;
+}
+#banner {
+	background: url("img/pitch.jpg") no-repeat  right bottom;
+    border-bottom: 1px solid #DDDDDD;
+    margin: -60px 0 40px;
+    padding: 60px 400px 15px 0;
+	min-height: 300px;
+}
+#banner h2 {
+	font: bold 27px/30px Arial;
+	margin: 0 0 10px 0;
+	text-transform: uppercase;
+	text-align: left;
+}
+#banner h1 {
+	font: bold 45px/45px Arial;
+	color: #33CCFF;
+	margin: 0 0 10px 0;
+	text-transform: uppercase;
+}
+#banner p {
+	font: 15px/18px Arial;
+	margin: 0 0 10px 0;
+}
+#us, #news {
+	font: 0px/0px Arial;
+	margin: 0 0 20px 0;
+}
+#us li:nth-child(3n), #news li:nth-child(3n) {
+	margin-right: 0;
+}
+#us li {
+	display: inline-block;
+    margin: 0 2% 40px 0;
+    width: 32%;
+	vertical-align: top;
+	border-left: 1px solid #DDDDDD;
+    padding: 0 0 0 15px;
+}
+#us h3 {
+	font: 22px/23px Arial;
+	border-left: 4px solid #33CCFF;
+    padding: 0 0 5px 12px;
+	margin: 0 0 5px -15px;
+	color: #000;
+}
+#us a {
+	font: bold 14px/18px Arial;
+	margin: 0 0 2px 0;
+}
+#news li {
+	display: inline-block;
+    margin: 0 2% 40px 0;
+    width: 32%;
+	vertical-align: top;
+    padding: 0 10px 0 30px;
+}
+#news h3 {
+	font: bold 17px/18px Arial;
+	margin: 0 0 10px 0;
+	color: #000;
+}
+#news data {
+	float: left;
+	display: block;
+	font: bold 14px/18px Arial;
+	margin: 0 0 2px -30px;
+}
+#news data i {
+	display: block;
+	font: 12px/14px Arial;
+}
+/**/
+
+#updates {
+	border: 1px solid #DDDDDD;
+	min-height: 105px;
+	padding: 20px 10px 10px;
+	width: 100%;
+	margin: 0 0 0 -30px;
+}
+#updates h5 {
+	color: #000;
+    margin: 0 0 15px;
+	font: 15px/18px Arial;
+}
+#updates label {
+    color: #999999;
+    display: block;
+	font: 10px/14px Arial;
+    text-transform: uppercase;
+}
+#updates input[type="text"] {
+    border: 1px solid #CCCCCC;
+    padding: 4px;
+    width: 70%;
+}
+#updates input[type="submit"] {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 0 none;
+    font: bold 13px/14px Arial;
+}
+
+#foto {
+	font: 0px/0px Arial;
+	margin: 0 0 20px 0;
+}
+#foto li:nth-child(2n) {
+	margin-right: 0;
+}
+#foto li {
+	display: inline-block;
+    margin: 0 2% 20px 0;
+    width: 49%;
+	vertical-align: top;
+    padding: 10px;
+	text-align: center;
+} 
+#foto li i {
+	display: block;
+	min-height: 100px;
+	margin: 0 0 10px;
+}
+#foto li i img {
+	max-width: 100%;
+	max-height: 350px;
+}
+
+/* Calendar*/
+.fr{
+	float: right;
+}
+aside h2 {
+	text-align: center;
+	color: #33CCFF;
+	margin: 0 0 20px;
+}
+#cal {
+	font: 0px/0px Arial;
+	margin: 0 0 20px 0;
+	text-align: center;
+}
+#cal li:nth-child(1),
+#cal li:nth-child(2),
+#cal li:nth-child(3),
+#cal li:nth-child(4),
+#cal li:nth-child(5),
+#cal li:nth-child(6),
+#cal li:nth-child(7) {
+	color: black;
+	font: 12px/18px Arial;
+}
+#cal li {
+	display: inline-block;
+	width: 14%;
+	font: 14px/18px Arial;
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+#cal li a {
+	font: bold 14px/18px Arial;
+}
+#header.all nav{
+	text-align: right;
+}
+#header.all > h2{
+	float: left;
+    font: bold 20px/20px Arial;
+    position: absolute;
+    top: 35px;
+    width: 280px;
+	color: #33CCFF;
+}
+#header.all > h4{
+	position: relative;
+	top:15px;
+	font: bold 15px/20px Arial;
+	width: 240px;
+	float: left;	
+}
