@@ -17,6 +17,9 @@
 Сайт [ioan.info](https://sv-m.github.io/archive/ioan.info/)
 ( [files](/archive/ioan.info) )
 
+Сайт [numi.ua](https://sv-m.github.io/archive/numi.ua/)
+( [files](/archive/numi.ua) )
+
 
 ----
 
