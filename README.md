@@ -103,4 +103,6 @@
 
 [https://deepstatemap.live/](https://deepstatemap.live/#6/49.438/32.053) - карта войны в Украине
 
-[https://earthquaketrack.ru/ ](https://earthquaketrack.ru/)- карта активных сейсмических зон
+[https://earthquaketrack.ru/](https://earthquaketrack.ru/) - карта активных сейсмических зон
+
+[http://ru.timeofdate.com/](http://ru.timeofdate.com/) - разница временных поясов 
