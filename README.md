@@ -8,7 +8,7 @@
 Сайт [sudak4x4.com](https://sv-m.github.io/archive/sudak4x4.com/) 
 ( [files](/archive/sudak4x4.com) )
 
-Сайт [dalet](https://sv-m.github.io/archive/dalet.ru/)
+Сайт [dalet.ru](https://sv-m.github.io/archive/dalet.ru/)
 ( [files](/archive/dalet.ru) )
 
 Сайт [reshik.top](https://sv-m.github.io/archive/reshik.top/)
@@ -34,6 +34,9 @@
 
 Лендинг для coloss.ru [web](https://sv-m.github.io/archive/coloss.ru/)
 ( [files](/archive/coloss.ru) )
+
+Лендинг для diamhair.ru [web](https://sv-m.github.io/archive/diamhair.ru/)
+( [files](/archive/diamhair.ru) )
 
 ----
 
