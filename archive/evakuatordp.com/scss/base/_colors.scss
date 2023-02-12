@@ -1,0 +1,62 @@
+//Main color reset
+$black: #000;
+$white: #fff;
+
+//Main color variables (according style guide)
+
+
+$yellow1: #FCE23C;
+$yellow2: #F8C11C;
+$gray1: #99a39a;
+
+// Swatches
+
+////Pantone 2016
+$pantone-01: #F7CAC9; //PANTONE 13-1520 Rose Quartz
+$pantone-02: #F7786B; //PANTONE 16-1548 Peach Echo
+$pantone-03: #91A8D0; //PANTONE 15-3919 Serenity
+$pantone-04: #034F84; //PANTONE 19-4049 Snorkel Blue
+$pantone-05: #FAE03C; //PANTONE 12-0752 Buttercup
+$pantone-06: #98DDDE; //PANTONE 13-4810 Limpet Shell
+$pantone-07: #9896A4; //PANTONE 16-3905 Lilac Gray
+$pantone-08: #DD4132; //PANTONE 17-1564 Fiesta
+$pantone-09: #B18F6A; //PANTONE 15-1040 Iced Coffee
+$pantone-10: #79C753; //PANTONE 15-0146 Green Flash
+
+////Basic link colors
+$basic-01: #008ACE; //link
+$basic-03: #CC0000; //hover
+$basic-03: #B40EB4; //visited
+
+//Project colors
+$color-0-1: #99a39a;
+$color-0-2: #dcf2fd;
+
+//Social-colors
+$color-telegram: #2CA5E0;
+$color-facebook: #4172B8;
+$color-instagram: #E4405F;
+
+//Main color variables (according style guide)
+$primary-color: #FCE23C;
+$secondary-color: #111;
+
+$font-color: $white;
+
+
+$alert-color: #fe0000;
+$success-color: #7ed432;
+
+$border-color: #e1e1e1;
+
+
+$breakpoints: (
+    xsmall: 0,
+    small: 481px,
+    medium: 801px,
+    large: 1025px,
+    xlarge: 1920px
+) !default;
+
+
+$gap: 30px;
