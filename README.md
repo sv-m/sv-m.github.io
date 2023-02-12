@@ -87,3 +87,8 @@
 
 [https://colorize.cc/](https://colorize.cc/) - раскраска чб фото 
 
+[https://imageoptim.com/](https://imageoptim.com/) - оптимизация изображаний\svg 
+
+[https://www.canva.com/](https://www.canva.com/) - с легкостью создавать дизайны
+
+[https://spline.design/](https://spline.design/) - 3D art  для веба
