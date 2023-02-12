@@ -24,7 +24,7 @@ $alert = array(
 
 
 //------------------------------------------------------------message sending info----------
-    $to = 'orloff-igor@ya.ru';
+    $to = 'test-mail@ya.ru';
 
     $headers .= "MIME-Version: 1.0"."\r\n".
         "Content-type: text/html; charset=utf-8"."\r\n".
