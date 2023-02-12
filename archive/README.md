@@ -6,6 +6,9 @@
 Сайт [sera.online](https://sv-m.github.io/archive/sera.online/) 
 ([files](/archive/sera.online))
 
+Сайт [pincher.store](https://sv-m.github.io/archive/pincher.store/) 
+([files](/archive/pincher.store))
+
 Сайт [sudak4x4.com](https://sv-m.github.io/archive/sudak4x4.com/) 
 ([files](/archive/sudak4x4.com))
 
