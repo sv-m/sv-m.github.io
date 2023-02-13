@@ -84,6 +84,8 @@
 
 [https://svelte.dev/](https://svelte.dev/) - Svelte
 
+[https://graphql.org/](https://graphql.org/) - GraphQL
+
 ### CSS
 
 [https://tailwindui.com/](https://tailwindui.com/) - Tailwind
