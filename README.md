@@ -7,6 +7,10 @@
 
 ### Полезные ссылки для разработчиков
 
+[https://modelviewer.dev/](https://modelviewer.dev/) - 3D модели для web
+
+[https://caniuse.com/](https://caniuse.com/) - проверка совместимости свойств css
+
 [https://answerthepublic.com/](https://answerthepublic.com/) - подбор запросов SEO
 
 [https://www.cutout.pro/](https://www.cutout.pro/) - обтравка видео\фото фона
