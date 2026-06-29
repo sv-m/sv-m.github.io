@@ -2,106 +2,115 @@
 
 [Архивные верстки сайты\лендинги](archive/README.md)
 
-
 ----
+### Полезные ссылки для разработчиков (2026)
 
-### Полезные ссылки для разработчиков
+**Оригинальные полезные ссылки (2022)**
+- [modelviewer.dev](https://modelviewer.dev/) - 3D модели для web
+- [caniuse.com](https://caniuse.com/) - проверка совместимости свойств css
+- [answerthepublic.com](https://answerthepublic.com/) - подбор запросов SEO
+- [cutout.pro](https://www.cutout.pro/) - обтравка видео\фото фона
+- [colorize.cc](https://colorize.cc/) - раскраска чб фото
+- [imageoptim.com](https://imageoptim.com/) - оптимизация изображаний\svg
+- [canva.com](https://www.canva.com/) - с легкостью создавать дизайны
+- [spline.design](https://spline.design/) - 3D art для веба
+- [russianwarship.rip](https://russianwarship.rip/) - потери русни в Украине
+- [developer.nvidia.com/maxine](https://developer.nvidia.com/maxine) - улучшение аудио, видео - AI от NVidia
+- [pixabay.com](https://pixabay.com/) - бесплатные видеофутажи
+- [fonts.google.com](https://fonts.google.com/) - онлайн подключение шрифтов
+- [deepstatemap.live](https://deepstatemap.live/)
+- [earthquaketrack.ru](https://earthquaketrack.ru/)
+- [ru.timeofdate.com](http://ru.timeofdate.com/)
+- [freeformatter.com](https://www.freeformatter.com/)
+- [heroicons.dev](https://heroicons.dev/) - svg иконки
 
-[https://modelviewer.dev/](https://modelviewer.dev/) - 3D модели для web
+**🤖 AI-инструменты и генерация**
+- [Cursor](https://cursor.com/) — лучший AI IDE 2026
+- [v0 by Vercel](https://v0.dev/)
+- [Claude](https://claude.ai/)
+- [ChatGPT](https://chatgpt.com/)
+- [Grok](https://grok.x.ai/)
+- [Gemini](https://gemini.google.com/)
+- [Uizard](https://uizard.io/)
+- [Relume AI](https://www.relume.io/)
+- [WhatTheFont](https://www.myfonts.com/pages/whatthefont/)
+- [Fontjoy](https://fontjoy.com/)
 
-[https://caniuse.com/](https://caniuse.com/) - проверка совместимости свойств css
+**🎨 Генерация медиа**
+- [Midjourney](https://www.midjourney.com/)
+- [Flux](https://flux.ai/)
+- [Runway ML](https://runwayml.com/)
+- [Kling AI](https://kling.ai/)
+- [Luma Dream Machine](https://lumalabs.ai/)
+- [Pika Labs](https://pika.art/)
 
-[https://answerthepublic.com/](https://answerthepublic.com/) - подбор запросов SEO
+**🛠 Дизайн-редакторы**
+- [Figma](https://www.figma.com/) — основной инструмент 2026
+- [Adobe XD](https://www.adobe.com/products/xd.html)
+- [Sketch](https://www.sketch.com/)
+- [Framer](https://www.framer.com/)
+- [Webflow](https://webflow.com/)
+- [Avocode](https://avocode.com/) — один из первых инструментов передачи дизайна в код
 
-[https://www.cutout.pro/](https://www.cutout.pro/) - обтравка видео\фото фона
+**🌐 Chrome Extensions**
+- [WAVE](https://chromewebstore.google.com/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)
+- [axe DevTools](https://chromewebstore.google.com/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd)
+- [Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)
+- [WhatFont](https://chromewebstore.google.com/detail/whatfont/jahmejdaehnchjjbpdjblpkhkngjcdcb)
+- [PerfectPixel](https://chromewebstore.google.com/detail/perfectpixel-by-welldonec/dkaefjlpjgdjajkckjpkjphjldfppfph)
+- [ColorZilla](https://chromewebstore.google.com/detail/colorzilla/bodcdgfnklnkflknbmhfjnlmmpfndmnh)
 
-[https://colorize.cc/](https://colorize.cc/) - раскраска чб фото 
+**Проверки сайта**
+- [Google Search Console](https://search.google.com/search-console)
+- [PageSpeed Insights](https://pagespeed.web.dev/)
+- [Rich Results Test](https://search.google.com/test/rich-results)
+- [Schema Markup Validator](https://validator.schema.org/)
+- [W3C HTML Validator](https://validator.w3.org/)
+- [WAVE](https://wave.webaim.org/)
+- [Lighthouse](https://developer.chrome.com/docs/lighthouse/)
+- [Ahrefs Broken Link Checker](https://ahrefs.com/broken-link-checker)
+- [GTmetrix](https://gtmetrix.com/)
+- [Security Headers](https://securityheaders.com/)
+- [SSL Labs](https://www.ssllabs.com/ssltest/)
 
-[https://imageoptim.com/](https://imageoptim.com/) - оптимизация изображаний\svg 
+### HTML / Редакторы
+- [Cursor](https://cursor.com/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [PHPStorm](https://www.jetbrains.com/phpstorm/)
+- [Sublime Text](https://www.sublimetext.com/)
+- [Zed](https://zed.dev/)
 
-[https://www.canva.com/](https://www.canva.com/) - с легкостью создавать дизайны
-
-[https://spline.design/](https://spline.design/) - 3D art  для веба
-
-[https://russianwarship.rip/](https://russianwarship.rip/) - потери русни в Украине
-
-[https://developer.nvidia.com/maxine](https://developer.nvidia.com/maxine) - улучшение аудио, видео - AI от NVidia 
-
-[https://pixabay.com/](https://pixabay.com/) - бесплатные видеофутажи
-
-[https://fonts.google.com/](https://fonts.google.com/) - онлайн подключение шрифтов 
-
-[https://deepstatemap.live/](https://deepstatemap.live/#6/49.438/32.053) - карта войны в Украине
-
-[https://earthquaketrack.ru/](https://earthquaketrack.ru/) - карта активных сейсмических зон
-
-[http://ru.timeofdate.com/](http://ru.timeofdate.com/) - разница временных поясов 
-
-[https://www.freeformatter.com/](https://www.freeformatter.com/) - преобразование форматов
-
-[https://heroicons.dev/](https://heroicons.dev/) - svg иконки
-
-
-### HTML - редакторы
-
-[https://www.jetbrains.com/phpstorm/promo/](https://www.jetbrains.com/phpstorm/promo/) - PHP Storm
-
-[https://www.sublimetext.com/](https://www.sublimetext.com/) - Sublime Text
-
-[https://code.visualstudio.com/](https://code.visualstudio.com/) - Visual Studio
-
-[https://macromates.com/](https://macromates.com/) - TextMate
-
-[https://notepad-plus-plus.org/downloads/](https://notepad-plus-plus.org/downloads/) - Notepad ++
-
-[https://brackets.io/](https://brackets.io/) - Brackets 
-
-### JS
-
-[https://alpinejs.dev/](https://alpinejs.dev/) - Alpine.js
-
-[https://vuejs.org/](https://vuejs.org/) - Vue.js
-
-[https://reactjs.org/](https://reactjs.org/) - React.js
-
-[https://angular.io/](https://angular.io/) - Angular.js
-
-[https://requirejs.org/](https://requirejs.org/) - Require.js
-
-[https://underscorejs.org/](https://underscorejs.org/) - Underscore.js
-
-[https://www.typescriptlang.org/](https://www.typescriptlang.org/) -TypeScript
-
-[https://nodejs.org/en/](https://nodejs.org/en/) - Node.js
-
-[https://deno.land/](https://deno.land/) - Deno
-
-[https://gruntjs.com/](https://gruntjs.com/) - Grunt
-
-[https://gulpjs.com/](https://gulpjs.com/) - Gulp
-
-[https://webpack.js.org/](https://webpack.js.org/) - Webpack.js
-
-[https://svelte.dev/](https://svelte.dev/) - Svelte
-
-[https://graphql.org/](https://graphql.org/) - GraphQL
+### JS / Фреймворки (2026)
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [SvelteKit](https://svelte.dev/)
+- [Vue.js](https://vuejs.org/)
+- [Astro](https://astro.build/)
+- [Alpine.js](https://alpinejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Bun](https://bun.sh/)
 
 ### CSS
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Sass](https://sass-lang.com/)
 
-[https://tailwindui.com/](https://tailwindui.com/) - Tailwind
+### 💡 Вдохновение и идеи дизайна
+- [Awwwards](https://www.awwwards.com/)
+- [Dribbble](https://dribbble.com/)
+- [Behance](https://www.behance.net/)
+- [Lapa.ninja](https://www.lapa.ninja/)
+- [Mobbin](https://mobbin.com/)
 
-[https://sass-lang.com/](https://sass-lang.com/) - SASS
+### 📚 Для начинающих
+- [MDN Web Docs](https://developer.mozilla.org/)
+- [freeCodeCamp](https://www.freecodecamp.org/)
+- [Frontend Mentor](https://www.frontendmentor.io/)
+- [Roadmap.sh](https://roadmap.sh/)
+- [Web.dev](https://web.dev/)
 
-[https://lesscss.org/](https://lesscss.org/) - Less
-
-[https://getbootstrap.com/](https://getbootstrap.com/) - Bootstrap
-
-[https://get.foundation/](https://get.foundation/) - Foundation
-
-[https://materializecss.com/](https://materializecss.com/) - Materialize
-
-[https://getbem.com/](https://getbem.com/) - BEM
-
-### Additional 
-
-[https://prettier.io/](https://prettier.io/) 
+### Additional
+- [Vercel](https://vercel.com/)
+- [Playwright](https://playwright.dev/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [prettier.io](https://prettier.io/)
